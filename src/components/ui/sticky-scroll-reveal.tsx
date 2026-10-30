@@ -86,7 +86,14 @@ function InlineVisual({ item }: { item: StickyScrollItem }) {
   );
 }
 
-export function StickyScroll({ content }: { content: StickyScrollItem[] }) {
+type StickyScrollProps = {
+  content: StickyScrollItem[];
+  /** One visual for the whole sticky panel, given the overall progress (0 → 1) across every step.
+   *  Replaces the per-step pictures on desktop; phones still show each step's own content. */
+  stage?: (progress: MotionValue<number>) => ReactNode;
+};
+
+export function StickyScroll({ content, stage }: StickyScrollProps) {
   const ref = useRef<HTMLDivElement>(null);
   const [active, setActive] = useState(0);
   const count = content.length;
@@ -148,9 +155,11 @@ export function StickyScroll({ content }: { content: StickyScrollItem[] }) {
 
       <div className="hidden lg:col-span-6 lg:block">
         <div className="sticky top-[calc(50vh-13rem)] aspect-4/3 overflow-hidden rounded-xl bg-surface">
-          {content.map((item, index) => (
-            <Layer key={item.title} item={item} index={index} count={count} progress={scrollYProgress} />
-          ))}
+          {stage
+            ? stage(scrollYProgress)
+            : content.map((item, index) => (
+                <Layer key={item.title} item={item} index={index} count={count} progress={scrollYProgress} />
+              ))}
 
           {/* Step tracker over the picture */}
           <div className="pointer-events-none absolute inset-x-0 top-0 flex gap-1.5 p-4">

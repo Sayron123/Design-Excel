@@ -1,6 +1,6 @@
 {
  "url": "http://localhost:3100",
- "at": "2026-10-30T14:00:06.147Z",
+ "at": "2026-10-30T14:40:57.411Z",
  "allow": [
   "palette-terracotta",
   "palette-cream"
@@ -13,20 +13,20 @@
    "screens": 9,
    "filled": [
     0.35,
-    0.6,
-    0.6,
-    0.48,
-    0.32,
+    0.65,
+    0.84,
+    0.54,
+    0.35,
     0.29,
-    0.55,
-    0.76,
+    0.44,
+    0.93,
     0.62
    ],
    "motion": {
-    "elements": 63,
+    "elements": 74,
     "css": 0,
-    "transitions": 10,
-    "scripted": 53,
+    "transitions": 14,
+    "scripted": 60,
     "videos": 0,
     "playingVideos": 0
    },
@@ -36,25 +36,26 @@
      "h": 900
     },
     "page": {
-     "height": 7497,
-     "screens": 8.3,
-     "words": 554,
-     "img": 18,
+     "height": 7756,
+     "screens": 8.6,
+     "words": 584,
+     "img": 19,
      "video": 0,
      "canvas": 0,
-     "svg": 11,
+     "svg": 22,
      "sections": 8,
      "horizontalOverflow": 0,
      "overflowCulprits": [],
      "uiFragments": 2,
      "uiAbuse": false,
-     "realPictures": 6,
+     "realPictures": 7,
      "videoCount": 0,
      "uiPictures": 2,
      "pictureSamples": [
       "image?url=%2Fproducts%2Fpartitions%2F3.jpg&w=640",
       "image?url=%2Fproducts%2Fkitchen-cabinets%2F1.jpg",
       "image?url=%2Fproducts%2Fworkstations%2F3.jpg&w=7",
+      "image?url=%2Fproducts%2Fchairs%2F1.jpg&w=828&q=7",
       "image?url=%2Fprocess%2Fconsultation.jpg&w=750&q=",
       "image?url=%2Fprocess%2Fdesk-screens.jpg&w=750&q=",
       "image?url=%2Fproducts%2Fworkstations%2F1.jpg&w=7"
@@ -200,9 +201,9 @@
       "kind": "heading"
      },
      {
-      "text": "Pick a finish, see it now",
-      "words": 6,
-      "chars": 25,
+      "text": "What we make",
+      "words": 3,
+      "chars": 12,
       "lines": 1,
       "size": 36,
       "vw": 2.5,
@@ -214,9 +215,9 @@
       "italic": false,
       "mono": false,
       "align": "left",
-      "position": "right",
-      "widthRatio": 0.37,
-      "top": 1907,
+      "position": "center",
+      "widthRatio": 0.77,
+      "top": 1824,
       "tag": "h2",
       "kind": "heading"
      },
@@ -237,7 +238,7 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.77,
-      "top": 2496,
+      "top": 2752,
       "tag": "h2",
       "kind": "heading"
      },
@@ -258,7 +259,7 @@
       "align": "left",
       "position": "right",
       "widthRatio": 0.2,
-      "top": 2751,
+      "top": 3006,
       "tag": "h3",
       "kind": "heading"
      },
@@ -279,7 +280,7 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.77,
-      "top": 3413,
+      "top": 3668,
       "tag": "h2",
       "kind": "heading"
      },
@@ -300,7 +301,7 @@
       "align": "left",
       "position": "left",
       "widthRatio": 0.33,
-      "top": 3731,
+      "top": 3987,
       "tag": "h3",
       "kind": "heading"
      },
@@ -321,7 +322,7 @@
       "align": "left",
       "position": "left",
       "widthRatio": 0.33,
-      "top": 4163,
+      "top": 4419,
       "tag": "h3",
       "kind": "heading"
      },
@@ -342,7 +343,7 @@
       "align": "left",
       "position": "left",
       "widthRatio": 0.33,
-      "top": 4610,
+      "top": 4865,
       "tag": "h3",
       "kind": "heading"
      },
@@ -363,7 +364,7 @@
       "align": "left",
       "position": "left",
       "widthRatio": 0.33,
-      "top": 5042,
+      "top": 5297,
       "tag": "h3",
       "kind": "heading"
      },
@@ -384,7 +385,7 @@
       "align": "left",
       "position": "left",
       "widthRatio": 0.24,
-      "top": 5471,
+      "top": 5727,
       "tag": "h2",
       "kind": "heading"
      },
@@ -405,7 +406,7 @@
       "align": "left",
       "position": "left",
       "widthRatio": 0.3,
-      "top": 6449,
+      "top": 6707,
       "tag": "h2",
       "kind": "heading"
      }
@@ -423,12 +424,12 @@
      "families": [
       {
        "family": "Inter",
-       "share": 0.89,
+       "share": 0.9,
        "mono": false
       },
       {
        "family": "Manrope",
-       "share": 0.11,
+       "share": 0.1,
        "mono": false
       }
      ],
@@ -468,7 +469,7 @@
      "microLabelShare": 0,
      "microSamples": [],
      "upperShare": 0,
-     "centerShare": 0.03,
+     "centerShare": 0.07,
      "smallText": 0
     },
     "eyebrows": [],
@@ -484,7 +485,7 @@
      "sectionBgs": [
       {
        "color": "#ffffff",
-       "top": 1728,
+       "top": 1744,
        "hsl": {
         "h": 0,
         "s": 0,
@@ -493,7 +494,7 @@
       },
       {
        "color": "#1f3a5f",
-       "top": 6194,
+       "top": 6450,
        "hsl": {
         "h": 215,
         "s": 0.51,
@@ -502,7 +503,7 @@
       },
       {
        "color": "#faf8f5",
-       "top": 6940,
+       "top": 7200,
        "hsl": {
         "h": 36,
         "s": 0.33,
@@ -513,15 +514,15 @@
      "textColors": [
       {
        "color": "#1c1f26",
-       "share": 0.62
+       "share": 0.61
       },
       {
        "color": "#ffffff",
-       "share": 0.22
+       "share": 0.21
       },
       {
        "color": "#6b7280",
-       "share": 0.14
+       "share": 0.16
       },
       {
        "color": "#1f3a5f",
@@ -540,7 +541,7 @@
      "lowContrast": []
     },
     "buttons": {
-     "count": 12,
+     "count": 13,
      "inHero": 3,
      "radius": 12,
      "height": 44,
@@ -570,7 +571,7 @@
      "roundedBoxes": 14,
      "boxRadius": 12,
      "squareMedia": 11,
-     "roundedMedia": 3,
+     "roundedMedia": 4,
      "mediaRadius": 12,
      "textShadow": 0,
      "cardRows": []
@@ -600,7 +601,7 @@
      "w": 1440,
      "h": 900
     },
-    "pageH": 7497,
+    "pageH": 7756,
     "margins": {
      "left": 168,
      "right": 168
@@ -656,7 +657,7 @@
       "sel": "section.mx-auto.max-w-6xl",
       "tag": "section",
       "top": 902,
-      "height": 827,
+      "height": 843,
       "words": 49,
       "media": 2,
       "middle": 24,
@@ -676,22 +677,22 @@
       "pinned": false
      },
      {
-      "sel": "section.bg-surface",
+      "sel": "section#products.scroll-mt-20.bg-surface",
       "tag": "section",
-      "top": 1728,
-      "height": 688,
-      "words": 33,
+      "top": 1744,
+      "height": 927,
+      "words": 63,
       "media": 1,
-      "middle": 136,
+      "middle": 0,
       "heading": {
-       "text": "Pick a finish, see it now",
+       "text": "What we make",
        "size": 36,
        "tag": "h2"
       },
-      "left": 256,
-      "right": 270,
-      "textLeft": 744,
-      "textRight": 270,
+      "left": 168,
+      "right": 168,
+      "textLeft": 168,
+      "textRight": 190,
       "fullBleed": false,
       "footer": false,
       "hero": false,
@@ -701,7 +702,7 @@
      {
       "sel": "section.mx-auto.max-w-6xl",
       "tag": "section",
-      "top": 2416,
+      "top": 2672,
       "height": 917,
       "words": 75,
       "media": 1,
@@ -724,7 +725,7 @@
      {
       "sel": "section#how-we-work.scroll-mt-20",
       "tag": "section",
-      "top": 3333,
+      "top": 3588,
       "height": 2059,
       "words": 100,
       "media": 1,
@@ -747,7 +748,7 @@
      {
       "sel": "section#services.mx-auto.max-w-6xl",
       "tag": "section",
-      "top": 5391,
+      "top": 5647,
       "height": 803,
       "words": 95,
       "media": 0,
@@ -770,9 +771,9 @@
      {
       "sel": "section.bg-primary.text-white",
       "tag": "section",
-      "top": 6194,
-      "height": 746,
-      "words": 73,
+      "top": 6450,
+      "height": 750,
+      "words": 71,
       "media": 8,
       "middle": 0,
       "heading": {
@@ -793,7 +794,7 @@
      {
       "sel": "footer.bg-bg.pb-24",
       "tag": "footer",
-      "top": 6940,
+      "top": 7200,
       "height": 556,
       "words": 47,
       "media": 1,
@@ -827,14 +828,14 @@
     "edges": [
      {
       "x": 168,
-      "n": 12
+      "n": 14
      },
      {
       "x": 200,
       "n": 2
      },
      {
-      "x": 744,
+      "x": 648,
       "n": 2
      },
      {
@@ -846,7 +847,7 @@
       "n": 2
      }
     ],
-    "leftBlocks": 20,
+    "leftBlocks": 22,
     "bodySize": 18,
     "stage": false,
     "explains": true,
@@ -870,20 +871,20 @@
    "filled": [
     0.6,
     0.66,
-    0.59,
-    0.7,
-    0.65,
-    0.74,
-    0.57,
-    0.69,
-    0.83,
+    0.88,
+    0.62,
+    0.6,
+    0.77,
+    0.78,
+    0.66,
+    0.78,
     0.62
    ],
    "motion": {
-    "elements": 57,
+    "elements": 65,
     "css": 0,
     "transitions": 4,
-    "scripted": 53,
+    "scripted": 61,
     "videos": 0,
     "playingVideos": 0
    },
@@ -893,25 +894,26 @@
      "h": 1024
     },
     "page": {
-     "height": 9589,
-     "screens": 9.4,
-     "words": 544,
-     "img": 18,
+     "height": 10221,
+     "screens": 10,
+     "words": 574,
+     "img": 19,
      "video": 0,
      "canvas": 0,
-     "svg": 11,
+     "svg": 22,
      "sections": 8,
      "horizontalOverflow": 0,
      "overflowCulprits": [],
      "uiFragments": 2,
      "uiAbuse": false,
-     "realPictures": 6,
+     "realPictures": 7,
      "videoCount": 0,
      "uiPictures": 2,
      "pictureSamples": [
       "image?url=%2Fproducts%2Fpartitions%2F3.jpg&w=828",
       "image?url=%2Fproducts%2Fkitchen-cabinets%2F1.jpg",
       "image?url=%2Fproducts%2Fworkstations%2F3.jpg&w=3",
+      "image?url=%2Fproducts%2Fchairs%2F1.jpg&w=828&q=7",
       "image?url=%2Fprocess%2Fconsultation.jpg&w=828&q=",
       "image?url=%2Fprocess%2Fdesk-screens.jpg&w=828&q=",
       "image?url=%2Fproducts%2Fworkstations%2F1.jpg&w=8"
@@ -1057,10 +1059,10 @@
       "kind": "heading"
      },
      {
-      "text": "Pick a finish, see it now",
-      "words": 6,
-      "chars": 25,
-      "lines": 2,
+      "text": "What we make",
+      "words": 3,
+      "chars": 12,
+      "lines": 1,
       "size": 36,
       "vw": 4.7,
       "font": "Manrope",
@@ -1071,9 +1073,9 @@
       "italic": false,
       "mono": false,
       "align": "left",
-      "position": "right",
-      "widthRatio": 0.44,
-      "top": 2071,
+      "position": "center",
+      "widthRatio": 0.94,
+      "top": 2087,
       "tag": "h2",
       "kind": "heading"
      },
@@ -1094,7 +1096,7 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.94,
-      "top": 2631,
+      "top": 3259,
       "tag": "h2",
       "kind": "heading"
      },
@@ -1115,7 +1117,7 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.85,
-      "top": 3454,
+      "top": 4083,
       "tag": "h3",
       "kind": "heading"
      },
@@ -1136,7 +1138,7 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.94,
-      "top": 4018,
+      "top": 4647,
       "tag": "h2",
       "kind": "heading"
      },
@@ -1157,7 +1159,7 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.88,
-      "top": 4189,
+      "top": 4817,
       "tag": "h3",
       "kind": "heading"
      },
@@ -1178,7 +1180,7 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.88,
-      "top": 4901,
+      "top": 5529,
       "tag": "h3",
       "kind": "heading"
      },
@@ -1199,7 +1201,7 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.88,
-      "top": 5612,
+      "top": 6241,
       "tag": "h3",
       "kind": "heading"
      },
@@ -1220,7 +1222,7 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.88,
-      "top": 6295,
+      "top": 6923,
       "tag": "h3",
       "kind": "heading"
      },
@@ -1241,7 +1243,7 @@
       "align": "left",
       "position": "left",
       "widthRatio": 0.28,
-      "top": 7089,
+      "top": 7718,
       "tag": "h2",
       "kind": "heading"
      },
@@ -1262,7 +1264,7 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.94,
-      "top": 8097,
+      "top": 8726,
       "tag": "h2",
       "kind": "heading"
      }
@@ -1280,12 +1282,12 @@
      "families": [
       {
        "family": "Inter",
-       "share": 0.89,
+       "share": 0.9,
        "mono": false
       },
       {
        "family": "Manrope",
-       "share": 0.11,
+       "share": 0.1,
        "mono": false
       }
      ],
@@ -1325,7 +1327,7 @@
      "microLabelShare": 0,
      "microSamples": [],
      "upperShare": 0,
-     "centerShare": 0.03,
+     "centerShare": 0.07,
      "smallText": 0
     },
     "eyebrows": [],
@@ -1350,7 +1352,7 @@
       },
       {
        "color": "#ffffff",
-       "top": 1991,
+       "top": 2007,
        "hsl": {
         "h": 0,
         "s": 0,
@@ -1358,36 +1360,36 @@
        }
       },
       {
-       "color": "#1f3a5f",
-       "top": 3422,
-       "hsl": {
-        "h": 215,
-        "s": 0.51,
-        "l": 0.25
-       }
-      },
-      {
        "color": "#faf8f5",
-       "top": 8986,
+       "top": 2414,
        "hsl": {
         "h": 36,
         "s": 0.33,
         "l": 0.97
+       }
+      },
+      {
+       "color": "#1f3a5f",
+       "top": 4051,
+       "hsl": {
+        "h": 215,
+        "s": 0.51,
+        "l": 0.25
        }
       }
      ],
      "textColors": [
       {
        "color": "#1c1f26",
-       "share": 0.73
+       "share": 0.72
       },
       {
        "color": "#ffffff",
-       "share": 0.22
+       "share": 0.21
       },
       {
        "color": "#6b7280",
-       "share": 0.03
+       "share": 0.06
       },
       {
        "color": "#1f3a5f",
@@ -1395,26 +1397,27 @@
       }
      ],
      "button": {
-      "bg": "#e7e2da",
+      "bg": "#faf8f5",
       "hsl": {
-       "h": 37,
-       "s": 0.21,
-       "l": 0.88
+       "h": 36,
+       "s": 0.33,
+       "l": 0.97
       },
       "fg": "#1c1f26"
      },
      "lowContrast": []
     },
     "buttons": {
-     "count": 11,
-     "inHero": 2,
+     "count": 20,
+     "inHero": 3,
      "radius": 12,
-     "height": 44,
+     "height": 40,
      "withShadow": 0,
      "withGradient": 0,
      "mono": 0,
      "upper": 0,
      "heroLabels": [
+      "Menu",
       "Build a cabinet",
       "Browse chairs"
      ]
@@ -1435,7 +1438,7 @@
      "roundedBoxes": 17,
      "boxRadius": 12,
      "squareMedia": 8,
-     "roundedMedia": 6,
+     "roundedMedia": 7,
      "mediaRadius": 12,
      "textShadow": 0,
      "cardRows": []
@@ -1465,7 +1468,7 @@
      "w": 768,
      "h": 1024
     },
-    "pageH": 9589,
+    "pageH": 10221,
     "margins": {
      "left": 24,
      "right": 24
@@ -1521,7 +1524,7 @@
       "sel": "section.mx-auto.max-w-6xl",
       "tag": "section",
       "top": 1234,
-      "height": 757,
+      "height": 773,
       "words": 49,
       "media": 2,
       "middle": 24,
@@ -1541,22 +1544,22 @@
       "pinned": false
      },
      {
-      "sel": "section.bg-surface",
+      "sel": "section#products.scroll-mt-20.bg-surface",
       "tag": "section",
-      "top": 1991,
-      "height": 560,
-      "words": 33,
+      "top": 2007,
+      "height": 1172,
+      "words": 63,
       "media": 1,
-      "middle": 96,
+      "middle": 0,
       "heading": {
-       "text": "Pick a finish, see it now",
+       "text": "What we make",
        "size": 36,
        "tag": "h2"
       },
-      "left": 72,
-      "right": 67,
-      "textLeft": 408,
-      "textRight": 67,
+      "left": 24,
+      "right": 24,
+      "textLeft": 24,
+      "textRight": 46,
       "fullBleed": false,
       "footer": false,
       "hero": false,
@@ -1566,7 +1569,7 @@
      {
       "sel": "section.mx-auto.max-w-6xl",
       "tag": "section",
-      "top": 2551,
+      "top": 3179,
       "height": 1388,
       "words": 75,
       "media": 1,
@@ -1589,7 +1592,7 @@
      {
       "sel": "section#how-we-work.scroll-mt-20",
       "tag": "section",
-      "top": 3938,
+      "top": 4567,
       "height": 3071,
       "words": 99,
       "media": 4,
@@ -1612,7 +1615,7 @@
      {
       "sel": "section#services.mx-auto.max-w-6xl",
       "tag": "section",
-      "top": 7009,
+      "top": 7638,
       "height": 1008,
       "words": 95,
       "media": 0,
@@ -1635,9 +1638,9 @@
      {
       "sel": "section.bg-primary.text-white",
       "tag": "section",
-      "top": 8017,
-      "height": 969,
-      "words": 73,
+      "top": 8646,
+      "height": 973,
+      "words": 71,
       "media": 8,
       "middle": 0,
       "heading": {
@@ -1658,7 +1661,7 @@
      {
       "sel": "footer.bg-bg.pb-24",
       "tag": "footer",
-      "top": 8986,
+      "top": 9618,
       "height": 603,
       "words": 47,
       "media": 1,
@@ -1692,22 +1695,18 @@
     "edges": [
      {
       "x": 24,
-      "n": 12
+      "n": 16
      },
      {
       "x": 56,
       "n": 4
      },
      {
-      "x": 408,
-      "n": 2
-     },
-     {
       "x": 428,
       "n": 2
      }
     ],
-    "leftBlocks": 20,
+    "leftBlocks": 22,
     "bodySize": 18,
     "stage": false,
     "explains": true,
@@ -1725,22 +1724,22 @@
    "screens": 11,
    "filled": [
     0.64,
+    0.78,
+    0.84,
+    0.87,
     0.72,
-    0.91,
-    0.56,
-    0.77,
+    0.58,
+    0.6,
     0.61,
-    0.61,
-    0.64,
     0.88,
-    0.76,
+    1,
     0.39
    ],
    "motion": {
-    "elements": 54,
+    "elements": 61,
     "css": 0,
     "transitions": 4,
-    "scripted": 50,
+    "scripted": 57,
     "videos": 0,
     "playingVideos": 0
    },
@@ -1750,25 +1749,26 @@
      "h": 844
     },
     "page": {
-     "height": 8887,
-     "screens": 10.5,
-     "words": 534,
-     "img": 14,
+     "height": 9228,
+     "screens": 10.9,
+     "words": 564,
+     "img": 15,
      "video": 0,
      "canvas": 0,
-     "svg": 11,
+     "svg": 22,
      "sections": 8,
      "horizontalOverflow": 0,
      "overflowCulprits": [],
      "uiFragments": 2,
      "uiAbuse": false,
-     "realPictures": 6,
+     "realPictures": 7,
      "videoCount": 0,
      "uiPictures": 2,
      "pictureSamples": [
       "image?url=%2Fproducts%2Fpartitions%2F3.jpg&w=640",
       "image?url=%2Fproducts%2Fkitchen-cabinets%2F1.jpg",
       "image?url=%2Fproducts%2Fworkstations%2F3.jpg&w=6",
+      "image?url=%2Fproducts%2Fchairs%2F1.jpg&w=640&q=7",
       "image?url=%2Fprocess%2Fconsultation.jpg&w=640&q=",
       "image?url=%2Fprocess%2Fdesk-screens.jpg&w=640&q=",
       "image?url=%2Fproducts%2Fworkstations%2F1.jpg&w=6"
@@ -1909,14 +1909,14 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.79,
-      "top": 1830,
+      "top": 1846,
       "tag": "h3",
       "kind": "heading"
      },
      {
-      "text": "Pick a finish, see it now",
-      "words": 6,
-      "chars": 25,
+      "text": "What we make",
+      "words": 3,
+      "chars": 12,
       "lines": 1,
       "size": 30,
       "vw": 7.7,
@@ -1930,8 +1930,29 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.92,
-      "top": 2120,
+      "top": 2152,
       "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Chair Series",
+      "words": 2,
+      "chars": 12,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Manrope",
+      "weight": 700,
+      "tracking": -0.025,
+      "leading": 1.33,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 2973,
+      "tag": "h3",
       "kind": "heading"
      },
      {
@@ -1951,7 +1972,7 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.92,
-      "top": 2970,
+      "top": 3279,
       "tag": "h2",
       "kind": "heading"
      },
@@ -1972,7 +1993,7 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.79,
-      "top": 3636,
+      "top": 3945,
       "tag": "h3",
       "kind": "heading"
      },
@@ -1993,7 +2014,7 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.92,
-      "top": 4174,
+      "top": 4483,
       "tag": "h2",
       "kind": "heading"
      },
@@ -2014,7 +2035,7 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.79,
-      "top": 4324,
+      "top": 4634,
       "tag": "h3",
       "kind": "heading"
      },
@@ -2035,7 +2056,7 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.79,
-      "top": 4790,
+      "top": 5099,
       "tag": "h3",
       "kind": "heading"
      },
@@ -2056,7 +2077,7 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.79,
-      "top": 5255,
+      "top": 5565,
       "tag": "h3",
       "kind": "heading"
      },
@@ -2077,7 +2098,7 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.79,
-      "top": 5692,
+      "top": 6001,
       "tag": "h3",
       "kind": "heading"
      },
@@ -2098,7 +2119,7 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.92,
-      "top": 6176,
+      "top": 6485,
       "tag": "h2",
       "kind": "heading"
      },
@@ -2119,7 +2140,7 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.79,
-      "top": 6342,
+      "top": 6652,
       "tag": "h3",
       "kind": "heading"
      },
@@ -2140,7 +2161,7 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.79,
-      "top": 6520,
+      "top": 6830,
       "tag": "h3",
       "kind": "heading"
      },
@@ -2161,7 +2182,7 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.79,
-      "top": 6698,
+      "top": 7008,
       "tag": "h3",
       "kind": "heading"
      },
@@ -2182,7 +2203,7 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.79,
-      "top": 6876,
+      "top": 7186,
       "tag": "h3",
       "kind": "heading"
      },
@@ -2203,7 +2224,7 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.92,
-      "top": 7114,
+      "top": 7424,
       "tag": "h2",
       "kind": "heading"
      },
@@ -2224,7 +2245,7 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.92,
-      "top": 8184,
+      "top": 8525,
       "tag": "h2",
       "kind": "heading"
      },
@@ -2245,13 +2266,13 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.92,
-      "top": 8426,
+      "top": 8767,
       "tag": "h2",
       "kind": "heading"
      }
     ],
     "headingSummary": {
-     "count": 21,
+     "count": 22,
      "maxLines": 2,
      "over2Lines": 0,
      "statements": 0,
@@ -2263,12 +2284,12 @@
      "families": [
       {
        "family": "Inter",
-       "share": 0.89,
+       "share": 0.9,
        "mono": false
       },
       {
        "family": "Manrope",
-       "share": 0.11,
+       "share": 0.1,
        "mono": false
       }
      ],
@@ -2306,7 +2327,7 @@
      "microLabelShare": 0,
      "microSamples": [],
      "upperShare": 0,
-     "centerShare": 0.03,
+     "centerShare": 0.07,
      "smallText": 0
     },
     "eyebrows": [],
@@ -2330,17 +2351,8 @@
        }
       },
       {
-       "color": "#faf8f5",
-       "top": 2516,
-       "hsl": {
-        "h": 36,
-        "s": 0.33,
-        "l": 0.97
-       }
-      },
-      {
        "color": "#1f3a5f",
-       "top": 3612,
+       "top": 3921,
        "hsl": {
         "h": 215,
         "s": 0.51,
@@ -2349,26 +2361,35 @@
       },
       {
        "color": "#1c1f26",
-       "top": 7642,
+       "top": 7983,
        "hsl": {
         "h": 222,
         "s": 0.15,
         "l": 0.13
+       }
+      },
+      {
+       "color": "#faf8f5",
+       "top": 8477,
+       "hsl": {
+        "h": 36,
+        "s": 0.33,
+        "l": 0.97
        }
       }
      ],
      "textColors": [
       {
        "color": "#1c1f26",
-       "share": 0.73
+       "share": 0.72
       },
       {
        "color": "#ffffff",
-       "share": 0.22
+       "share": 0.21
       },
       {
        "color": "#6b7280",
-       "share": 0.03
+       "share": 0.06
       },
       {
        "color": "#1f3a5f",
@@ -2376,26 +2397,27 @@
       }
      ],
      "button": {
-      "bg": "#e7e2da",
+      "bg": "#faf8f5",
       "hsl": {
-       "h": 37,
-       "s": 0.21,
-       "l": 0.88
+       "h": 36,
+       "s": 0.33,
+       "l": 0.97
       },
       "fg": "#1c1f26"
      },
      "lowContrast": []
     },
     "buttons": {
-     "count": 11,
-     "inHero": 2,
+     "count": 20,
+     "inHero": 3,
      "radius": 12,
-     "height": 44,
+     "height": 40,
      "withShadow": 0,
      "withGradient": 0,
      "mono": 0,
      "upper": 0,
      "heroLabels": [
+      "Menu",
       "Build a cabinet",
       "Browse chairs"
      ]
@@ -2416,7 +2438,7 @@
      "roundedBoxes": 17,
      "boxRadius": 12,
      "squareMedia": 4,
-     "roundedMedia": 6,
+     "roundedMedia": 7,
      "mediaRadius": 12,
      "textShadow": 0,
      "cardRows": []
@@ -2446,10 +2468,10 @@
      "w": 390,
      "h": 844
     },
-    "pageH": 8887,
+    "pageH": 9228,
     "margins": {
      "left": 16,
-     "right": 1
+     "right": 16
     },
     "sections": [
      {
@@ -2502,7 +2524,7 @@
       "sel": "section.mx-auto.max-w-6xl",
       "tag": "section",
       "top": 975,
-      "height": 1097,
+      "height": 1129,
       "words": 49,
       "media": 2,
       "middle": 0,
@@ -2522,22 +2544,22 @@
       "pinned": false
      },
      {
-      "sel": "section.bg-surface",
+      "sel": "section#products.scroll-mt-20.bg-surface",
       "tag": "section",
-      "top": 2072,
-      "height": 850,
-      "words": 33,
+      "top": 2104,
+      "height": 1127,
+      "words": 63,
       "media": 1,
       "middle": 0,
       "heading": {
-       "text": "Pick a finish, see it now",
+       "text": "What we make",
        "size": 30,
        "tag": "h2"
       },
       "left": 16,
-      "right": 17,
+      "right": 16,
       "textLeft": 16,
-      "textRight": 17,
+      "textRight": 19,
       "fullBleed": false,
       "footer": false,
       "hero": false,
@@ -2547,7 +2569,7 @@
      {
       "sel": "section.mx-auto.max-w-6xl",
       "tag": "section",
-      "top": 2922,
+      "top": 3231,
       "height": 1204,
       "words": 75,
       "media": 1,
@@ -2570,7 +2592,7 @@
      {
       "sel": "section#how-we-work.scroll-mt-20",
       "tag": "section",
-      "top": 4126,
+      "top": 4435,
       "height": 2002,
       "words": 99,
       "media": 4,
@@ -2593,7 +2615,7 @@
      {
       "sel": "section#services.mx-auto.max-w-6xl",
       "tag": "section",
-      "top": 6128,
+      "top": 6437,
       "height": 939,
       "words": 95,
       "media": 0,
@@ -2616,9 +2638,9 @@
      {
       "sel": "section.bg-primary.text-white",
       "tag": "section",
-      "top": 7066,
-      "height": 1070,
-      "words": 73,
+      "top": 7376,
+      "height": 1102,
+      "words": 71,
       "media": 4,
       "middle": 0,
       "heading": {
@@ -2639,7 +2661,7 @@
      {
       "sel": "footer.bg-bg.pb-24",
       "tag": "footer",
-      "top": 8136,
+      "top": 8477,
       "height": 751,
       "words": 47,
       "media": 0,
@@ -2673,14 +2695,14 @@
     "edges": [
      {
       "x": 16,
-      "n": 14
+      "n": 16
      },
      {
       "x": 40,
       "n": 6
      }
     ],
-    "leftBlocks": 20,
+    "leftBlocks": 22,
     "bodySize": 18,
     "stage": false,
     "explains": true,
@@ -2699,13 +2721,6 @@
    "width": 1440,
    "message": "No video anywhere on the page.",
    "fix": "Look for one honest clip with scripts/assets.mjs --video (the place, the material, the process) and use it as a muted loop with a poster frame. Defend its absence only if no clip fits the subject."
-  },
-  {
-   "level": "WARN",
-   "id": "off-centre",
-   "width": 390,
-   "message": "The margins differ: 16px on the left, 1px on the right, at 390px.",
-   "fix": "Put the navigation and the content on one pair of margins; check for padding on one side only, a scrollbar gutter, or a header on another inset than the page."
   }
  ],
  "images": [

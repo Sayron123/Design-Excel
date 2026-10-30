@@ -7,6 +7,7 @@
   --ink: #1c1f26;
   --primary: #1f3a5f;
   --accent: #e99700; /* sampled from the logo's "EXCELLENCE" orange */
+  --accent-ink: #a15c00; /* the same orange, dark enough for text on the light ground */
   --muted: #6b7280;
   --border: #e7e2da;
   --locate: #3b82f6; /* the visitor's own position on the map */
@@ -18,6 +19,7 @@
   --color-ink: var(--ink);
   --color-primary: var(--primary);
   --color-accent: var(--accent);
+  --color-accent-ink: var(--accent-ink);
   --color-muted: var(--muted);
   --color-border: var(--border);
   --color-locate: var(--locate);

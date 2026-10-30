@@ -1,10 +1,14 @@
-import Image from "next/image";
+import { RetryImage } from "@/components/ui/retry-image";
 import Link from "next/link";
+import { ModelFilter } from "@/components/ModelFilter";
 import { ProductGallery } from "@/components/ProductGallery";
 import { Reveal } from "@/components/Reveal";
+import { ArrowLeft, ArrowRight, PhoneIcon, buttonClass } from "@/components/ui/button";
+import { MODELS } from "@/lib/models";
 import { PRODUCT_CATEGORIES, categoryHref, type ProductCategory } from "@/lib/products";
+import { INQUIRE_HREF, INQUIRE_LABEL, PHONE_DISPLAY, PHONE_TEL } from "@/lib/site";
 
-// One product category: photos, its types (from the client's site) and the quote action.
+// One product category: photos, its types (from the client's site) and the inquiry action.
 export function CategoryDetail({ category, note }: { category: ProductCategory; note?: string }) {
   // Four other categories, same range first, so the row is always full.
   const others = PRODUCT_CATEGORIES.filter((c) => c.slug !== category.slug);
@@ -12,19 +16,15 @@ export function CategoryDetail({ category, note }: { category: ProductCategory; 
     ...others.filter((c) => c.group === category.group),
     ...others.filter((c) => c.group !== category.group),
   ].slice(0, 4);
+  const models = MODELS[category.slug];
 
   return (
     <>
       <section className="mx-auto max-w-6xl px-4 pb-12 pt-8 md:px-6 md:pb-20 md:pt-12">
-        <nav aria-label="Breadcrumb" className="mb-6 text-base">
-          <Link href="/products" className="text-primary underline underline-offset-4 hover:text-ink">
-            Products
-          </Link>
-          <span aria-hidden="true" className="px-2 text-muted">
-            /
-          </span>
-          <span aria-current="page">{category.name}</span>
-        </nav>
+        <Link href="/products" className={buttonClass("soft", "sm", "mb-8")}>
+          <ArrowLeft />
+          All products
+        </Link>
 
         <div className="grid gap-8 lg:grid-cols-12 lg:gap-12">
           <Reveal className="lg:order-2 lg:col-span-7">
@@ -36,34 +36,44 @@ export function CategoryDetail({ category, note }: { category: ProductCategory; 
             <p className="mt-4 max-w-[40ch] text-lg leading-relaxed text-ink">{category.summary}</p>
             {note && <p className="mt-4 max-w-[40ch] text-base leading-relaxed text-ink">{note}</p>}
 
-            {category.types && (
-              <div className="mt-8">
-                <h2 className="text-xl font-bold tracking-tight">Types</h2>
-                <ul className="mt-3 flex flex-wrap gap-2">
-                  {category.types.map((type) => (
-                    <li key={type} className="rounded-lg bg-surface px-3.5 py-2 text-base text-ink">
-                      {type}
-                    </li>
-                  ))}
-                </ul>
-              </div>
+            {/* With models, the filter below already lists the types, so the header only points to it. */}
+            {models ? (
+              <a href="#models" className={buttonClass("soft", "sm", "mt-8")}>
+                See all {models.length} models
+                <ArrowRight className="rotate-90" />
+              </a>
+            ) : (
+              category.types && (
+                <div className="mt-8">
+                  <h2 className="text-xl font-bold tracking-tight">Types</h2>
+                  <ul className="mt-3 flex flex-wrap gap-2">
+                    {category.types.map((type) => (
+                      <li key={type} className="rounded-lg bg-surface px-3.5 py-2 text-base text-ink">
+                        {type}
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              )
             )}
 
-            <div className="mt-8 flex flex-wrap items-center gap-x-6 gap-y-4">
-              <Link
-                href="/quote"
-                className="inline-flex h-12 items-center rounded-xl bg-primary px-6 text-base font-semibold text-white transition-colors hover:bg-ink"
-              >
-                Ask for a quote
+            <div className="mt-8 flex flex-wrap items-center gap-3">
+              <Link href={INQUIRE_HREF} className={buttonClass("accent", "md")}>
+                {INQUIRE_LABEL}
               </Link>
-              <Link href="/products" className="text-base font-semibold text-primary underline underline-offset-4 hover:text-ink">
-                All products
-              </Link>
+              <a href={PHONE_TEL} className={buttonClass("secondary", "md")}>
+                <PhoneIcon />
+                Call {PHONE_DISPLAY}
+              </a>
             </div>
             <p className="mt-6 text-[14px] text-muted">Sizes, finishes and prices: placeholder, to be added.</p>
           </Reveal>
         </div>
       </section>
+
+      {models && category.types && (
+        <ModelFilter title={`Choose a ${category.name.replace(" Series", "").toLowerCase()}`} types={category.types} models={models} />
+      )}
 
       {related.length > 0 && (
         <section aria-labelledby="related-heading" className="bg-surface">
@@ -76,7 +86,7 @@ export function CategoryDetail({ category, note }: { category: ProductCategory; 
                 <li key={cat.slug}>
                   <Link href={categoryHref(cat.slug)} className="group block">
                     <span className={`relative block aspect-4/3 overflow-hidden rounded-lg ${cat.images[0].fit === "contain" ? "bg-white" : "bg-bg"}`}>
-                      <Image
+                      <RetryImage
                         src={cat.images[0].src}
                         alt=""
                         fill
@@ -86,7 +96,7 @@ export function CategoryDetail({ category, note }: { category: ProductCategory; 
                         }`}
                       />
                     </span>
-                    <span className="mt-2 block text-base font-semibold text-ink group-hover:text-primary">{cat.name}</span>
+                    <span className="mt-2 block text-base font-semibold text-ink group-hover:text-accent-ink">{cat.name}</span>
                   </Link>
                 </li>
               ))}

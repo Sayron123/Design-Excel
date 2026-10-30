@@ -1,9 +1,10 @@
 "use client";
 
 import { motion, useReducedMotion, useScroll, useTransform } from "motion/react";
-import Image from "next/image";
+import { RetryImage } from "@/components/ui/retry-image";
 import Link from "next/link";
 import { useRef } from "react";
+import { buttonClass } from "@/components/ui/button";
 
 const rise = {
   hidden: { opacity: 0, y: 20 },
@@ -39,13 +40,13 @@ export function Hero() {
           <motion.div variants={rise} className="mt-8 flex flex-wrap gap-3 md:mt-10">
             <Link
               href="/products/cabinets"
-              className="inline-flex h-12 items-center rounded-xl bg-primary px-6 text-base font-semibold text-white transition-colors hover:bg-ink"
+              className={buttonClass("primary", "md")}
             >
               Build a cabinet
             </Link>
             <Link
               href="/products/chairs"
-              className="inline-flex h-12 items-center rounded-xl bg-border px-6 text-base font-semibold text-ink transition-colors hover:brightness-95"
+              className={buttonClass("secondary", "md")}
             >
               Browse chairs
             </Link>
@@ -60,11 +61,11 @@ export function Hero() {
         >
           <div className="relative aspect-4/3 overflow-hidden rounded-xl bg-border md:aspect-video lg:aspect-4/5">
             <motion.div style={{ y }} className="absolute inset-x-0 top-[-12%] h-[124%]">
-              <Image
+              <RetryImage
                 src="/products/partitions/3.jpg"
                 alt="Open office divided by glass partitions, with desks and storage"
                 fill
-                priority
+                loading="eager"
                 sizes="(min-width: 1024px) 40vw, 100vw"
                 className="object-cover"
               />

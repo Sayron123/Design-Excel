@@ -1,0 +1,1636 @@
+{
+ "url": "http://localhost:3000/about",
+ "at": "2026-10-30T15:14:58.701Z",
+ "allow": [],
+ "viewports": [
+  {
+   "width": 1440,
+   "height": 900,
+   "load": "load",
+   "screens": 6,
+   "filled": [
+    0.54,
+    0.65,
+    0.75,
+    0.71,
+    0.71,
+    0.6
+   ],
+   "motion": {
+    "elements": 43,
+    "css": 1,
+    "transitions": 1,
+    "scripted": 41,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "page": {
+     "height": 4604,
+     "screens": 5.1,
+     "words": 352,
+     "img": 25,
+     "video": 0,
+     "canvas": 0,
+     "svg": 7,
+     "sections": 4,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 1,
+     "uiAbuse": false,
+     "realPictures": 16,
+     "videoCount": 0,
+     "uiPictures": 1,
+     "pictureSamples": [
+      "image?url=%2Fprojects%2Foffice%2Fopen-plan-offic",
+      "image?url=%2Fprojects%2Foffice%2Fopen-plan-offic",
+      "image?url=%2Fprojects%2Foffice%2Fcall-centre-flo",
+      "image?url=%2Fprojects%2Foffice%2Fblue-panel-work",
+      "image?url=%2Fprojects%2Foffice%2Fgreen-panel-wor",
+      "image?url=%2Fprojects%2Foffice%2Fglass-top-parti",
+      "image?url=%2Fprojects%2Foffice%2Fl-shaped-workst",
+      "image?url=%2Fprojects%2Foffice%2Fbench-desks.jpg"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "About Design Excellence",
+     "words": 3,
+     "chars": 23,
+     "lines": 2,
+     "size": 48,
+     "vw": 3.3,
+     "font": "Manrope",
+     "weight": 800,
+     "tracking": -0.025,
+     "leading": 1,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "left",
+     "widthRatio": 0.37,
+     "top": 193,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "About Design Excellence",
+     "words": 3,
+     "lines": 2,
+     "size": 48,
+     "font": "Manrope"
+    },
+    "headings": [
+     {
+      "text": "About Design Excellence",
+      "words": 3,
+      "chars": 23,
+      "lines": 2,
+      "size": 48,
+      "vw": 3.3,
+      "font": "Manrope",
+      "weight": 800,
+      "tracking": -0.025,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.37,
+      "top": 193,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "What we supply",
+      "words": 3,
+      "chars": 14,
+      "lines": 1,
+      "size": 36,
+      "vw": 2.5,
+      "font": "Manrope",
+      "weight": 700,
+      "tracking": -0.025,
+      "leading": 1.11,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.23,
+      "top": 716,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Accomplished projects",
+      "words": 2,
+      "chars": 21,
+      "lines": 1,
+      "size": 36,
+      "vw": 2.5,
+      "font": "Manrope",
+      "weight": 700,
+      "tracking": -0.025,
+      "leading": 1.11,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.77,
+      "top": 1402,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Send us your floor plan",
+      "words": 5,
+      "chars": 23,
+      "lines": 1,
+      "size": 36,
+      "vw": 2.5,
+      "font": "Manrope",
+      "weight": 700,
+      "tracking": -0.025,
+      "leading": 1.11,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.3,
+      "top": 3696,
+      "tag": "h2",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 4,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": 3,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Inter",
+       "share": 0.89,
+       "mono": false
+      },
+      {
+       "family": "Manrope",
+       "share": 0.11,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      14,
+      16,
+      18,
+      20,
+      24,
+      36,
+      48
+     ],
+     "sizeCount": 7,
+     "notLoaded": [],
+     "body": {
+      "font": "Inter",
+      "size": 16,
+      "leading": 1.63,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 15.6
+     },
+     "measureChars": 66,
+     "max": {
+      "size": 48,
+      "vw": 3.3,
+      "font": "Manrope",
+      "text": "About Design Excellence"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0.03,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#faf8f5",
+     "bodyBgHsl": {
+      "h": 36,
+      "s": 0.33,
+      "l": 0.97
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#ffffff",
+       "top": 636,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 1
+       }
+      },
+      {
+       "color": "#1f3a5f",
+       "top": 3439,
+       "hsl": {
+        "h": 215,
+        "s": 0.51,
+        "l": 0.25
+       }
+      },
+      {
+       "color": "#faf8f5",
+       "top": 4189,
+       "hsl": {
+        "h": 36,
+        "s": 0.33,
+        "l": 0.97
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#1c1f26",
+       "share": 0.77
+      },
+      {
+       "color": "#ffffff",
+       "share": 0.17
+      },
+      {
+       "color": "#6b7280",
+       "share": 0.03
+      },
+      {
+       "color": "#1f3a5f",
+       "share": 0.03
+      }
+     ],
+     "button": {
+      "bg": "#1f3a5f",
+      "hsl": {
+       "h": 215,
+       "s": 0.51,
+       "l": 0.25
+      },
+      "fg": "#ffffff"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 4,
+     "inHero": 1,
+     "radius": 12,
+     "height": 44,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Get a quote"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 3,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 17,
+     "boxRadius": 12,
+     "squareMedia": 8,
+     "roundedMedia": 16,
+     "mediaRadius": 12,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.16
+     }
+    ],
+    "nav": {
+     "links": 6,
+     "fixed": true,
+     "height": 80,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "manrope",
+     "inter",
+     "inter fallback"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "pageH": 4604,
+    "margins": {
+     "left": 168,
+     "right": 168
+    },
+    "sections": [
+     {
+      "sel": "section.mx-auto.grid",
+      "tag": "section",
+      "top": 80,
+      "height": 556,
+      "words": 68,
+      "media": 1,
+      "middle": 57,
+      "heading": {
+       "text": "About Design Excellence",
+       "size": 48,
+       "tag": "h1"
+      },
+      "left": 168,
+      "right": 168,
+      "textLeft": 168,
+      "textRight": 753,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.bg-surface",
+      "tag": "section",
+      "top": 636,
+      "height": 686,
+      "words": 140,
+      "media": 0,
+      "middle": 85,
+      "heading": {
+       "text": "What we supply",
+       "size": 36,
+       "tag": "h2"
+      },
+      "left": 168,
+      "right": 170,
+      "textLeft": 168,
+      "textRight": 170,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#projects.mx-auto.max-w-6xl",
+      "tag": "section",
+      "top": 1322,
+      "height": 2117,
+      "words": 33,
+      "media": 15,
+      "middle": 16,
+      "heading": {
+       "text": "Accomplished projects",
+       "size": 36,
+       "tag": "h2"
+      },
+      "left": 168,
+      "right": 168,
+      "textLeft": 168,
+      "textRight": 704,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#quote-cta.bg-primary.text-white",
+      "tag": "section",
+      "top": 3439,
+      "height": 750,
+      "words": 71,
+      "media": 8,
+      "middle": 0,
+      "heading": {
+       "text": "Send us your floor plan",
+       "size": 36,
+       "tag": "h2"
+      },
+      "left": 168,
+      "right": 0,
+      "textLeft": 168,
+      "textRight": 173,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer.bg-bg.pb-24",
+      "tag": "footer",
+      "top": 4189,
+      "height": 415,
+      "words": 49,
+      "media": 0,
+      "middle": 275,
+      "heading": {
+       "text": "Visit or call",
+       "size": 24,
+       "tag": "h2"
+      },
+      "left": 168,
+      "right": 168,
+      "textLeft": 168,
+      "textRight": 168,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "About Design Excellence",
+      "size": 48,
+      "top": 193,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 168,
+      "n": 10
+     }
+    ],
+    "leftBlocks": 10,
+    "bodySize": 16,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0.07,
+    "voidBox": {
+     "x": 0,
+     "y": 120,
+     "w": 120,
+     "h": 780
+    }
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 768,
+   "height": 1024,
+   "load": "load",
+   "screens": 5,
+   "filled": [
+    0.67,
+    0.87,
+    0.76,
+    0.9,
+    0.6
+   ],
+   "motion": {
+    "elements": 43,
+    "css": 1,
+    "transitions": 1,
+    "scripted": 41,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "page": {
+     "height": 4972,
+     "screens": 4.9,
+     "words": 345,
+     "img": 25,
+     "video": 0,
+     "canvas": 0,
+     "svg": 7,
+     "sections": 4,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 1,
+     "uiAbuse": false,
+     "realPictures": 16,
+     "videoCount": 0,
+     "uiPictures": 1,
+     "pictureSamples": [
+      "image?url=%2Fprojects%2Foffice%2Fopen-plan-offic",
+      "image?url=%2Fprojects%2Foffice%2Fopen-plan-offic",
+      "image?url=%2Fprojects%2Foffice%2Fcall-centre-flo",
+      "image?url=%2Fprojects%2Foffice%2Fblue-panel-work",
+      "image?url=%2Fprojects%2Foffice%2Fgreen-panel-wor",
+      "image?url=%2Fprojects%2Foffice%2Fglass-top-parti",
+      "image?url=%2Fprojects%2Foffice%2Fl-shaped-workst",
+      "image?url=%2Fprojects%2Foffice%2Fbench-desks.jpg"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "About Design Excellence",
+     "words": 3,
+     "chars": 23,
+     "lines": 1,
+     "size": 48,
+     "vw": 6.3,
+     "font": "Manrope",
+     "weight": 800,
+     "tracking": -0.025,
+     "leading": 1,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.94,
+     "top": 160,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "About Design Excellence",
+     "words": 3,
+     "lines": 1,
+     "size": 48,
+     "font": "Manrope"
+    },
+    "headings": [
+     {
+      "text": "About Design Excellence",
+      "words": 3,
+      "chars": 23,
+      "lines": 1,
+      "size": 48,
+      "vw": 6.3,
+      "font": "Manrope",
+      "weight": 800,
+      "tracking": -0.025,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.94,
+      "top": 160,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "What we supply",
+      "words": 3,
+      "chars": 14,
+      "lines": 1,
+      "size": 36,
+      "vw": 4.7,
+      "font": "Manrope",
+      "weight": 700,
+      "tracking": -0.025,
+      "leading": 1.11,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.94,
+      "top": 1183,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Accomplished projects",
+      "words": 2,
+      "chars": 21,
+      "lines": 1,
+      "size": 36,
+      "vw": 4.7,
+      "font": "Manrope",
+      "weight": 700,
+      "tracking": -0.025,
+      "leading": 1.11,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.94,
+      "top": 2028,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Send us your floor plan",
+      "words": 5,
+      "chars": 23,
+      "lines": 1,
+      "size": 36,
+      "vw": 4.7,
+      "font": "Manrope",
+      "weight": 700,
+      "tracking": -0.025,
+      "leading": 1.11,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.94,
+      "top": 3569,
+      "tag": "h2",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 4,
+     "maxLines": 1,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": 3,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Inter",
+       "share": 0.89,
+       "mono": false
+      },
+      {
+       "family": "Manrope",
+       "share": 0.11,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      14,
+      16,
+      18,
+      20,
+      24,
+      36,
+      48
+     ],
+     "sizeCount": 7,
+     "notLoaded": [],
+     "body": {
+      "font": "Inter",
+      "size": 16,
+      "leading": 1.63,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 15.6
+     },
+     "measureChars": 66,
+     "max": {
+      "size": 48,
+      "vw": 6.3,
+      "font": "Manrope",
+      "text": "About Design Excellence"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0.03,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#faf8f5",
+     "bodyBgHsl": {
+      "h": 36,
+      "s": 0.33,
+      "l": 0.97
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#ffffff",
+       "top": 483,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 1
+       }
+      },
+      {
+       "color": "#1f3a5f",
+       "top": 3489,
+       "hsl": {
+        "h": 215,
+        "s": 0.51,
+        "l": 0.25
+       }
+      },
+      {
+       "color": "#faf8f5",
+       "top": 4461,
+       "hsl": {
+        "h": 36,
+        "s": 0.33,
+        "l": 0.97
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#1c1f26",
+       "share": 0.77
+      },
+      {
+       "color": "#ffffff",
+       "share": 0.17
+      },
+      {
+       "color": "#6b7280",
+       "share": 0.03
+      },
+      {
+       "color": "#1f3a5f",
+       "share": 0.02
+      }
+     ],
+     "button": {
+      "bg": "#e7e2da",
+      "hsl": {
+       "h": 37,
+       "s": 0.21,
+       "l": 0.88
+      },
+      "fg": "#1f3a5f"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 4,
+     "inHero": 1,
+     "radius": 12,
+     "height": 44,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Menu"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 3,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 17,
+     "boxRadius": 12,
+     "squareMedia": 8,
+     "roundedMedia": 16,
+     "mediaRadius": 12,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.49
+     }
+    ],
+    "nav": {
+     "links": 1,
+     "fixed": true,
+     "height": 80,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "manrope",
+     "manrope fallback",
+     "inter",
+     "inter fallback"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "pageH": 4972,
+    "margins": {
+     "left": 24,
+     "right": 24
+    },
+    "sections": [
+     {
+      "sel": "section.mx-auto.grid",
+      "tag": "section",
+      "top": 80,
+      "height": 1023,
+      "words": 68,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "About Design Excellence",
+       "size": 48,
+       "tag": "h1"
+      },
+      "left": 24,
+      "right": 24,
+      "textLeft": 24,
+      "textRight": 189,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.bg-surface",
+      "tag": "section",
+      "top": 1103,
+      "height": 845,
+      "words": 140,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "What we supply",
+       "size": 36,
+       "tag": "h2"
+      },
+      "left": 24,
+      "right": 26,
+      "textLeft": 24,
+      "textRight": 26,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#projects.mx-auto.max-w-6xl",
+      "tag": "section",
+      "top": 1948,
+      "height": 1541,
+      "words": 33,
+      "media": 15,
+      "middle": 0,
+      "heading": {
+       "text": "Accomplished projects",
+       "size": 36,
+       "tag": "h2"
+      },
+      "left": 24,
+      "right": 24,
+      "textLeft": 24,
+      "textRight": 176,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#quote-cta.bg-primary.text-white",
+      "tag": "section",
+      "top": 3489,
+      "height": 973,
+      "words": 71,
+      "media": 8,
+      "middle": 0,
+      "heading": {
+       "text": "Send us your floor plan",
+       "size": 36,
+       "tag": "h2"
+      },
+      "left": 0,
+      "right": 0,
+      "textLeft": 24,
+      "textRight": 29,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer.bg-bg.pb-24",
+      "tag": "footer",
+      "top": 4461,
+      "height": 511,
+      "words": 49,
+      "media": 0,
+      "middle": 51,
+      "heading": {
+       "text": "Visit or call",
+       "size": 24,
+       "tag": "h2"
+      },
+      "left": 24,
+      "right": 24,
+      "textLeft": 24,
+      "textRight": 24,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "About Design Excellence",
+      "size": 48,
+      "top": 160,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 24,
+      "n": 10
+     }
+    ],
+    "leftBlocks": 10,
+    "bodySize": 16,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 390,
+   "height": 844,
+   "load": "load",
+   "screens": 7,
+   "filled": [
+    0.65,
+    0.99,
+    0.68,
+    0.84,
+    0.91,
+    0.83,
+    0.31
+   ],
+   "motion": {
+    "elements": 39,
+    "css": 2,
+    "transitions": 1,
+    "scripted": 36,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "page": {
+     "height": 5537,
+     "screens": 6.6,
+     "words": 345,
+     "img": 21,
+     "video": 0,
+     "canvas": 0,
+     "svg": 7,
+     "sections": 4,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 1,
+     "uiAbuse": false,
+     "realPictures": 16,
+     "videoCount": 0,
+     "uiPictures": 1,
+     "pictureSamples": [
+      "image?url=%2Fprojects%2Foffice%2Fopen-plan-offic",
+      "image?url=%2Fprojects%2Foffice%2Fopen-plan-offic",
+      "image?url=%2Fprojects%2Foffice%2Fcall-centre-flo",
+      "image?url=%2Fprojects%2Foffice%2Fblue-panel-work",
+      "image?url=%2Fprojects%2Foffice%2Fgreen-panel-wor",
+      "image?url=%2Fprojects%2Foffice%2Fglass-top-parti",
+      "image?url=%2Fprojects%2Foffice%2Fl-shaped-workst",
+      "image?url=%2Fprojects%2Foffice%2Fbench-desks.jpg"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "About Design Excellence",
+     "words": 3,
+     "chars": 23,
+     "lines": 2,
+     "size": 36,
+     "vw": 9.2,
+     "font": "Manrope",
+     "weight": 800,
+     "tracking": -0.025,
+     "leading": 1.11,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.92,
+     "top": 112,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "About Design Excellence",
+     "words": 3,
+     "lines": 2,
+     "size": 36,
+     "font": "Manrope"
+    },
+    "headings": [
+     {
+      "text": "About Design Excellence",
+      "words": 3,
+      "chars": 23,
+      "lines": 2,
+      "size": 36,
+      "vw": 9.2,
+      "font": "Manrope",
+      "weight": 800,
+      "tracking": -0.025,
+      "leading": 1.11,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 112,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "What we supply",
+      "words": 3,
+      "chars": 14,
+      "lines": 1,
+      "size": 30,
+      "vw": 7.7,
+      "font": "Manrope",
+      "weight": 700,
+      "tracking": -0.025,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 916,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Accomplished projects",
+      "words": 2,
+      "chars": 21,
+      "lines": 1,
+      "size": 30,
+      "vw": 7.7,
+      "font": "Manrope",
+      "weight": 700,
+      "tracking": -0.025,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 2085,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Send us your floor plan",
+      "words": 5,
+      "chars": 23,
+      "lines": 1,
+      "size": 30,
+      "vw": 7.7,
+      "font": "Manrope",
+      "weight": 700,
+      "tracking": -0.025,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 3762,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Visit or call",
+      "words": 3,
+      "chars": 13,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Manrope",
+      "weight": 700,
+      "tracking": -0.025,
+      "leading": 1.33,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 4864,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Quick links",
+      "words": 2,
+      "chars": 11,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Manrope",
+      "weight": 700,
+      "tracking": -0.025,
+      "leading": 1.33,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 5106,
+      "tag": "h2",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 6,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": 3,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Inter",
+       "share": 0.89,
+       "mono": false
+      },
+      {
+       "family": "Manrope",
+       "share": 0.11,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      14,
+      16,
+      18,
+      20,
+      24,
+      30,
+      36
+     ],
+     "sizeCount": 7,
+     "notLoaded": [],
+     "body": {
+      "font": "Inter",
+      "size": 16,
+      "leading": 1.63,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 15.6
+     },
+     "measureChars": 45,
+     "max": {
+      "size": 36,
+      "vw": 9.2,
+      "font": "Manrope",
+      "text": "About Design Excellence"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0.03,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#faf8f5",
+     "bodyBgHsl": {
+      "h": 36,
+      "s": 0.33,
+      "l": 0.97
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#ffffff",
+       "top": 868,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 1
+       }
+      },
+      {
+       "color": "#1f3a5f",
+       "top": 3714,
+       "hsl": {
+        "h": 215,
+        "s": 0.51,
+        "l": 0.25
+       }
+      },
+      {
+       "color": "#1c1f26",
+       "top": 4322,
+       "hsl": {
+        "h": 222,
+        "s": 0.15,
+        "l": 0.13
+       }
+      },
+      {
+       "color": "#faf8f5",
+       "top": 4816,
+       "hsl": {
+        "h": 36,
+        "s": 0.33,
+        "l": 0.97
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#1c1f26",
+       "share": 0.77
+      },
+      {
+       "color": "#ffffff",
+       "share": 0.17
+      },
+      {
+       "color": "#6b7280",
+       "share": 0.03
+      },
+      {
+       "color": "#1f3a5f",
+       "share": 0.02
+      }
+     ],
+     "button": {
+      "bg": "#e7e2da",
+      "hsl": {
+       "h": 37,
+       "s": 0.21,
+       "l": 0.88
+      },
+      "fg": "#1f3a5f"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 4,
+     "inHero": 1,
+     "radius": 12,
+     "height": 44,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Menu"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 3,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 17,
+     "boxRadius": 12,
+     "squareMedia": 4,
+     "roundedMedia": 2,
+     "mediaRadius": 12,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.29
+     }
+    ],
+    "nav": {
+     "links": 1,
+     "fixed": true,
+     "height": 64,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "manrope",
+     "manrope fallback",
+     "inter",
+     "inter fallback"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "pageH": 5537,
+    "margins": {
+     "left": 16,
+     "right": 16
+    },
+    "sections": [
+     {
+      "sel": "section.mx-auto.grid",
+      "tag": "section",
+      "top": 64,
+      "height": 804,
+      "words": 68,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "About Design Excellence",
+       "size": 36,
+       "tag": "h1"
+      },
+      "left": 16,
+      "right": 16,
+      "textLeft": 16,
+      "textRight": 28,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.bg-surface",
+      "tag": "section",
+      "top": 868,
+      "height": 1169,
+      "words": 140,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "What we supply",
+       "size": 30,
+       "tag": "h2"
+      },
+      "left": 16,
+      "right": 20,
+      "textLeft": 16,
+      "textRight": 20,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#projects.mx-auto.max-w-6xl",
+      "tag": "section",
+      "top": 2037,
+      "height": 1677,
+      "words": 33,
+      "media": 15,
+      "middle": 0,
+      "heading": {
+       "text": "Accomplished projects",
+       "size": 30,
+       "tag": "h2"
+      },
+      "left": 16,
+      "right": 16,
+      "textLeft": 16,
+      "textRight": 45,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#quote-cta.bg-primary.text-white",
+      "tag": "section",
+      "top": 3714,
+      "height": 1102,
+      "words": 71,
+      "media": 4,
+      "middle": 0,
+      "heading": {
+       "text": "Send us your floor plan",
+       "size": 30,
+       "tag": "h2"
+      },
+      "left": 0,
+      "right": 0,
+      "textLeft": 16,
+      "textRight": 45,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer.bg-bg.pb-24",
+      "tag": "footer",
+      "top": 4816,
+      "height": 721,
+      "words": 49,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Visit or call",
+       "size": 24,
+       "tag": "h2"
+      },
+      "left": 16,
+      "right": 60,
+      "textLeft": 16,
+      "textRight": 60,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "About Design Excellence",
+      "size": 36,
+      "top": 112,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 16,
+      "n": 10
+     }
+    ],
+    "leftBlocks": 10,
+    "bodySize": 16,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  }
+ ],
+ "findings": [
+  {
+   "level": "WARN",
+   "id": "palette-cream",
+   "width": 1440,
+   "message": "Yellow-cream background (page background #faf8f5, section #faf8f5).",
+   "fix": "Use the drawn palette. If you want warmth, take a low-chroma stone or bone, not a yellow cream.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "no-footage",
+   "width": 1440,
+   "message": "No video anywhere on the page.",
+   "fix": "Look for one honest clip with scripts/assets.mjs --video (the place, the material, the process) and use it as a muted loop with a poster frame. Defend its absence only if no clip fits the subject."
+  }
+ ],
+ "images": [
+  {
+   "viewport": "desktop",
+   "width": 1440,
+   "fold": "D:\\Sayron Project\\ColdCalling_Projects\\Design-Excel\\.taste-skill\\about\\desktop-fold.jpg",
+   "pages": [
+    "D:\\Sayron Project\\ColdCalling_Projects\\Design-Excel\\.taste-skill\\about\\desktop-page-01.jpg",
+    "D:\\Sayron Project\\ColdCalling_Projects\\Design-Excel\\.taste-skill\\about\\desktop-page-02.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "tablet",
+   "width": 768,
+   "fold": "D:\\Sayron Project\\ColdCalling_Projects\\Design-Excel\\.taste-skill\\about\\tablet-fold.jpg",
+   "pages": [
+    "D:\\Sayron Project\\ColdCalling_Projects\\Design-Excel\\.taste-skill\\about\\tablet-page-01.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "mobile",
+   "width": 390,
+   "fold": "D:\\Sayron Project\\ColdCalling_Projects\\Design-Excel\\.taste-skill\\about\\mobile-fold.jpg",
+   "pages": [
+    "D:\\Sayron Project\\ColdCalling_Projects\\Design-Excel\\.taste-skill\\about\\mobile-page-01.jpg"
+   ],
+   "film": []
+  }
+ ]
+}

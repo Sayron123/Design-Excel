@@ -1,9 +1,10 @@
 import type { Metadata } from "next";
-import Image from "next/image";
+import { RetryImage } from "@/components/ui/retry-image";
 import Link from "next/link";
 import { HoverCard } from "@/components/HoverCard";
 import { Reveal } from "@/components/Reveal";
 import { PRODUCT_GROUPS, categoriesInGroup, categoryHref } from "@/lib/products";
+import { ArrowRight, buttonClass } from "@/components/ui/button";
 
 export const metadata: Metadata = { title: "Products | Design Excellence" };
 
@@ -31,7 +32,7 @@ export default function ProductsPage() {
                     <HoverCard className="h-full rounded-xl bg-surface">
                       <Link href={categoryHref(cat.slug)} className="group flex h-full flex-col rounded-xl">
                         <span className="relative block aspect-4/3 overflow-hidden rounded-t-xl bg-surface">
-                          <Image
+                          <RetryImage
                             src={cover.src}
                             alt={cover.alt}
                             fill
@@ -44,8 +45,9 @@ export default function ProductsPage() {
                         <span className="flex flex-1 flex-col p-5 md:p-6">
                           <span className="text-xl font-bold tracking-tight text-ink">{cat.name}</span>
                           <span className="mt-1.5 text-base leading-relaxed text-ink">{cat.summary}</span>
-                          <span className="mt-4 text-base font-semibold text-primary underline decoration-2 underline-offset-[0.25em] group-hover:decoration-accent">
+                          <span className={buttonClass("soft", "sm", "mt-4 self-start group-hover:bg-accent group-hover:text-ink")}>
                             See the range
+                            <ArrowRight />
                           </span>
                         </span>
                       </Link>

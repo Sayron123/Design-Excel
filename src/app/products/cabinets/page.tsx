@@ -12,7 +12,7 @@ export default function CabinetsPage() {
   return (
     <CategoryDetail
       category={category}
-      note="The cabinet builder will live on this page: set the width, height, doors, drawers and finish, then add the cabinet to your quote."
+      note="The cabinet builder will live on this page: set the width, height, doors, drawers and finish, then add the cabinet to your inquiry."
     />
   );
 }

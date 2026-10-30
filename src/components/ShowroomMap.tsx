@@ -4,6 +4,7 @@ import "leaflet/dist/leaflet.css";
 import type * as Leaflet from "leaflet";
 import { useEffect, useRef, useState } from "react";
 import { ADDRESS, SHOWROOM_LAT, SHOWROOM_LNG } from "@/lib/site";
+import { buttonClass } from "@/components/ui/button";
 
 type Mode = "driving" | "transit" | "walking";
 type LatLng = { lat: number; lng: number };
@@ -210,7 +211,7 @@ export function ShowroomMap() {
         <button
           type="button"
           onClick={locate}
-          className="h-9 shrink-0 rounded-lg px-3 text-[14px] font-semibold text-white/85 underline underline-offset-4 hover:text-accent"
+          className={buttonClass("glass", "sm", "h-9")}
         >
           {status === "locating" ? "Locating…" : "Use my location"}
         </button>

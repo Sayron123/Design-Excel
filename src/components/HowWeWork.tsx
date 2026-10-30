@@ -1,94 +1,129 @@
 "use client";
 
-import { motion, useReducedMotion, useTransform, type MotionValue } from "motion/react";
-import Image from "next/image";
+import {
+  AnimatePresence,
+  motion,
+  useMotionValueEvent,
+  useReducedMotion,
+  useScroll,
+  useSpring,
+  useTransform,
+  type MotionValue,
+} from "motion/react";
+import { useRef, useState } from "react";
+import { LineStory } from "@/components/ProcessLine";
 import { Reveal } from "@/components/Reveal";
-import { StickyScroll, type StickyScrollItem } from "@/components/ui/sticky-scroll-reveal";
 
-function StepPhoto({ src, alt }: { src: string; alt: string }) {
-  return (
-    <div className="relative h-full w-full bg-border">
-      <Image src={src} alt={alt} fill sizes="(min-width: 1024px) 45vw, 100vw" className="object-cover" />
-    </div>
-  );
-}
-
-/**
- * A layout sheet that draws itself as the step is scrolled: walls first, then furniture,
- * then the dimension lines and figures. `progress` runs 0 → 1 across the step.
- */
-function LayoutSheet({ progress }: { progress: MotionValue<number> }) {
-  const reduce = useReducedMotion();
-  const walls = useTransform(progress, [0, 0.35], reduce ? [1, 1] : [0, 1]);
-  const furniture = useTransform(progress, [0.25, 0.65], reduce ? [1, 1] : [0, 1]);
-  const dims = useTransform(progress, [0.55, 0.85], reduce ? [1, 1] : [0, 1]);
-  const figures = useTransform(progress, [0.75, 0.9], reduce ? [1, 1] : [0, 1]);
-  const line = { stroke: "white", fill: "none" } as const;
-
-  return (
-    <div className="flex h-full w-full items-center justify-center bg-primary p-8">
-      <svg viewBox="0 0 400 300" className="h-full w-full" role="img" aria-label="AutoCAD-style drawing of a room layout with dimensions">
-        <motion.rect x="60" y="40" width="280" height="200" {...line} strokeWidth="6" style={{ pathLength: walls }} />
-        <motion.rect x="90" y="70" width="120" height="50" rx="4" {...line} strokeWidth="1.5" style={{ pathLength: furniture }} />
-        <motion.rect x="230" y="70" width="80" height="50" rx="4" {...line} strokeWidth="1.5" style={{ pathLength: furniture }} />
-        <motion.rect x="90" y="170" width="220" height="40" rx="4" {...line} strokeWidth="1.5" style={{ pathLength: furniture }} />
-        {[110, 150, 190, 250, 290].map((x) => (
-          <motion.circle key={x} cx={x} cy="140" r="8" {...line} strokeWidth="1.5" style={{ pathLength: furniture }} />
-        ))}
-        <motion.path d="M60 266 H340 M60 258 V274 M340 258 V274" {...line} strokeWidth="1.25" style={{ pathLength: dims }} />
-        <motion.path d="M30 40 V240 M22 40 H38 M22 240 H38" {...line} strokeWidth="1.25" style={{ pathLength: dims }} />
-        <motion.g style={{ opacity: figures }}>
-          <text x="200" y="290" textAnchor="middle" fill="white" fontSize="15">
-            7,000
-          </text>
-          <text x="18" y="145" textAnchor="middle" fill="white" fontSize="15" transform="rotate(-90 18 145)">
-            5,000
-          </text>
-        </motion.g>
-      </svg>
-    </div>
-  );
-}
-
-const STEPS: StickyScrollItem[] = [
+const STEPS = [
   {
     title: "Consultation",
     description:
       "We talk through how the space is used, how many people it holds and what has to fit. Bring a floor plan or measurements if you have them.",
-    content: <StepPhoto src="/process/consultation.jpg" alt="Office with glass partitions and mesh chairs" />,
   },
   {
     title: "AutoCAD layout",
     description:
       "We draw your space and the furniture in AutoCAD, so sizes, walkways and positions are agreed on paper before anything is made.",
-    content: (progress) => <LayoutSheet progress={progress} />,
   },
   {
     title: "Manufacturing",
     description: "Cabinets and furniture are made to the approved layout, sizes and finishes.",
-    content: <StepPhoto src="/process/desk-screens.jpg" alt="Desk screen panels in green, orange, blue and grey" />,
   },
   {
     title: "Delivery & install",
     description: "We deliver, assemble and install everything on site, in the positions shown on the layout.",
-    content: <StepPhoto src="/products/workstations/1.jpg" alt="Installed workstation cluster with green desk screens" />,
   },
 ];
 
+/** One bar per stage along the top of the panel, filling as that stage is scrolled through. */
+function Segment({ index, progress }: { index: number; progress: MotionValue<number> }) {
+  const scaleX = useTransform(progress, [index / STEPS.length, (index + 1) / STEPS.length], [0, 1]);
+  return (
+    <span className="h-1 flex-1 overflow-hidden rounded-full bg-white/20">
+      <motion.span className="block h-full origin-left rounded-full bg-accent" style={{ scaleX }} />
+    </span>
+  );
+}
+
+/**
+ * The four stages as one pinned panel: the page scrolls through a tall track while the panel
+ * stays put, the line drawing moves from stage to stage and the words change with it.
+ */
 export function HowWeWork() {
+  const trackRef = useRef<HTMLDivElement>(null);
+  const reduce = useReducedMotion();
+  const [active, setActive] = useState(0);
+  const { scrollYProgress } = useScroll({ target: trackRef, offset: ["start start", "end end"] });
+  // The drawing follows the scroll through a spring, so a flick of the wheel glides instead of jumping.
+  const sprung = useSpring(scrollYProgress, { stiffness: 90, damping: 24, mass: 0.6, restDelta: 0.0005 });
+  const progress = reduce ? scrollYProgress : sprung;
+
+  useMotionValueEvent(progress, "change", (p) => {
+    // The spring can overshoot a little past either end, so keep the index in range.
+    setActive(Math.min(STEPS.length - 1, Math.max(0, Math.floor(p * STEPS.length))));
+  });
+
+  const step = STEPS[active];
+
   return (
     <section id="how-we-work" aria-labelledby="how-heading" className="scroll-mt-20">
-      <div className="mx-auto max-w-6xl px-4 py-12 md:px-6 md:py-20">
-        <Reveal>
-          <h2 id="how-heading" className="text-3xl font-bold tracking-tight md:text-4xl">
-            How we work
-          </h2>
-          <p className="mt-4 max-w-[46ch] text-lg leading-relaxed text-ink">
-            Four stages, from the first conversation to furniture standing in your room.
-          </p>
-        </Reveal>
-        <div className="mt-10 md:mt-14">
-          <StickyScroll content={STEPS} />
+      <Reveal className="mx-auto max-w-6xl px-4 pt-12 text-center md:px-6 md:pt-20">
+        <h2 id="how-heading" className="text-3xl font-bold tracking-tight md:text-4xl">
+          How we work
+        </h2>
+        <p className="mx-auto mt-4 max-w-[46ch] text-lg leading-relaxed text-ink">
+          Four stages, from the first conversation to furniture standing in your room.
+        </p>
+      </Reveal>
+
+      {/* The stages in reading order for screen readers; the panel below shows them one at a time. */}
+      <ol className="sr-only">
+        {STEPS.map((s) => (
+          <li key={s.title}>
+            {s.title}: {s.description}
+          </li>
+        ))}
+      </ol>
+
+      <div ref={trackRef} className="relative h-[420vh]">
+        <div className="sticky top-16 flex h-[calc(100svh-4rem)] items-center md:top-20 md:h-[calc(100svh-5rem)]">
+          <div className="mx-auto w-full max-w-6xl px-4 py-4 md:px-6">
+            <div
+              aria-hidden="true"
+              className="flex h-[min(calc(100svh-7rem),760px)] flex-col overflow-hidden rounded-2xl bg-primary px-5 pb-6 pt-5 text-center text-white md:px-12 md:pb-10"
+            >
+              <div className="flex gap-1.5">
+                {STEPS.map((s, i) => (
+                  <Segment key={s.title} index={i} progress={progress} />
+                ))}
+              </div>
+
+              <div className="relative mt-6 min-h-36 md:mt-10 md:min-h-32">
+                <AnimatePresence mode="wait" initial={false}>
+                  <motion.div
+                    key={step.title}
+                    initial={reduce ? { opacity: 0 } : { opacity: 0, y: 18 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    exit={reduce ? { opacity: 0 } : { opacity: 0, y: -12 }}
+                    transition={{ duration: 0.35, ease: [0.22, 1, 0.36, 1] }}
+                  >
+                    <p className="font-heading text-3xl font-bold tracking-tight md:text-5xl">{step.title}</p>
+                    <p className="mx-auto mt-3 max-w-[52ch] text-base leading-relaxed text-white/85 md:text-lg">
+                      {step.description}
+                    </p>
+                  </motion.div>
+                </AnimatePresence>
+              </div>
+
+              <div className="flex min-h-0 flex-1 items-center justify-center pt-4">
+                <LineStory
+                  progress={progress}
+                  className="h-full max-h-full w-full max-w-3xl"
+                  label="One line drawing that turns from a consultation into a floor plan, a workshop and a delivery truck"
+                />
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
