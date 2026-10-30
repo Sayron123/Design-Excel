@@ -5,7 +5,7 @@ import { Reveal } from "@/components/Reveal";
 
 const PATHS = [
   {
-    href: "/cabinets",
+    href: "/products/cabinets",
     title: "Cabinets",
     body: "Set the size, doors and finish of a cabinet, then add it to your quote. Built to the measurements of your room.",
     action: "Build a cabinet",
@@ -13,10 +13,10 @@ const PATHS = [
     alt: "Placeholder image: carved wooden double door",
   },
   {
-    href: "/office-furniture",
+    href: "/products#office-furniture",
     title: "Office Furniture",
-    body: "Chairs, desks and workstations for teams, reception areas and meeting rooms. Pick what you need and add it to your quote.",
-    action: "Browse chairs",
+    body: "Chairs, tables, workstations, partitions and reception areas for teams, meeting rooms and front desks.",
+    action: "See office furniture",
     image: "/placeholder/office.jpg",
     alt: "Placeholder image: wooden chair by a curtained window",
   },

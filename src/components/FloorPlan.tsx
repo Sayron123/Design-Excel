@@ -4,8 +4,7 @@ import { AnimatePresence, motion } from "motion/react";
 import Link from "next/link";
 import { useState } from "react";
 import { Reveal } from "@/components/Reveal";
-
-type Path = "cabinets" | "office-furniture";
+import { categoryHref, getCategory } from "@/lib/products";
 
 type Room = {
   id: string;
@@ -13,7 +12,7 @@ type Room = {
   size: string;
   blurb: string;
   rect: { x: number; y: number; w: number; h: number };
-  items: { name: string; path: Path }[];
+  items: { name: string; category: string }[];
 };
 
 // Sample office layout. Room sizes and furniture lists are illustrative, not a client project.
@@ -25,9 +24,9 @@ const ROOMS: Room[] = [
     blurb: "The first thing visitors see. A counter sized for the staff behind it, and seating for the people waiting.",
     rect: { x: 0, y: 0, w: 200, h: 170 },
     items: [
-      { name: "Reception counter", path: "cabinets" },
-      { name: "Waiting chairs", path: "office-furniture" },
-      { name: "Low table", path: "office-furniture" },
+      { name: "Reception counter", category: "reception-area" },
+      { name: "Waiting chairs", category: "chairs" },
+      { name: "Low table", category: "tables" },
     ],
   },
   {
@@ -37,9 +36,9 @@ const ROOMS: Room[] = [
     blurb: "A table for ten with clearance to pull chairs out, and a credenza along the wall for supplies.",
     rect: { x: 200, y: 0, w: 220, h: 170 },
     items: [
-      { name: "Conference table", path: "office-furniture" },
-      { name: "Meeting chairs", path: "office-furniture" },
-      { name: "Credenza", path: "cabinets" },
+      { name: "Conference table", category: "tables" },
+      { name: "Meeting chairs", category: "chairs" },
+      { name: "Credenza", category: "cabinets" },
     ],
   },
   {
@@ -49,10 +48,10 @@ const ROOMS: Room[] = [
     blurb: "A desk facing the door, two guest chairs and tall storage for files that stay close.",
     rect: { x: 420, y: 0, w: 220, h: 170 },
     items: [
-      { name: "Executive desk", path: "office-furniture" },
-      { name: "Executive chair", path: "office-furniture" },
-      { name: "Guest chairs", path: "office-furniture" },
-      { name: "Tall storage cabinet", path: "cabinets" },
+      { name: "Executive desk", category: "tables" },
+      { name: "Executive chair", category: "chairs" },
+      { name: "Guest chairs", category: "chairs" },
+      { name: "Tall storage cabinet", category: "cabinets" },
     ],
   },
   {
@@ -62,10 +61,10 @@ const ROOMS: Room[] = [
     blurb: "Two clusters of four desks with walkways between them, and low cabinets along the wall.",
     rect: { x: 0, y: 170, w: 420, h: 250 },
     items: [
-      { name: "Workstation desks", path: "office-furniture" },
-      { name: "Task chairs", path: "office-furniture" },
-      { name: "Mobile pedestals", path: "cabinets" },
-      { name: "Low storage cabinets", path: "cabinets" },
+      { name: "Workstation desks", category: "workstations" },
+      { name: "Task chairs", category: "chairs" },
+      { name: "Mobile pedestals", category: "cabinets" },
+      { name: "Low storage cabinets", category: "cabinets" },
     ],
   },
   {
@@ -75,9 +74,9 @@ const ROOMS: Room[] = [
     blurb: "An L of base cabinets with a counter, and a small table for breaks.",
     rect: { x: 420, y: 170, w: 220, h: 130 },
     items: [
-      { name: "Pantry base cabinets", path: "cabinets" },
-      { name: "Round table", path: "office-furniture" },
-      { name: "Pantry chairs", path: "office-furniture" },
+      { name: "Pantry base cabinets", category: "kitchen-cabinets" },
+      { name: "Round table", category: "tables" },
+      { name: "Pantry chairs", category: "chairs" },
     ],
   },
   {
@@ -87,8 +86,8 @@ const ROOMS: Room[] = [
     blurb: "Two rows of filing cabinets with a walkway between them.",
     rect: { x: 420, y: 300, w: 220, h: 120 },
     items: [
-      { name: "Filing cabinets", path: "cabinets" },
-      { name: "Open shelving", path: "cabinets" },
+      { name: "Filing cabinets", category: "cabinets" },
+      { name: "Open shelving", category: "cabinets" },
     ],
   },
 ];
@@ -98,11 +97,6 @@ const LABEL_AT: Record<string, [number, number]> = {
   workstations: [210, 368],
   pantry: [563, 254],
   files: [530, 364],
-};
-
-const PATH_LABEL: Record<Path, string> = {
-  cabinets: "Cabinets",
-  "office-furniture": "Office furniture",
 };
 
 // Furniture drawn as plan symbols, in the style of an AutoCAD layout.
@@ -312,10 +306,10 @@ export function FloorPlan() {
                     <li key={item.name} className="flex items-baseline justify-between gap-4 rounded-lg bg-white/10 px-4 py-3">
                       <span className="font-semibold">{item.name}</span>
                       <Link
-                        href={`/${item.path}`}
+                        href={categoryHref(item.category)}
                         className="shrink-0 text-[14px] text-white/85 underline underline-offset-4 hover:text-accent"
                       >
-                        {PATH_LABEL[item.path]}
+                        {getCategory(item.category)?.name}
                       </Link>
                     </li>
                   ))}

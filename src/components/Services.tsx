@@ -21,7 +21,7 @@ const SERVICES = [
 
 export function Services() {
   return (
-    <section aria-labelledby="services-heading" className="mx-auto max-w-6xl px-4 py-12 md:px-6 md:py-20">
+    <section id="services" aria-labelledby="services-heading" className="mx-auto max-w-6xl px-4 py-12 md:px-6 md:py-20">
       <div className="grid gap-8 md:grid-cols-12 md:gap-10">
         <Reveal className="md:col-span-4">
           <div className="md:sticky md:top-28">

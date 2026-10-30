@@ -38,13 +38,13 @@ export function Hero() {
           </motion.p>
           <motion.div variants={rise} className="mt-8 flex flex-wrap gap-3 md:mt-10">
             <Link
-              href="/cabinets"
+              href="/products/cabinets"
               className="inline-flex h-12 items-center rounded-xl bg-primary px-6 text-base font-semibold text-white transition-colors hover:bg-ink"
             >
               Build a cabinet
             </Link>
             <Link
-              href="/office-furniture"
+              href="/products/chairs"
               className="inline-flex h-12 items-center rounded-xl bg-border px-6 text-base font-semibold text-ink transition-colors hover:brightness-95"
             >
               Browse chairs

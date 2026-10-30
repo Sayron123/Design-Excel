@@ -88,7 +88,7 @@ export function BuilderTeaser() {
           </fieldset>
 
           <Link
-            href="/cabinets"
+            href="/products/cabinets"
             className="mt-10 inline-flex h-12 items-center rounded-xl bg-accent px-6 text-base font-semibold text-ink transition-colors hover:bg-white"
           >
             Open the cabinet builder

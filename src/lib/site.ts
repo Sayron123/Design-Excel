@@ -14,10 +14,11 @@ export const FACEBOOK_PLACEHOLDER = "#"; // placeholder: real Facebook page URL 
 // Quote basket count. Fixed at 0 until the quote form exists.
 export const QUOTE_COUNT = 0;
 
+// Top-level navigation. "Products" opens the category menu (see lib/products.ts).
 export const NAV_LINKS = [
   { href: "/", label: "Home" },
-  { href: "/cabinets", label: "Cabinets" },
-  { href: "/office-furniture", label: "Office Furniture" },
+  { href: "/products", label: "Products" },
+  { href: "/#services", label: "Services" },
   { href: "/#how-we-work", label: "How we work" },
   { href: "/quote", label: "Contact" },
 ] as const;
