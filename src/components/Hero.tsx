@@ -61,17 +61,14 @@ export function Hero() {
           <div className="relative aspect-4/3 overflow-hidden rounded-xl bg-border md:aspect-video lg:aspect-4/5">
             <motion.div style={{ y }} className="absolute inset-x-0 top-[-12%] h-[124%]">
               <Image
-                src="/placeholder/hero.jpg"
-                alt="Placeholder image: wooden table and white chairs by a window"
+                src="/products/partitions/3.jpg"
+                alt="Open office divided by glass partitions, with desks and storage"
                 fill
                 priority
                 sizes="(min-width: 1024px) 40vw, 100vw"
                 className="object-cover"
               />
             </motion.div>
-            <span className="absolute bottom-3 left-3 rounded-lg bg-ink/75 px-2.5 py-1 text-[14px] text-white">
-              Placeholder image
-            </span>
           </div>
         </motion.div>
       </div>

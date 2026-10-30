@@ -9,16 +9,16 @@ const PATHS = [
     title: "Cabinets",
     body: "Set the size, doors and finish of a cabinet, then add it to your quote. Built to the measurements of your room.",
     action: "Build a cabinet",
-    image: "/placeholder/cabinets.jpg",
-    alt: "Placeholder image: carved wooden double door",
+    image: "/products/kitchen-cabinets/1.jpg",
+    alt: "White modular kitchen with a timber breakfast bar",
   },
   {
     href: "/products#office-furniture",
     title: "Office Furniture",
     body: "Chairs, tables, workstations, partitions and reception areas for teams, meeting rooms and front desks.",
     action: "See office furniture",
-    image: "/placeholder/office.jpg",
-    alt: "Placeholder image: wooden chair by a curtained window",
+    image: "/products/workstations/3.jpg",
+    alt: "White bench workstation with blue screens",
   },
 ] as const;
 
@@ -43,9 +43,6 @@ export function PathCards() {
                     sizes="(min-width: 768px) 50vw, 100vw"
                     className="object-cover transition-transform duration-500 group-hover:scale-[1.03]"
                   />
-                  <span className="absolute left-3 top-3 rounded-lg bg-ink/75 px-2.5 py-1 text-[14px] text-white">
-                    Placeholder image
-                  </span>
                 </div>
                 <div className="flex flex-1 flex-col p-6 md:p-8">
                   <h3 className="text-2xl font-bold tracking-tight md:text-3xl">{path.title}</h3>

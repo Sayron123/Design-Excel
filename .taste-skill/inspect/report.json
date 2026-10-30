@@ -1,6 +1,6 @@
 {
  "url": "http://localhost:3100",
- "at": "2026-10-30T12:30:45.044Z",
+ "at": "2026-10-30T14:00:06.147Z",
  "allow": [
   "palette-terracotta",
   "palette-cream"
@@ -12,21 +12,21 @@
    "load": "load",
    "screens": 9,
    "filled": [
-    0.45,
-    0.67,
-    0.73,
-    0.8,
-    0.97,
-    0.86,
-    0.65,
-    0.68,
+    0.35,
+    0.6,
+    0.6,
+    0.48,
+    0.32,
+    0.29,
+    0.55,
+    0.76,
     0.62
    ],
    "motion": {
-    "elements": 45,
+    "elements": 63,
     "css": 0,
-    "transitions": 7,
-    "scripted": 38,
+    "transitions": 10,
+    "scripted": 53,
     "videos": 0,
     "playingVideos": 0
    },
@@ -36,26 +36,28 @@
      "h": 900
     },
     "page": {
-     "height": 7333,
-     "screens": 8.1,
-     "words": 550,
-     "img": 16,
+     "height": 7497,
+     "screens": 8.3,
+     "words": 554,
+     "img": 18,
      "video": 0,
      "canvas": 0,
-     "svg": 10,
+     "svg": 11,
      "sections": 8,
      "horizontalOverflow": 0,
      "overflowCulprits": [],
      "uiFragments": 2,
      "uiAbuse": false,
-     "realPictures": 4,
+     "realPictures": 6,
      "videoCount": 0,
      "uiPictures": 2,
      "pictureSamples": [
-      "image?url=%2Fplaceholder%2Fhero.jpg&w=640&q=75",
-      "image?url=%2Fplaceholder%2Fcabinets.jpg&w=750&q=",
-      "image?url=%2Fplaceholder%2Foffice.jpg&w=750&q=75",
-      "image?url=%2Fplaceholder%2Finstall.jpg&w=750&q=7"
+      "image?url=%2Fproducts%2Fpartitions%2F3.jpg&w=640",
+      "image?url=%2Fproducts%2Fkitchen-cabinets%2F1.jpg",
+      "image?url=%2Fproducts%2Fworkstations%2F3.jpg&w=7",
+      "image?url=%2Fprocess%2Fconsultation.jpg&w=750&q=",
+      "image?url=%2Fprocess%2Fdesk-screens.jpg&w=750&q=",
+      "image?url=%2Fproducts%2Fworkstations%2F1.jpg&w=7"
      ],
      "blendText": 0,
      "sideScrollers": 0,
@@ -71,16 +73,16 @@
      "size": 68,
      "vw": 4.7,
      "font": "Manrope",
-     "weight": 800,
-     "tracking": -0.035,
-     "leading": 1.02,
+     "weight": 700,
+     "tracking": -0.02,
+     "leading": 1.05,
      "upper": false,
      "italic": false,
      "mono": false,
      "align": "left",
      "position": "left",
-     "widthRatio": 0.41,
-     "top": 207,
+     "widthRatio": 0.4,
+     "top": 205,
      "tag": "h1",
      "kind": "heading"
     },
@@ -100,16 +102,16 @@
       "size": 68,
       "vw": 4.7,
       "font": "Manrope",
-      "weight": 800,
-      "tracking": -0.035,
-      "leading": 1.02,
+      "weight": 700,
+      "tracking": -0.02,
+      "leading": 1.05,
       "upper": false,
       "italic": false,
       "mono": false,
       "align": "left",
       "position": "left",
-      "widthRatio": 0.41,
-      "top": 207,
+      "widthRatio": 0.4,
+      "top": 205,
       "tag": "h1",
       "kind": "heading"
      },
@@ -130,7 +132,7 @@
       "align": "left",
       "position": "left",
       "widthRatio": 0.15,
-      "top": 816,
+      "top": 810,
       "tag": "h2",
       "kind": "heading"
      },
@@ -139,19 +141,19 @@
       "words": 4,
       "chars": 17,
       "lines": 1,
-      "size": 48,
-      "vw": 3.3,
+      "size": 36,
+      "vw": 2.5,
       "font": "Manrope",
       "weight": 700,
       "tracking": -0.025,
-      "leading": 1,
+      "leading": 1.11,
       "upper": false,
       "italic": false,
       "mono": false,
       "align": "left",
       "position": "center",
       "widthRatio": 0.77,
-      "top": 994,
+      "top": 982,
       "tag": "h2",
       "kind": "heading"
      },
@@ -172,7 +174,7 @@
       "align": "left",
       "position": "left",
       "widthRatio": 0.33,
-      "top": 1482,
+      "top": 1462,
       "tag": "h3",
       "kind": "heading"
      },
@@ -193,7 +195,7 @@
       "align": "left",
       "position": "right",
       "widthRatio": 0.33,
-      "top": 1482,
+      "top": 1462,
       "tag": "h3",
       "kind": "heading"
      },
@@ -202,19 +204,19 @@
       "words": 6,
       "chars": 25,
       "lines": 1,
-      "size": 48,
-      "vw": 3.3,
+      "size": 36,
+      "vw": 2.5,
       "font": "Manrope",
       "weight": 700,
       "tracking": -0.025,
-      "leading": 1,
+      "leading": 1.11,
       "upper": false,
       "italic": false,
       "mono": false,
       "align": "left",
       "position": "right",
       "widthRatio": 0.37,
-      "top": 1923,
+      "top": 1907,
       "tag": "h2",
       "kind": "heading"
      },
@@ -223,19 +225,19 @@
       "words": 4,
       "chars": 20,
       "lines": 1,
-      "size": 48,
-      "vw": 3.3,
+      "size": 36,
+      "vw": 2.5,
       "font": "Manrope",
       "weight": 700,
       "tracking": -0.025,
-      "leading": 1,
+      "leading": 1.11,
       "upper": false,
       "italic": false,
       "mono": false,
       "align": "left",
-      "position": "left",
-      "widthRatio": 0.37,
-      "top": 2556,
+      "position": "center",
+      "widthRatio": 0.77,
+      "top": 2496,
       "tag": "h2",
       "kind": "heading"
      },
@@ -256,7 +258,7 @@
       "align": "left",
       "position": "right",
       "widthRatio": 0.2,
-      "top": 2752,
+      "top": 2751,
       "tag": "h3",
       "kind": "heading"
      },
@@ -265,19 +267,19 @@
       "words": 3,
       "chars": 11,
       "lines": 1,
-      "size": 48,
-      "vw": 3.3,
+      "size": 36,
+      "vw": 2.5,
       "font": "Manrope",
       "weight": 700,
       "tracking": -0.025,
-      "leading": 1,
+      "leading": 1.11,
       "upper": false,
       "italic": false,
       "mono": false,
       "align": "left",
       "position": "center",
       "widthRatio": 0.77,
-      "top": 3377,
+      "top": 3413,
       "tag": "h2",
       "kind": "heading"
      },
@@ -297,8 +299,8 @@
       "mono": false,
       "align": "left",
       "position": "left",
-      "widthRatio": 0.37,
-      "top": 3671,
+      "widthRatio": 0.33,
+      "top": 3731,
       "tag": "h3",
       "kind": "heading"
      },
@@ -318,8 +320,8 @@
       "mono": false,
       "align": "left",
       "position": "left",
-      "widthRatio": 0.37,
-      "top": 4087,
+      "widthRatio": 0.33,
+      "top": 4163,
       "tag": "h3",
       "kind": "heading"
      },
@@ -339,8 +341,8 @@
       "mono": false,
       "align": "left",
       "position": "left",
-      "widthRatio": 0.37,
-      "top": 4498,
+      "widthRatio": 0.33,
+      "top": 4610,
       "tag": "h3",
       "kind": "heading"
      },
@@ -360,8 +362,8 @@
       "mono": false,
       "align": "left",
       "position": "left",
-      "widthRatio": 0.37,
-      "top": 4894,
+      "widthRatio": 0.33,
+      "top": 5042,
       "tag": "h3",
       "kind": "heading"
      },
@@ -370,19 +372,19 @@
       "words": 1,
       "chars": 8,
       "lines": 1,
-      "size": 48,
-      "vw": 3.3,
+      "size": 36,
+      "vw": 2.5,
       "font": "Manrope",
       "weight": 700,
       "tracking": -0.025,
-      "leading": 1,
+      "leading": 1.11,
       "upper": false,
       "italic": false,
       "mono": false,
       "align": "left",
       "position": "left",
       "widthRatio": 0.24,
-      "top": 5307,
+      "top": 5471,
       "tag": "h2",
       "kind": "heading"
      },
@@ -390,20 +392,20 @@
       "text": "Send us your floor plan",
       "words": 5,
       "chars": 23,
-      "lines": 2,
-      "size": 48,
-      "vw": 3.3,
+      "lines": 1,
+      "size": 36,
+      "vw": 2.5,
       "font": "Manrope",
       "weight": 700,
       "tracking": -0.025,
-      "leading": 1,
+      "leading": 1.11,
       "upper": false,
       "italic": false,
       "mono": false,
       "align": "left",
       "position": "left",
       "widthRatio": 0.3,
-      "top": 6257,
+      "top": 6449,
       "tag": "h2",
       "kind": "heading"
      }
@@ -438,7 +440,7 @@
       20,
       24,
       30,
-      48,
+      36,
       68
      ],
      "sizeCount": 8,
@@ -481,17 +483,8 @@
      "dark": false,
      "sectionBgs": [
       {
-       "color": "#1f3a5f",
-       "top": 1748,
-       "hsl": {
-        "h": 215,
-        "s": 0.51,
-        "l": 0.25
-       }
-      },
-      {
        "color": "#ffffff",
-       "top": 3297,
+       "top": 1728,
        "hsl": {
         "h": 0,
         "s": 0,
@@ -499,17 +492,17 @@
        }
       },
       {
-       "color": "#1c1f26",
-       "top": 6030,
+       "color": "#1f3a5f",
+       "top": 6194,
        "hsl": {
-        "h": 222,
-        "s": 0.15,
-        "l": 0.13
+        "h": 215,
+        "s": 0.51,
+        "l": 0.25
        }
       },
       {
        "color": "#faf8f5",
-       "top": 6776,
+       "top": 6940,
        "hsl": {
         "h": 36,
         "s": 0.33,
@@ -520,11 +513,11 @@
      "textColors": [
       {
        "color": "#1c1f26",
-       "share": 0.57
+       "share": 0.62
       },
       {
        "color": "#ffffff",
-       "share": 0.28
+       "share": 0.22
       },
       {
        "color": "#6b7280",
@@ -532,7 +525,7 @@
       },
       {
        "color": "#1f3a5f",
-       "share": 0.01
+       "share": 0.02
       }
      ],
      "button": {
@@ -556,14 +549,14 @@
      "mono": 0,
      "upper": 0,
      "heroLabels": [
-      "Quote (0)",
+      "Get a quote",
       "Build a cabinet",
       "Browse chairs"
      ]
     },
     "surfaces": {
      "shadowStatic": 0,
-     "shadowOverlay": 4,
+     "shadowOverlay": 3,
      "shadowSamples": [],
      "gradients": 0,
      "scrims": 0,
@@ -576,8 +569,8 @@
      "blurred": 0,
      "roundedBoxes": 14,
      "boxRadius": 12,
-     "squareMedia": 8,
-     "roundedMedia": 4,
+     "squareMedia": 11,
+     "roundedMedia": 3,
      "mediaRadius": 12,
      "textShadow": 0,
      "cardRows": []
@@ -607,7 +600,7 @@
      "w": 1440,
      "h": 900
     },
-    "pageH": 7333,
+    "pageH": 7497,
     "margins": {
      "left": 168,
      "right": 168
@@ -618,18 +611,18 @@
       "tag": "section",
       "top": 80,
       "height": 674,
-      "words": 44,
+      "words": 42,
       "media": 0,
-      "middle": 118,
+      "middle": 0,
       "heading": {
        "text": "Furniture built to your floor plan",
        "size": 68,
        "tag": "h1"
       },
       "left": 168,
-      "right": 460,
+      "right": 701,
       "textLeft": 168,
-      "textRight": 460,
+      "textRight": 701,
       "fullBleed": false,
       "footer": false,
       "hero": true,
@@ -637,22 +630,22 @@
       "pinned": false
      },
      {
-      "sel": "section.bg-surface",
+      "sel": "section",
       "tag": "section",
       "top": 754,
-      "height": 160,
+      "height": 148,
       "words": 8,
       "media": 0,
-      "middle": 275,
+      "middle": 377,
       "heading": {
        "text": "Who we furnish",
        "size": 30,
        "tag": "h2"
       },
       "left": 168,
-      "right": 188,
+      "right": 168,
       "textLeft": 168,
-      "textRight": 188,
+      "textRight": 168,
       "fullBleed": false,
       "footer": false,
       "hero": false,
@@ -662,14 +655,14 @@
      {
       "sel": "section.mx-auto.max-w-6xl",
       "tag": "section",
-      "top": 914,
-      "height": 835,
-      "words": 53,
+      "top": 902,
+      "height": 827,
+      "words": 49,
       "media": 2,
       "middle": 24,
       "heading": {
        "text": "Two ways to start",
-       "size": 48,
+       "size": 36,
        "tag": "h2"
       },
       "left": 168,
@@ -683,22 +676,22 @@
       "pinned": false
      },
      {
-      "sel": "section.bg-primary.text-white",
+      "sel": "section.bg-surface",
       "tag": "section",
-      "top": 1748,
+      "top": 1728,
       "height": 688,
       "words": 33,
       "media": 1,
       "middle": 136,
       "heading": {
        "text": "Pick a finish, see it now",
-       "size": 48,
+       "size": 36,
        "tag": "h2"
       },
       "left": 256,
-      "right": 192,
+      "right": 270,
       "textLeft": 744,
-      "textRight": 192,
+      "textRight": 270,
       "fullBleed": false,
       "footer": false,
       "hero": false,
@@ -708,20 +701,20 @@
      {
       "sel": "section.mx-auto.max-w-6xl",
       "tag": "section",
-      "top": 2436,
-      "height": 861,
+      "top": 2416,
+      "height": 917,
       "words": 75,
       "media": 1,
-      "middle": 0,
+      "middle": 8,
       "heading": {
        "text": "Plan the floor first",
-       "size": 48,
+       "size": 36,
        "tag": "h2"
       },
       "left": 168,
-      "right": 188,
+      "right": 221,
       "textLeft": 168,
-      "textRight": 188,
+      "textRight": 221,
       "fullBleed": false,
       "footer": false,
       "hero": false,
@@ -729,22 +722,22 @@
       "pinned": false
      },
      {
-      "sel": "section#how-we-work.bg-surface",
+      "sel": "section#how-we-work.scroll-mt-20",
       "tag": "section",
-      "top": 3297,
-      "height": 1931,
-      "words": 101,
+      "top": 3333,
+      "height": 2059,
+      "words": 100,
       "media": 1,
-      "middle": 63,
+      "middle": 32,
       "heading": {
        "text": "How we work",
-       "size": 48,
+       "size": 36,
        "tag": "h2"
       },
       "left": 168,
-      "right": 168,
+      "right": 147,
       "textLeft": 168,
-      "textRight": 551,
+      "textRight": 569,
       "fullBleed": false,
       "footer": false,
       "hero": false,
@@ -754,14 +747,14 @@
      {
       "sel": "section#services.mx-auto.max-w-6xl",
       "tag": "section",
-      "top": 5227,
+      "top": 5391,
       "height": 803,
       "words": 95,
       "media": 0,
       "middle": 105,
       "heading": {
        "text": "Services",
-       "size": 48,
+       "size": 36,
        "tag": "h2"
       },
       "left": 168,
@@ -775,16 +768,16 @@
       "pinned": false
      },
      {
-      "sel": "section.bg-ink.text-white",
+      "sel": "section.bg-primary.text-white",
       "tag": "section",
-      "top": 6030,
+      "top": 6194,
       "height": 746,
       "words": 73,
       "media": 8,
       "middle": 0,
       "heading": {
        "text": "Send us your floor plan",
-       "size": 48,
+       "size": 36,
        "tag": "h2"
       },
       "left": 168,
@@ -800,7 +793,7 @@
      {
       "sel": "footer.bg-bg.pb-24",
       "tag": "footer",
-      "top": 6776,
+      "top": 6940,
       "height": 556,
       "words": 47,
       "media": 1,
@@ -826,7 +819,7 @@
      {
       "text": "Furniture built to your floor plan",
       "size": 68,
-      "top": 207,
+      "top": 205,
       "firstScreen": true
      }
     ],
@@ -834,14 +827,14 @@
     "edges": [
      {
       "x": 168,
-      "n": 11
-     },
-     {
-      "x": 740,
-      "n": 3
+      "n": 12
      },
      {
       "x": 200,
+      "n": 2
+     },
+     {
+      "x": 744,
       "n": 2
      },
      {
@@ -875,22 +868,22 @@
    "load": "load",
    "screens": 10,
    "filled": [
-    0.61,
-    0.73,
-    0.72,
-    0.81,
-    0.95,
-    1,
-    1,
+    0.6,
+    0.66,
+    0.59,
+    0.7,
+    0.65,
+    0.74,
     0.57,
-    0.93,
-    0.63
+    0.69,
+    0.83,
+    0.62
    ],
    "motion": {
-    "elements": 39,
+    "elements": 57,
     "css": 0,
-    "transitions": 1,
-    "scripted": 38,
+    "transitions": 4,
+    "scripted": 53,
     "videos": 0,
     "playingVideos": 0
    },
@@ -900,13 +893,13 @@
      "h": 1024
     },
     "page": {
-     "height": 9903,
-     "screens": 9.7,
-     "words": 550,
-     "img": 16,
+     "height": 9589,
+     "screens": 9.4,
+     "words": 544,
+     "img": 18,
      "video": 0,
      "canvas": 0,
-     "svg": 10,
+     "svg": 11,
      "sections": 8,
      "horizontalOverflow": 0,
      "overflowCulprits": [],
@@ -916,12 +909,12 @@
      "videoCount": 0,
      "uiPictures": 2,
      "pictureSamples": [
-      "image?url=%2Fplaceholder%2Fhero.jpg&w=828&q=75",
-      "image?url=%2Fplaceholder%2Fcabinets.jpg&w=384&q=",
-      "image?url=%2Fplaceholder%2Foffice.jpg&w=384&q=75",
-      "image?url=%2Fplaceholder%2Fconsult.jpg&w=828&q=7",
-      "image?url=%2Fplaceholder%2Fmaking.jpg&w=828&q=75",
-      "image?url=%2Fplaceholder%2Finstall.jpg&w=828&q=7"
+      "image?url=%2Fproducts%2Fpartitions%2F3.jpg&w=828",
+      "image?url=%2Fproducts%2Fkitchen-cabinets%2F1.jpg",
+      "image?url=%2Fproducts%2Fworkstations%2F3.jpg&w=3",
+      "image?url=%2Fprocess%2Fconsultation.jpg&w=828&q=",
+      "image?url=%2Fprocess%2Fdesk-screens.jpg&w=828&q=",
+      "image?url=%2Fproducts%2Fworkstations%2F1.jpg&w=8"
      ],
      "blendText": 0,
      "sideScrollers": 0,
@@ -937,9 +930,9 @@
      "size": 68,
      "vw": 8.9,
      "font": "Manrope",
-     "weight": 800,
-     "tracking": -0.035,
-     "leading": 1.02,
+     "weight": 700,
+     "tracking": -0.02,
+     "leading": 1.05,
      "upper": false,
      "italic": false,
      "mono": false,
@@ -966,9 +959,9 @@
       "size": 68,
       "vw": 8.9,
       "font": "Manrope",
-      "weight": 800,
-      "tracking": -0.035,
-      "leading": 1.02,
+      "weight": 700,
+      "tracking": -0.02,
+      "leading": 1.05,
       "upper": false,
       "italic": false,
       "mono": false,
@@ -996,7 +989,7 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.94,
-      "top": 1090,
+      "top": 1094,
       "tag": "h2",
       "kind": "heading"
      },
@@ -1005,19 +998,19 @@
       "words": 4,
       "chars": 17,
       "lines": 1,
-      "size": 48,
-      "vw": 6.3,
+      "size": 36,
+      "vw": 4.7,
       "font": "Manrope",
       "weight": 700,
       "tracking": -0.025,
-      "leading": 1,
+      "leading": 1.11,
       "upper": false,
       "italic": false,
       "mono": false,
       "align": "left",
       "position": "center",
       "widthRatio": 0.94,
-      "top": 1330,
+      "top": 1314,
       "tag": "h2",
       "kind": "heading"
      },
@@ -1038,7 +1031,7 @@
       "align": "left",
       "position": "left",
       "widthRatio": 0.37,
-      "top": 1690,
+      "top": 1666,
       "tag": "h3",
       "kind": "heading"
      },
@@ -1059,7 +1052,7 @@
       "align": "left",
       "position": "right",
       "widthRatio": 0.37,
-      "top": 1690,
+      "top": 1666,
       "tag": "h3",
       "kind": "heading"
      },
@@ -1068,19 +1061,19 @@
       "words": 6,
       "chars": 25,
       "lines": 2,
-      "size": 48,
-      "vw": 6.3,
+      "size": 36,
+      "vw": 4.7,
       "font": "Manrope",
       "weight": 700,
       "tracking": -0.025,
-      "leading": 1,
+      "leading": 1.11,
       "upper": false,
       "italic": false,
       "mono": false,
       "align": "left",
       "position": "right",
       "widthRatio": 0.44,
-      "top": 2095,
+      "top": 2071,
       "tag": "h2",
       "kind": "heading"
      },
@@ -1088,20 +1081,20 @@
       "text": "Plan the floor first",
       "words": 4,
       "chars": 20,
-      "lines": 2,
-      "size": 48,
-      "vw": 6.3,
+      "lines": 1,
+      "size": 36,
+      "vw": 4.7,
       "font": "Manrope",
       "weight": 700,
       "tracking": -0.025,
-      "leading": 1,
+      "leading": 1.11,
       "upper": false,
       "italic": false,
       "mono": false,
       "align": "left",
-      "position": "left",
-      "widthRatio": 0.44,
-      "top": 2691,
+      "position": "center",
+      "widthRatio": 0.94,
+      "top": 2631,
       "tag": "h2",
       "kind": "heading"
      },
@@ -1122,7 +1115,7 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.85,
-      "top": 3505,
+      "top": 3454,
       "tag": "h3",
       "kind": "heading"
      },
@@ -1131,19 +1124,19 @@
       "words": 3,
       "chars": 11,
       "lines": 1,
-      "size": 48,
-      "vw": 6.3,
+      "size": 36,
+      "vw": 4.7,
       "font": "Manrope",
       "weight": 700,
       "tracking": -0.025,
-      "leading": 1,
+      "leading": 1.11,
       "upper": false,
       "italic": false,
       "mono": false,
       "align": "left",
       "position": "center",
       "widthRatio": 0.94,
-      "top": 4069,
+      "top": 4018,
       "tag": "h2",
       "kind": "heading"
      },
@@ -1163,8 +1156,8 @@
       "mono": false,
       "align": "left",
       "position": "center",
-      "widthRatio": 0.94,
-      "top": 4255,
+      "widthRatio": 0.88,
+      "top": 4189,
       "tag": "h3",
       "kind": "heading"
      },
@@ -1184,8 +1177,8 @@
       "mono": false,
       "align": "left",
       "position": "center",
-      "widthRatio": 0.94,
-      "top": 5023,
+      "widthRatio": 0.88,
+      "top": 4901,
       "tag": "h3",
       "kind": "heading"
      },
@@ -1205,8 +1198,8 @@
       "mono": false,
       "align": "left",
       "position": "center",
-      "widthRatio": 0.94,
-      "top": 5791,
+      "widthRatio": 0.88,
+      "top": 5612,
       "tag": "h3",
       "kind": "heading"
      },
@@ -1226,8 +1219,8 @@
       "mono": false,
       "align": "left",
       "position": "center",
-      "widthRatio": 0.94,
-      "top": 6529,
+      "widthRatio": 0.88,
+      "top": 6295,
       "tag": "h3",
       "kind": "heading"
      },
@@ -1236,19 +1229,19 @@
       "words": 1,
       "chars": 8,
       "lines": 1,
-      "size": 48,
-      "vw": 6.3,
+      "size": 36,
+      "vw": 4.7,
       "font": "Manrope",
       "weight": 700,
       "tracking": -0.025,
-      "leading": 1,
+      "leading": 1.11,
       "upper": false,
       "italic": false,
       "mono": false,
       "align": "left",
       "position": "left",
       "widthRatio": 0.28,
-      "top": 7396,
+      "top": 7089,
       "tag": "h2",
       "kind": "heading"
      },
@@ -1257,19 +1250,19 @@
       "words": 5,
       "chars": 23,
       "lines": 1,
-      "size": 48,
-      "vw": 6.3,
+      "size": 36,
+      "vw": 4.7,
       "font": "Manrope",
       "weight": 700,
       "tracking": -0.025,
-      "leading": 1,
+      "leading": 1.11,
       "upper": false,
       "italic": false,
       "mono": false,
       "align": "left",
       "position": "center",
       "widthRatio": 0.94,
-      "top": 8403,
+      "top": 8097,
       "tag": "h2",
       "kind": "heading"
      }
@@ -1304,7 +1297,7 @@
       20,
       24,
       30,
-      48,
+      36,
       68
      ],
      "sizeCount": 8,
@@ -1348,7 +1341,7 @@
      "sectionBgs": [
       {
        "color": "#e7e2da",
-       "top": 549,
+       "top": 553,
        "hsl": {
         "h": 37,
         "s": 0.21,
@@ -1356,17 +1349,8 @@
        }
       },
       {
-       "color": "#1f3a5f",
-       "top": 2015,
-       "hsl": {
-        "h": 215,
-        "s": 0.51,
-        "l": 0.25
-       }
-      },
-      {
        "color": "#ffffff",
-       "top": 2955,
+       "top": 1991,
        "hsl": {
         "h": 0,
         "s": 0,
@@ -1374,17 +1358,17 @@
        }
       },
       {
-       "color": "#1c1f26",
-       "top": 8323,
+       "color": "#1f3a5f",
+       "top": 3422,
        "hsl": {
-        "h": 222,
-        "s": 0.15,
-        "l": 0.13
+        "h": 215,
+        "s": 0.51,
+        "l": 0.25
        }
       },
       {
        "color": "#faf8f5",
-       "top": 9300,
+       "top": 8986,
        "hsl": {
         "h": 36,
         "s": 0.33,
@@ -1395,19 +1379,19 @@
      "textColors": [
       {
        "color": "#1c1f26",
-       "share": 0.68
+       "share": 0.73
       },
       {
        "color": "#ffffff",
-       "share": 0.29
+       "share": 0.22
       },
       {
        "color": "#6b7280",
-       "share": 0.02
+       "share": 0.03
       },
       {
        "color": "#1f3a5f",
-       "share": 0.01
+       "share": 0.02
       }
      ],
      "button": {
@@ -1422,8 +1406,8 @@
      "lowContrast": []
     },
     "buttons": {
-     "count": 12,
-     "inHero": 3,
+     "count": 11,
+     "inHero": 2,
      "radius": 12,
      "height": 44,
      "withShadow": 0,
@@ -1432,13 +1416,12 @@
      "upper": 0,
      "heroLabels": [
       "Build a cabinet",
-      "Browse chairs",
-      "Quote (0)"
+      "Browse chairs"
      ]
     },
     "surfaces": {
      "shadowStatic": 0,
-     "shadowOverlay": 5,
+     "shadowOverlay": 3,
      "shadowSamples": [],
      "gradients": 0,
      "scrims": 0,
@@ -1449,7 +1432,7 @@
      "outlinedBoxes": 0,
      "dashed": 0,
      "blurred": 0,
-     "roundedBoxes": 13,
+     "roundedBoxes": 17,
      "boxRadius": 12,
      "squareMedia": 8,
      "roundedMedia": 6,
@@ -1482,7 +1465,7 @@
      "w": 768,
      "h": 1024
     },
-    "pageH": 9903,
+    "pageH": 9589,
     "margins": {
      "left": 24,
      "right": 24
@@ -1492,8 +1475,8 @@
       "sel": "section.mx-auto.max-w-6xl",
       "tag": "section",
       "top": 80,
-      "height": 954,
-      "words": 44,
+      "height": 958,
+      "words": 42,
       "media": 1,
       "middle": 0,
       "heading": {
@@ -1512,22 +1495,22 @@
       "pinned": false
      },
      {
-      "sel": "section.bg-surface",
+      "sel": "section",
       "tag": "section",
-      "top": 1034,
-      "height": 216,
+      "top": 1038,
+      "height": 196,
       "words": 8,
       "media": 0,
-      "middle": 50,
+      "middle": 29,
       "heading": {
        "text": "Who we furnish",
        "size": 30,
        "tag": "h2"
       },
       "left": 24,
-      "right": 129,
+      "right": 231,
       "textLeft": 24,
-      "textRight": 129,
+      "textRight": 231,
       "fullBleed": false,
       "footer": false,
       "hero": false,
@@ -1537,14 +1520,14 @@
      {
       "sel": "section.mx-auto.max-w-6xl",
       "tag": "section",
-      "top": 1250,
-      "height": 765,
-      "words": 53,
+      "top": 1234,
+      "height": 757,
+      "words": 49,
       "media": 2,
-      "middle": 0,
+      "middle": 24,
       "heading": {
        "text": "Two ways to start",
-       "size": 48,
+       "size": 36,
        "tag": "h2"
       },
       "left": 24,
@@ -1558,16 +1541,16 @@
       "pinned": false
      },
      {
-      "sel": "section.bg-primary.text-white",
+      "sel": "section.bg-surface",
       "tag": "section",
-      "top": 2015,
-      "height": 576,
+      "top": 1991,
+      "height": 560,
       "words": 33,
       "media": 1,
       "middle": 96,
       "heading": {
        "text": "Pick a finish, see it now",
-       "size": 48,
+       "size": 36,
        "tag": "h2"
       },
       "left": 72,
@@ -1583,20 +1566,20 @@
      {
       "sel": "section.mx-auto.max-w-6xl",
       "tag": "section",
-      "top": 2590,
-      "height": 1398,
+      "top": 2551,
+      "height": 1388,
       "words": 75,
       "media": 1,
       "middle": 0,
       "heading": {
        "text": "Plan the floor first",
-       "size": 48,
+       "size": 36,
        "tag": "h2"
       },
       "left": 24,
       "right": 40,
       "textLeft": 24,
-      "textRight": 44,
+      "textRight": 56,
       "fullBleed": false,
       "footer": false,
       "hero": false,
@@ -1604,22 +1587,22 @@
       "pinned": false
      },
      {
-      "sel": "section#how-we-work.bg-surface",
+      "sel": "section#how-we-work.scroll-mt-20",
       "tag": "section",
-      "top": 3989,
-      "height": 3327,
-      "words": 105,
+      "top": 3938,
+      "height": 3071,
+      "words": 99,
       "media": 4,
       "middle": 0,
       "heading": {
        "text": "How we work",
-       "size": 48,
+       "size": 36,
        "tag": "h2"
       },
       "left": 24,
-      "right": 24,
+      "right": 0,
       "textLeft": 24,
-      "textRight": 231,
+      "textRight": 221,
       "fullBleed": false,
       "footer": false,
       "hero": false,
@@ -1629,14 +1612,14 @@
      {
       "sel": "section#services.mx-auto.max-w-6xl",
       "tag": "section",
-      "top": 7316,
+      "top": 7009,
       "height": 1008,
       "words": 95,
       "media": 0,
       "middle": 74,
       "heading": {
        "text": "Services",
-       "size": 48,
+       "size": 36,
        "tag": "h2"
       },
       "left": 24,
@@ -1650,16 +1633,16 @@
       "pinned": false
      },
      {
-      "sel": "section.bg-ink.text-white",
+      "sel": "section.bg-primary.text-white",
       "tag": "section",
-      "top": 8323,
-      "height": 977,
+      "top": 8017,
+      "height": 969,
       "words": 73,
       "media": 8,
       "middle": 0,
       "heading": {
        "text": "Send us your floor plan",
-       "size": 48,
+       "size": 36,
        "tag": "h2"
       },
       "left": 0,
@@ -1675,7 +1658,7 @@
      {
       "sel": "footer.bg-bg.pb-24",
       "tag": "footer",
-      "top": 9300,
+      "top": 8986,
       "height": 603,
       "words": 47,
       "media": 1,
@@ -1709,15 +1692,15 @@
     "edges": [
      {
       "x": 24,
-      "n": 11
+      "n": 12
      },
      {
       "x": 56,
       "n": 4
      },
      {
-      "x": 404,
-      "n": 3
+      "x": 408,
+      "n": 2
      },
      {
       "x": 428,
@@ -1741,23 +1724,23 @@
    "load": "load",
    "screens": 11,
    "filled": [
-    0.68,
-    0.78,
-    0.97,
-    0.73,
-    0.81,
-    0.93,
-    0.95,
-    0.75,
-    0.89,
-    0.95,
-    0.41
+    0.64,
+    0.72,
+    0.91,
+    0.56,
+    0.77,
+    0.61,
+    0.61,
+    0.64,
+    0.88,
+    0.76,
+    0.39
    ],
    "motion": {
-    "elements": 35,
+    "elements": 54,
     "css": 0,
-    "transitions": 1,
-    "scripted": 34,
+    "transitions": 4,
+    "scripted": 50,
     "videos": 0,
     "playingVideos": 0
    },
@@ -1767,13 +1750,13 @@
      "h": 844
     },
     "page": {
-     "height": 9133,
-     "screens": 10.8,
-     "words": 540,
-     "img": 12,
+     "height": 8887,
+     "screens": 10.5,
+     "words": 534,
+     "img": 14,
      "video": 0,
      "canvas": 0,
-     "svg": 10,
+     "svg": 11,
      "sections": 8,
      "horizontalOverflow": 0,
      "overflowCulprits": [],
@@ -1783,12 +1766,12 @@
      "videoCount": 0,
      "uiPictures": 2,
      "pictureSamples": [
-      "image?url=%2Fplaceholder%2Fhero.jpg&w=640&q=75",
-      "image?url=%2Fplaceholder%2Fcabinets.jpg&w=640&q=",
-      "image?url=%2Fplaceholder%2Foffice.jpg&w=640&q=75",
-      "image?url=%2Fplaceholder%2Fconsult.jpg&w=640&q=7",
-      "image?url=%2Fplaceholder%2Fmaking.jpg&w=640&q=75",
-      "image?url=%2Fplaceholder%2Finstall.jpg&w=640&q=7"
+      "image?url=%2Fproducts%2Fpartitions%2F3.jpg&w=640",
+      "image?url=%2Fproducts%2Fkitchen-cabinets%2F1.jpg",
+      "image?url=%2Fproducts%2Fworkstations%2F3.jpg&w=6",
+      "image?url=%2Fprocess%2Fconsultation.jpg&w=640&q=",
+      "image?url=%2Fprocess%2Fdesk-screens.jpg&w=640&q=",
+      "image?url=%2Fproducts%2Fworkstations%2F1.jpg&w=6"
      ],
      "blendText": 0,
      "sideScrollers": 0,
@@ -1804,15 +1787,15 @@
      "size": 38,
      "vw": 9.7,
      "font": "Manrope",
-     "weight": 800,
-     "tracking": -0.035,
-     "leading": 1.02,
+     "weight": 700,
+     "tracking": -0.02,
+     "leading": 1.05,
      "upper": false,
      "italic": false,
      "mono": false,
      "align": "left",
      "position": "center",
-     "widthRatio": 0.85,
+     "widthRatio": 0.83,
      "top": 88,
      "tag": "h1",
      "kind": "heading"
@@ -1833,15 +1816,15 @@
       "size": 38,
       "vw": 9.7,
       "font": "Manrope",
-      "weight": 800,
-      "tracking": -0.035,
-      "leading": 1.02,
+      "weight": 700,
+      "tracking": -0.02,
+      "leading": 1.05,
       "upper": false,
       "italic": false,
       "mono": false,
       "align": "left",
       "position": "center",
-      "widthRatio": 0.85,
+      "widthRatio": 0.83,
       "top": 88,
       "tag": "h1",
       "kind": "heading"
@@ -1863,7 +1846,7 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.92,
-      "top": 812,
+      "top": 815,
       "tag": "h2",
       "kind": "heading"
      },
@@ -1884,7 +1867,7 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.92,
-      "top": 1058,
+      "top": 1023,
       "tag": "h2",
       "kind": "heading"
      },
@@ -1905,7 +1888,7 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.79,
-      "top": 1389,
+      "top": 1353,
       "tag": "h3",
       "kind": "heading"
      },
@@ -1926,7 +1909,7 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.79,
-      "top": 1866,
+      "top": 1830,
       "tag": "h3",
       "kind": "heading"
      },
@@ -1947,7 +1930,7 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.92,
-      "top": 2156,
+      "top": 2120,
       "tag": "h2",
       "kind": "heading"
      },
@@ -1968,7 +1951,7 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.92,
-      "top": 3005,
+      "top": 2970,
       "tag": "h2",
       "kind": "heading"
      },
@@ -1989,7 +1972,7 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.79,
-      "top": 3672,
+      "top": 3636,
       "tag": "h3",
       "kind": "heading"
      },
@@ -2010,7 +1993,7 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.92,
-      "top": 4210,
+      "top": 4174,
       "tag": "h2",
       "kind": "heading"
      },
@@ -2030,8 +2013,8 @@
       "mono": false,
       "align": "left",
       "position": "center",
-      "widthRatio": 0.92,
-      "top": 4360,
+      "widthRatio": 0.79,
+      "top": 4324,
       "tag": "h3",
       "kind": "heading"
      },
@@ -2051,8 +2034,8 @@
       "mono": false,
       "align": "left",
       "position": "center",
-      "widthRatio": 0.92,
-      "top": 4882,
+      "widthRatio": 0.79,
+      "top": 4790,
       "tag": "h3",
       "kind": "heading"
      },
@@ -2072,8 +2055,8 @@
       "mono": false,
       "align": "left",
       "position": "center",
-      "widthRatio": 0.92,
-      "top": 5403,
+      "widthRatio": 0.79,
+      "top": 5255,
       "tag": "h3",
       "kind": "heading"
      },
@@ -2093,8 +2076,8 @@
       "mono": false,
       "align": "left",
       "position": "center",
-      "widthRatio": 0.92,
-      "top": 5866,
+      "widthRatio": 0.79,
+      "top": 5692,
       "tag": "h3",
       "kind": "heading"
      },
@@ -2115,7 +2098,7 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.92,
-      "top": 6422,
+      "top": 6176,
       "tag": "h2",
       "kind": "heading"
      },
@@ -2136,7 +2119,7 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.79,
-      "top": 6589,
+      "top": 6342,
       "tag": "h3",
       "kind": "heading"
      },
@@ -2157,7 +2140,7 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.79,
-      "top": 6767,
+      "top": 6520,
       "tag": "h3",
       "kind": "heading"
      },
@@ -2178,7 +2161,7 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.79,
-      "top": 6945,
+      "top": 6698,
       "tag": "h3",
       "kind": "heading"
      },
@@ -2199,7 +2182,7 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.79,
-      "top": 7123,
+      "top": 6876,
       "tag": "h3",
       "kind": "heading"
      },
@@ -2220,7 +2203,7 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.92,
-      "top": 7361,
+      "top": 7114,
       "tag": "h2",
       "kind": "heading"
      },
@@ -2241,7 +2224,7 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.92,
-      "top": 8431,
+      "top": 8184,
       "tag": "h2",
       "kind": "heading"
      },
@@ -2262,7 +2245,7 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.92,
-      "top": 8673,
+      "top": 8426,
       "tag": "h2",
       "kind": "heading"
      }
@@ -2339,7 +2322,7 @@
      "sectionBgs": [
       {
        "color": "#ffffff",
-       "top": 1126,
+       "top": 1091,
        "hsl": {
         "h": 0,
         "s": 0,
@@ -2347,17 +2330,8 @@
        }
       },
       {
-       "color": "#1f3a5f",
-       "top": 2108,
-       "hsl": {
-        "h": 215,
-        "s": 0.51,
-        "l": 0.25
-       }
-      },
-      {
        "color": "#faf8f5",
-       "top": 2551,
+       "top": 2516,
        "hsl": {
         "h": 36,
         "s": 0.33,
@@ -2365,8 +2339,17 @@
        }
       },
       {
+       "color": "#1f3a5f",
+       "top": 3612,
+       "hsl": {
+        "h": 215,
+        "s": 0.51,
+        "l": 0.25
+       }
+      },
+      {
        "color": "#1c1f26",
-       "top": 7313,
+       "top": 7642,
        "hsl": {
         "h": 222,
         "s": 0.15,
@@ -2377,19 +2360,19 @@
      "textColors": [
       {
        "color": "#1c1f26",
-       "share": 0.68
+       "share": 0.73
       },
       {
        "color": "#ffffff",
-       "share": 0.29
+       "share": 0.22
       },
       {
        "color": "#6b7280",
-       "share": 0.02
+       "share": 0.03
       },
       {
        "color": "#1f3a5f",
-       "share": 0.01
+       "share": 0.02
       }
      ],
      "button": {
@@ -2404,8 +2387,8 @@
      "lowContrast": []
     },
     "buttons": {
-     "count": 12,
-     "inHero": 3,
+     "count": 11,
+     "inHero": 2,
      "radius": 12,
      "height": 44,
      "withShadow": 0,
@@ -2414,13 +2397,12 @@
      "upper": 0,
      "heroLabels": [
       "Build a cabinet",
-      "Browse chairs",
-      "Quote (0)"
+      "Browse chairs"
      ]
     },
     "surfaces": {
      "shadowStatic": 0,
-     "shadowOverlay": 5,
+     "shadowOverlay": 3,
      "shadowSamples": [],
      "gradients": 0,
      "scrims": 0,
@@ -2431,7 +2413,7 @@
      "outlinedBoxes": 0,
      "dashed": 0,
      "blurred": 0,
-     "roundedBoxes": 13,
+     "roundedBoxes": 17,
      "boxRadius": 12,
      "squareMedia": 4,
      "roundedMedia": 6,
@@ -2464,18 +2446,18 @@
      "w": 390,
      "h": 844
     },
-    "pageH": 9133,
+    "pageH": 8887,
     "margins": {
      "left": 16,
-     "right": 16
+     "right": 1
     },
     "sections": [
      {
       "sel": "section.mx-auto.max-w-6xl",
       "tag": "section",
       "top": 64,
-      "height": 700,
-      "words": 44,
+      "height": 703,
+      "words": 42,
       "media": 1,
       "middle": 0,
       "heading": {
@@ -2494,10 +2476,10 @@
       "pinned": false
      },
      {
-      "sel": "section.bg-surface",
+      "sel": "section",
       "tag": "section",
-      "top": 764,
-      "height": 246,
+      "top": 767,
+      "height": 208,
       "words": 8,
       "media": 0,
       "middle": 0,
@@ -2507,9 +2489,9 @@
        "tag": "h2"
       },
       "left": 16,
-      "right": 89,
+      "right": 107,
       "textLeft": 16,
-      "textRight": 89,
+      "textRight": 107,
       "fullBleed": false,
       "footer": false,
       "hero": false,
@@ -2519,9 +2501,9 @@
      {
       "sel": "section.mx-auto.max-w-6xl",
       "tag": "section",
-      "top": 1010,
+      "top": 975,
       "height": 1097,
-      "words": 53,
+      "words": 49,
       "media": 2,
       "middle": 0,
       "heading": {
@@ -2540,9 +2522,9 @@
       "pinned": false
      },
      {
-      "sel": "section.bg-primary.text-white",
+      "sel": "section.bg-surface",
       "tag": "section",
-      "top": 2108,
+      "top": 2072,
       "height": 850,
       "words": 33,
       "media": 1,
@@ -2565,7 +2547,7 @@
      {
       "sel": "section.mx-auto.max-w-6xl",
       "tag": "section",
-      "top": 2957,
+      "top": 2922,
       "height": 1204,
       "words": 75,
       "media": 1,
@@ -2586,11 +2568,11 @@
       "pinned": false
      },
      {
-      "sel": "section#how-we-work.bg-surface",
+      "sel": "section#how-we-work.scroll-mt-20",
       "tag": "section",
-      "top": 4162,
-      "height": 2213,
-      "words": 105,
+      "top": 4126,
+      "height": 2002,
+      "words": 99,
       "media": 4,
       "middle": 0,
       "heading": {
@@ -2599,9 +2581,9 @@
        "tag": "h2"
       },
       "left": 16,
-      "right": 16,
+      "right": 1,
       "textLeft": 16,
-      "textRight": 17,
+      "textRight": 18,
       "fullBleed": false,
       "footer": false,
       "hero": false,
@@ -2611,7 +2593,7 @@
      {
       "sel": "section#services.mx-auto.max-w-6xl",
       "tag": "section",
-      "top": 6374,
+      "top": 6128,
       "height": 939,
       "words": 95,
       "media": 0,
@@ -2632,9 +2614,9 @@
       "pinned": false
      },
      {
-      "sel": "section.bg-ink.text-white",
+      "sel": "section.bg-primary.text-white",
       "tag": "section",
-      "top": 7313,
+      "top": 7066,
       "height": 1070,
       "words": 73,
       "media": 4,
@@ -2657,7 +2639,7 @@
      {
       "sel": "footer.bg-bg.pb-24",
       "tag": "footer",
-      "top": 8383,
+      "top": 8136,
       "height": 751,
       "words": 47,
       "media": 0,
@@ -2717,6 +2699,13 @@
    "width": 1440,
    "message": "No video anywhere on the page.",
    "fix": "Look for one honest clip with scripts/assets.mjs --video (the place, the material, the process) and use it as a muted loop with a poster frame. Defend its absence only if no clip fits the subject."
+  },
+  {
+   "level": "WARN",
+   "id": "off-centre",
+   "width": 390,
+   "message": "The margins differ: 16px on the left, 1px on the right, at 390px.",
+   "fix": "Put the navigation and the content on one pair of margins; check for padding on one side only, a scrollbar gutter, or a header on another inset than the page."
   }
  ],
  "images": [

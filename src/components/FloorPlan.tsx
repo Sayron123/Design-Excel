@@ -206,17 +206,17 @@ export function FloorPlan() {
 
   return (
     <section aria-labelledby="plan-heading" className="mx-auto max-w-6xl px-4 py-12 md:px-6 md:py-20">
-      <Reveal className="grid gap-4 md:grid-cols-12 md:items-end md:gap-10">
-        <h2 id="plan-heading" className="text-3xl font-bold tracking-tight md:col-span-6 md:text-4xl">
+      <Reveal>
+        <h2 id="plan-heading" className="text-3xl font-bold tracking-tight md:text-4xl">
           Plan the floor first
         </h2>
-        <p className="max-w-[46ch] text-lg leading-relaxed text-ink md:col-span-6">
+        <p className="mt-4 max-w-[52ch] text-lg leading-relaxed text-ink">
           Every job is drawn in AutoCAD before anything is made. Tap a room on this sample office to see what we would
           build for it.
         </p>
       </Reveal>
 
-      <Reveal delay={0.08} className="mt-8 md:mt-12">
+      <Reveal delay={0.08} className="mt-8 md:mt-10">
         <div role="group" aria-label="Rooms" className="flex flex-wrap gap-2">
           {ROOMS.map((room) => {
             const selected = room.id === activeId;

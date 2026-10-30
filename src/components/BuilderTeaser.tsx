@@ -46,10 +46,10 @@ export function BuilderTeaser() {
   const [active, setActive] = useState<Finish>(FINISHES[0]);
 
   return (
-    <section aria-labelledby="builder-heading">
+    <section aria-labelledby="builder-heading" className="bg-surface">
       <div className="mx-auto grid max-w-6xl items-center gap-10 px-4 py-12 md:grid-cols-2 md:gap-12 md:px-6 md:py-20">
         <Reveal className="order-2 md:order-1">
-          <div className="flex aspect-square items-center justify-center rounded-xl bg-surface p-8 md:p-12">
+          <div className="flex aspect-square items-center justify-center rounded-xl bg-bg p-8 md:p-12">
             <CabinetPreview finish={active} />
           </div>
         </Reveal>
