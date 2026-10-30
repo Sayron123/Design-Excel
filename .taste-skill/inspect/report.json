@@ -1,6 +1,6 @@
 {
  "url": "http://localhost:3100",
- "at": "2026-10-30T11:33:29.826Z",
+ "at": "2026-10-30T11:41:29.680Z",
  "allow": [
   "palette-terracotta",
   "palette-cream"
@@ -1750,7 +1750,7 @@
     0.95,
     0.75,
     0.89,
-    0.91,
+    0.95,
     0.42
    ],
    "motion": {
@@ -1767,7 +1767,7 @@
      "h": 844
     },
     "page": {
-     "height": 9095,
+     "height": 9135,
      "screens": 10.8,
      "words": 546,
      "img": 12,
@@ -2241,7 +2241,7 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.92,
-      "top": 8393,
+      "top": 8433,
       "tag": "h2",
       "kind": "heading"
      },
@@ -2262,7 +2262,7 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.92,
-      "top": 8635,
+      "top": 8675,
       "tag": "h2",
       "kind": "heading"
      }
@@ -2464,7 +2464,7 @@
      "w": 390,
      "h": 844
     },
-    "pageH": 9095,
+    "pageH": 9135,
     "margins": {
      "left": 16,
      "right": 16
@@ -2635,7 +2635,7 @@
       "sel": "section.bg-ink.text-white",
       "tag": "section",
       "top": 7315,
-      "height": 1030,
+      "height": 1070,
       "words": 73,
       "media": 4,
       "middle": 0,
@@ -2647,7 +2647,7 @@
       "left": 0,
       "right": 0,
       "textLeft": 16,
-      "textRight": 16,
+      "textRight": 45,
       "fullBleed": false,
       "footer": false,
       "hero": false,
@@ -2657,7 +2657,7 @@
      {
       "sel": "footer.bg-bg.pb-24",
       "tag": "footer",
-      "top": 8345,
+      "top": 8385,
       "height": 751,
       "words": 48,
       "media": 0,
