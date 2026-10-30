@@ -2,7 +2,10 @@ import Link from "next/link";
 import { QUOTE_COUNT } from "@/lib/site";
 
 // Floating quote button for phones (it truly floats, so it carries a shadow). Desktop uses the navbar one. taste-skill-ignore
+// Hidden until the quote basket has something in it.
 export function MobileQuoteButton() {
+  if (QUOTE_COUNT === 0) return null;
+
   return (
     <Link
       href="/quote"

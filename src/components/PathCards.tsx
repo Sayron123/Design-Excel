@@ -26,7 +26,7 @@ export function PathCards() {
   return (
     <section aria-labelledby="paths-heading" className="mx-auto max-w-6xl px-4 py-12 md:px-6 md:py-20">
       <Reveal>
-        <h2 id="paths-heading" className="text-3xl font-bold tracking-tight md:text-5xl">
+        <h2 id="paths-heading" className="text-3xl font-bold tracking-tight md:text-4xl">
           Two ways to start
         </h2>
       </Reveal>

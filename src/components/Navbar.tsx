@@ -187,7 +187,7 @@ export function Navbar() {
             href="/quote"
             className="hidden rounded-xl bg-primary px-4 py-2.5 text-base font-semibold text-white transition-colors hover:bg-ink lg:inline-flex"
           >
-            Quote ({QUOTE_COUNT})
+            {QUOTE_COUNT > 0 ? `Quote (${QUOTE_COUNT})` : "Get a quote"}
           </Link>
           <button
             type="button"

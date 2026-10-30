@@ -25,7 +25,7 @@ export function Services() {
       <div className="grid gap-8 md:grid-cols-12 md:gap-10">
         <Reveal className="md:col-span-4">
           <div className="md:sticky md:top-28">
-            <h2 id="services-heading" className="text-3xl font-bold tracking-tight md:text-5xl">
+            <h2 id="services-heading" className="text-3xl font-bold tracking-tight md:text-4xl">
               Services
             </h2>
             <p className="mt-4 max-w-[34ch] text-lg leading-relaxed text-ink">

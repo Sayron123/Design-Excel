@@ -3,6 +3,8 @@ import { notFound } from "next/navigation";
 import { CategoryDetail } from "@/components/CategoryDetail";
 import { PRODUCT_CATEGORIES, getCategory } from "@/lib/products";
 
+export const instant = false;
+
 // Cabinets is served by its own folder (products/cabinets), so it is left out here.
 export function generateStaticParams() {
   return PRODUCT_CATEGORIES.filter((c) => c.slug !== "cabinets").map((c) => ({ category: c.slug }));

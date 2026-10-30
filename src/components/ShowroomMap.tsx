@@ -200,7 +200,7 @@ export function ShowroomMap() {
               aria-pressed={mode === m.id}
               onClick={() => setMode(m.id)}
               className={`h-9 rounded-lg px-3.5 text-[14px] font-semibold transition-colors ${
-                mode === m.id ? "bg-primary text-white ring-1 ring-locate/60" : "text-white/80 hover:bg-white/10"
+                mode === m.id ? "bg-bg text-primary" : "text-white/80 hover:bg-white/10"
               }`}
             >
               {m.label}
@@ -262,7 +262,7 @@ export function ShowroomMap() {
           href={directionsUrl}
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-flex h-11 shrink-0 items-center justify-center gap-2 rounded-lg bg-accent px-5 text-base font-semibold text-ink transition-colors hover:bg-white"
+          className="inline-flex h-11 shrink-0 items-center justify-center gap-2 rounded-lg bg-bg px-5 text-base font-semibold text-primary transition-colors hover:bg-white"
         >
           Get directions
           <span aria-hidden="true">→</span>

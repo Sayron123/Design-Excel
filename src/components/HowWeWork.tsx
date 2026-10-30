@@ -67,10 +67,10 @@ const STEPS: StickyScrollItem[] = [
 
 export function HowWeWork() {
   return (
-    <section id="how-we-work" aria-labelledby="how-heading" className="bg-surface">
+    <section id="how-we-work" aria-labelledby="how-heading">
       <div className="mx-auto max-w-6xl px-4 py-12 md:px-6 md:py-20">
         <Reveal>
-          <h2 id="how-heading" className="text-3xl font-bold tracking-tight md:text-5xl">
+          <h2 id="how-heading" className="text-3xl font-bold tracking-tight md:text-4xl">
             How we work
           </h2>
           <p className="mt-4 max-w-[46ch] text-lg leading-relaxed text-ink">

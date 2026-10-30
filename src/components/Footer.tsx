@@ -58,7 +58,7 @@ export function Footer() {
             y="104"
             textLength="1000"
             lengthAdjust="spacingAndGlyphs"
-            className="fill-primary font-heading font-extrabold"
+            className="fill-primary/10 font-heading font-bold"
             style={{ fontSize: 132, letterSpacing: "-0.04em" }}
           >
             Design Excellence

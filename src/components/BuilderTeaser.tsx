@@ -46,25 +46,25 @@ export function BuilderTeaser() {
   const [active, setActive] = useState<Finish>(FINISHES[0]);
 
   return (
-    <section aria-labelledby="builder-heading" className="bg-primary text-white">
+    <section aria-labelledby="builder-heading">
       <div className="mx-auto grid max-w-6xl items-center gap-10 px-4 py-12 md:grid-cols-2 md:gap-12 md:px-6 md:py-20">
         <Reveal className="order-2 md:order-1">
-          <div className="flex aspect-square items-center justify-center rounded-xl bg-bg p-8 md:p-12">
+          <div className="flex aspect-square items-center justify-center rounded-xl bg-surface p-8 md:p-12">
             <CabinetPreview finish={active} />
           </div>
         </Reveal>
 
         <Reveal className="order-1 md:order-2" delay={0.08}>
-          <h2 id="builder-heading" className="text-3xl font-bold tracking-tight md:text-5xl">
+          <h2 id="builder-heading" className="text-3xl font-bold tracking-tight md:text-4xl">
             Pick a finish, see it now
           </h2>
-          <p className="mt-4 max-w-[42ch] text-lg leading-relaxed text-white/90">
+          <p className="mt-4 max-w-[42ch] text-lg leading-relaxed text-ink">
             This is a small taste of the cabinet builder. The full builder sets width, height, doors and drawers.
           </p>
 
           <fieldset className="mt-8">
             <legend className="text-base font-semibold">
-              Finish: {active.name} <span className="font-normal text-white/80">(placeholder)</span>
+              Finish: {active.name} <span className="font-normal text-muted">(placeholder)</span>
             </legend>
             <div className="mt-4 flex flex-wrap gap-3">
               {FINISHES.map((finish) => {
@@ -77,8 +77,8 @@ export function BuilderTeaser() {
                     onClick={() => setActive(finish)}
                     aria-pressed={selected}
                     aria-label={`${finish.name} (placeholder finish)`}
-                    className={`h-14 w-14 rounded-xl transition-[outline-color] duration-300 outline-offset-[3px] ${
-                      selected ? "outline-3 outline-accent" : "outline-3 outline-transparent hover:outline-white/40"
+                    className={`h-14 w-14 rounded-xl ring-1 ring-ink/15 ring-inset transition-[outline-color] duration-300 outline-offset-[3px] ${
+                      selected ? "outline-3 outline-primary" : "outline-3 outline-transparent hover:outline-ink/25"
                     }`}
                     style={{ backgroundColor: finish.body }}
                   />
@@ -89,7 +89,7 @@ export function BuilderTeaser() {
 
           <Link
             href="/products/cabinets"
-            className="mt-10 inline-flex h-12 items-center rounded-xl bg-accent px-6 text-base font-semibold text-ink transition-colors hover:bg-white"
+            className="mt-10 inline-flex h-12 items-center rounded-xl bg-primary px-6 text-base font-semibold text-white transition-colors hover:bg-ink"
           >
             Open the cabinet builder
           </Link>

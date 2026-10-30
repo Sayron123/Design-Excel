@@ -3,7 +3,7 @@
 // Adapted from Aceternity UI "Sticky Scroll Reveal".
 // Changes: follows page scroll instead of an inner scroll box (the step crossing the middle of the
 // viewport is active), flat token colours instead of gradients, inactive steps stay readable
-// (muted ink), and on phones each visual sits inline under its step.
+// (dimmed, not recoloured), and on phones each visual sits inline under its step.
 
 import { AnimatePresence, motion, useInView } from "motion/react";
 import { useEffect, useRef, useState, type ReactNode } from "react";
@@ -32,11 +32,15 @@ function Step({
   }, [inView, onActive]);
 
   return (
-    <li ref={ref} data-active={active} className="group py-8 first:pt-0 lg:flex lg:min-h-[44vh] lg:flex-col lg:justify-center lg:py-10">
-      <h3 className="text-2xl font-bold tracking-tight text-ink transition-colors duration-300 md:text-3xl lg:text-muted lg:group-data-[active=true]:text-ink">
+    <li
+      ref={ref}
+      data-active={active}
+      className="py-8 transition-opacity duration-300 first:pt-0 lg:flex lg:min-h-[30vh] lg:flex-col lg:justify-center lg:py-10 lg:opacity-50 lg:data-[active=true]:opacity-100"
+    >
+      <h3 className="text-2xl font-bold tracking-tight text-ink md:text-3xl">
         {item.title}
       </h3>
-      <p className="mt-4 max-w-[44ch] text-lg leading-relaxed text-ink transition-colors duration-300 lg:text-muted lg:group-data-[active=true]:text-ink">
+      <p className="mt-4 max-w-[44ch] text-lg leading-relaxed text-ink">
         {item.description}
       </p>
       <div className="mt-6 overflow-hidden rounded-xl lg:hidden">{item.content}</div>

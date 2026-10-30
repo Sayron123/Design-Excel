@@ -207,7 +207,7 @@ export function FloorPlan() {
   return (
     <section aria-labelledby="plan-heading" className="mx-auto max-w-6xl px-4 py-12 md:px-6 md:py-20">
       <Reveal className="grid gap-4 md:grid-cols-12 md:items-end md:gap-10">
-        <h2 id="plan-heading" className="text-3xl font-bold tracking-tight md:col-span-6 md:text-5xl">
+        <h2 id="plan-heading" className="text-3xl font-bold tracking-tight md:col-span-6 md:text-4xl">
           Plan the floor first
         </h2>
         <p className="max-w-[46ch] text-lg leading-relaxed text-ink md:col-span-6">
@@ -229,7 +229,7 @@ export function FloorPlan() {
                 onMouseEnter={() => setHoverId(room.id)}
                 onMouseLeave={() => setHoverId(null)}
                 className={`h-11 rounded-xl px-4 text-base font-semibold transition-colors duration-300 ${
-                  selected ? "bg-ink text-white" : "bg-border text-ink hover:bg-primary hover:text-white"
+                  selected ? "bg-primary text-white" : "bg-border text-ink hover:bg-primary hover:text-white"
                 }`}
               >
                 {room.name}
@@ -303,13 +303,18 @@ export function FloorPlan() {
                 <p className="mt-4 text-base leading-relaxed">{active.blurb}</p>
                 <ul className="mt-6 space-y-2">
                   {active.items.map((item) => (
-                    <li key={item.name} className="flex items-baseline justify-between gap-4 rounded-lg bg-white/10 px-4 py-3">
-                      <span className="font-semibold">{item.name}</span>
+                    <li key={item.name}>
                       <Link
                         href={categoryHref(item.category)}
-                        className="shrink-0 text-[14px] text-white/85 underline underline-offset-4 hover:text-accent"
+                        className="group flex items-baseline justify-between gap-4 rounded-lg bg-white/10 px-4 py-3 transition-colors hover:bg-white/20 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
                       >
-                        {getCategory(item.category)?.name}
+                        <span className="font-semibold">{item.name}</span>
+                        <span className="flex shrink-0 items-baseline gap-2 text-[14px] text-white/75 group-hover:text-white">
+                          {getCategory(item.category)?.name}
+                          <span aria-hidden="true" className="transition-transform group-hover:translate-x-0.5">
+                            →
+                          </span>
+                        </span>
                       </Link>
                     </li>
                   ))}

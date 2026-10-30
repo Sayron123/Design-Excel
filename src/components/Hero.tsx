@@ -28,7 +28,7 @@ export function Hero() {
         >
           <motion.h1
             variants={rise}
-            className="max-w-[13ch] md:max-w-none lg:max-w-[13ch] text-[2.375rem] leading-[1.02] font-extrabold tracking-[-0.035em] text-ink sm:text-5xl md:text-[4.25rem]"
+            className="max-w-[13ch] md:max-w-none lg:max-w-[13ch] text-[2.375rem] leading-[1.05] font-bold tracking-[-0.02em] text-ink sm:text-5xl md:text-[4.25rem]"
           >
             Furniture built to your floor plan
           </motion.h1>
