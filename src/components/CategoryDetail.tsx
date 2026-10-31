@@ -1,6 +1,5 @@
 import { RetryImage } from "@/components/ui/retry-image";
 import Link from "next/link";
-import { AddToInquiry } from "@/components/AddToInquiry";
 import { ModelFilter } from "@/components/ModelFilter";
 import { ProductGallery } from "@/components/ProductGallery";
 import { Reveal } from "@/components/Reveal";
@@ -12,7 +11,7 @@ import { BUILDER_HREF, PHONE_DISPLAY, PHONE_TEL } from "@/lib/site";
 // Categories the cabinet builder can make.
 const BUILDABLE = ["kitchen-cabinets", "walk-in-closets"];
 
-// One product category: photos, its types (from the client's site) and "Add to inquiry".
+// One product category: photos, its types (from the client's site) and its models, when it has any.
 export function CategoryDetail({ category, note }: { category: ProductCategory; note?: string }) {
   // Four other categories, same range first, so the row is always full.
   const others = PRODUCT_CATEGORIES.filter((c) => c.slug !== category.slug);
@@ -21,6 +20,7 @@ export function CategoryDetail({ category, note }: { category: ProductCategory; 
     ...others.filter((c) => c.group !== category.group),
   ].slice(0, 4);
   const models = MODELS[category.slug];
+  const noun = category.name.replace(" Series", "").toLowerCase();
 
   return (
     <>
@@ -61,9 +61,8 @@ export function CategoryDetail({ category, note }: { category: ProductCategory; 
               )
             )}
 
-            <AddToInquiry name={category.name} href={categoryHref(category.slug)} models={models?.map((m) => m.code)} />
 
-            <div className="mt-4 flex flex-wrap items-center gap-3">
+            <div className="mt-8 flex flex-wrap items-center gap-3">
               {BUILDABLE.includes(category.slug) && (
                 <Link href={BUILDER_HREF} className={buttonClass("primary", "md")}>
                   Build a cabinet
@@ -82,7 +81,8 @@ export function CategoryDetail({ category, note }: { category: ProductCategory; 
 
       {models && category.types && (
         <ModelFilter
-          title={`Choose a ${category.name.replace(" Series", "").toLowerCase()}`}
+          title={`Choose a ${noun}`}
+          noun={noun}
           types={category.types}
           models={models}
           href={categoryHref(category.slug)}
