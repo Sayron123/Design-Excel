@@ -1,14 +1,18 @@
 import { RetryImage } from "@/components/ui/retry-image";
 import Link from "next/link";
+import { AddToInquiry } from "@/components/AddToInquiry";
 import { ModelFilter } from "@/components/ModelFilter";
 import { ProductGallery } from "@/components/ProductGallery";
 import { Reveal } from "@/components/Reveal";
 import { ArrowLeft, ArrowRight, PhoneIcon, buttonClass } from "@/components/ui/button";
 import { MODELS } from "@/lib/models";
 import { PRODUCT_CATEGORIES, categoryHref, type ProductCategory } from "@/lib/products";
-import { INQUIRE_HREF, INQUIRE_LABEL, PHONE_DISPLAY, PHONE_TEL } from "@/lib/site";
+import { BUILDER_HREF, PHONE_DISPLAY, PHONE_TEL } from "@/lib/site";
 
-// One product category: photos, its types (from the client's site) and the inquiry action.
+// Categories the cabinet builder can make.
+const BUILDABLE = ["kitchen-cabinets", "walk-in-closets"];
+
+// One product category: photos, its types (from the client's site) and "Add to inquiry".
 export function CategoryDetail({ category, note }: { category: ProductCategory; note?: string }) {
   // Four other categories, same range first, so the row is always full.
   const others = PRODUCT_CATEGORIES.filter((c) => c.slug !== category.slug);
@@ -57,10 +61,15 @@ export function CategoryDetail({ category, note }: { category: ProductCategory; 
               )
             )}
 
-            <div className="mt-8 flex flex-wrap items-center gap-3">
-              <Link href={INQUIRE_HREF} className={buttonClass("accent", "md")}>
-                {INQUIRE_LABEL}
-              </Link>
+            <AddToInquiry name={category.name} href={categoryHref(category.slug)} models={models?.map((m) => m.code)} />
+
+            <div className="mt-4 flex flex-wrap items-center gap-3">
+              {BUILDABLE.includes(category.slug) && (
+                <Link href={BUILDER_HREF} className={buttonClass("primary", "md")}>
+                  Build a cabinet
+                  <ArrowRight />
+                </Link>
+              )}
               <a href={PHONE_TEL} className={buttonClass("secondary", "md")}>
                 <PhoneIcon />
                 Call {PHONE_DISPLAY}
@@ -72,7 +81,12 @@ export function CategoryDetail({ category, note }: { category: ProductCategory; 
       </section>
 
       {models && category.types && (
-        <ModelFilter title={`Choose a ${category.name.replace(" Series", "").toLowerCase()}`} types={category.types} models={models} />
+        <ModelFilter
+          title={`Choose a ${category.name.replace(" Series", "").toLowerCase()}`}
+          types={category.types}
+          models={models}
+          href={categoryHref(category.slug)}
+        />
       )}
 
       {related.length > 0 && (

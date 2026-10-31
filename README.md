@@ -20,6 +20,15 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
+## Inquiries, builder and admin
+
+Quote requests from `/inquire` are saved to Supabase by a server action (`src/app/inquire/actions.ts`); the browser never writes to the database. `/admin` lists them behind a single password.
+
+1. Create a Supabase project and run `supabase/migrations/20261031000000_inquiries.sql` in its SQL editor (or `npx supabase db push`). It creates the `inquiries` table (RLS on, no policies) and a private `floor-plans` bucket.
+2. Copy `.env.example` to `.env.local` and fill in `SUPABASE_URL`, `SUPABASE_SERVICE_ROLE_KEY` and `ADMIN_PASSWORD`. Set the same three on Vercel.
+
+For local testing without a hosted project: `npx supabase start` (needs Docker) applies the migration and prints a local URL and service role key.
+
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:

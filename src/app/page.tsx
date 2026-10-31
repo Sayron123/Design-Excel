@@ -1,3 +1,4 @@
+import { FloorPlanScroll } from "@/components/FloorPlanScroll";
 import { Hero } from "@/components/Hero";
 import { HowWeWork } from "@/components/HowWeWork";
 import { PathCards } from "@/components/PathCards";
@@ -9,6 +10,7 @@ export default function Home() {
       <Hero />
       <PathCards />
       <HowWeWork />
+      <FloorPlanScroll />
       <QuoteCTA />
     </>
   );

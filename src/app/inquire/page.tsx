@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { InquiryForm } from "@/components/InquiryForm";
 import { Reveal } from "@/components/Reveal";
 import { PhoneIcon, buttonClass } from "@/components/ui/button";
 import { ADDRESS, EMAIL, FACEBOOK_URL, LANDLINES, PHONE_DISPLAY, PHONE_TEL } from "@/lib/site";
@@ -11,7 +12,7 @@ const MAIL_HREF = `mailto:${EMAIL}?subject=${encodeURIComponent("Inquiry from th
 
 const DIRECTIONS_HREF = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(ADDRESS)}`;
 
-// Contact details for now; an inquiry form comes later.
+// The quote request form, with the direct ways to reach the showroom below it.
 export default function InquirePage() {
   return (
     <section className="mx-auto max-w-6xl px-4 py-12 md:px-6 md:py-20">
@@ -22,7 +23,14 @@ export default function InquirePage() {
         </p>
       </Reveal>
 
-      <div className="mt-10 grid gap-5 md:mt-14 md:grid-cols-2">
+      <Reveal className="mt-10 md:mt-14" delay={0.06}>
+        <InquiryForm />
+      </Reveal>
+
+      <Reveal className="mt-20 md:mt-32">
+        <h2 className="text-3xl font-bold tracking-tight md:text-4xl">Rather talk to us?</h2>
+      </Reveal>
+      <div className="mt-8 grid gap-5 md:mt-10 md:grid-cols-2">
         <Reveal className="rounded-xl bg-primary p-6 text-white md:p-8">
           <h2 className="text-2xl font-bold tracking-tight">Call us</h2>
           <p className="mt-2 text-base leading-relaxed text-white/85">One mobile number and two Metro Manila landlines.</p>

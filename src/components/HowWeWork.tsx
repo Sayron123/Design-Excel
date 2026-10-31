@@ -15,23 +15,12 @@ import { LineStory } from "@/components/ProcessLine";
 import { Reveal } from "@/components/Reveal";
 
 const STEPS = [
+  { title: "Design consultation", description: "For offices and homes." },
+  { title: "Floor plan & rendered layout", description: "Drawn by our designers and AutoCAD artists." },
+  { title: "Furniture quotation", description: "Based on your layout." },
   {
-    title: "Consultation",
-    description:
-      "We talk through how the space is used, how many people it holds and what has to fit. Bring a floor plan or measurements if you have them.",
-  },
-  {
-    title: "Layout & quotation",
-    description:
-      "We draw your space and the furniture in AutoCAD, with a rendered view and an itemised quotation, so the layout and the budget are approved before anything is made.",
-  },
-  {
-    title: "Manufacturing",
-    description: "Cabinets and furniture are made to the approved layout, sizes and finishes.",
-  },
-  {
-    title: "Delivery & install",
-    description: "We deliver, assemble and install everything on site, in the positions shown on the layout.",
+    title: "Manufacturing & delivery",
+    description: "Cabinets made in our own plant, delivered by our project team.",
   },
 ];
 
@@ -68,12 +57,9 @@ export function HowWeWork() {
   return (
     <section id="how-we-work" aria-labelledby="how-heading" className="scroll-mt-20">
       <Reveal className="mx-auto max-w-6xl px-4 pt-12 md:px-6 md:pt-20">
-        <h2 id="how-heading" className="text-3xl font-bold tracking-tight md:text-4xl">
-          How we work
+        <h2 id="how-heading" className="text-3xl font-bold tracking-tight md:text-4xl lg:text-5xl">
+          Our services
         </h2>
-        <p className="mt-4 max-w-[46ch] text-lg leading-relaxed text-ink">
-          Four stages, from the first conversation to furniture standing in your room.
-        </p>
       </Reveal>
 
       {/* The stages in reading order for screen readers; the panel below shows them one at a time. */}
