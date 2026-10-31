@@ -28,7 +28,6 @@ export const NAV_LINKS = [
   { id: "home", href: "/", label: "Home" },
   { id: "products", href: "/products", label: "Products" },
   { id: "how", href: "/#how-we-work", label: "How we work" },
-  { id: "services", href: "/#services", label: "Services" },
   { id: "about", href: "/about", label: "About" },
   { id: "contact", href: INQUIRE_HREF, label: "Contact" },
 ] as const;
@@ -41,7 +40,6 @@ export const FOOTER_LINKS: { href: string; label: string }[][] = [
     { href: "/", label: "Home" },
     { href: "/products", label: "Products" },
     { href: "/#how-we-work", label: "How we work" },
-    { href: "/#services", label: "Services" },
   ],
   [
     { href: "/about", label: "About" },

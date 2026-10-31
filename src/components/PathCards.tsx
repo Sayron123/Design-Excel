@@ -10,8 +10,9 @@ const PATHS = [
     title: "Cabinets",
     body: "Set the size, doors and finish of a cabinet, then add it to your inquiry. Built to the measurements of your room.",
     action: "Build a cabinet",
-    image: "/products/kitchen-cabinets/1.jpg",
-    alt: "White modular kitchen with a timber breakfast bar",
+    image: "/products/cabinets/1.jpg",
+    alt: "Mobile filing cabinets on rails, in light grey metal",
+    fit: "contain",
   },
   {
     href: "/products#office-furniture",
@@ -20,6 +21,7 @@ const PATHS = [
     action: "See office furniture",
     image: "/products/workstations/3.jpg",
     alt: "White bench workstation with blue screens",
+    fit: "cover",
   },
 ] as const;
 
@@ -36,13 +38,15 @@ export function PathCards() {
           <Reveal key={path.href} delay={i * 0.08}>
             <HoverCard className="h-full rounded-xl bg-surface">
               <Link href={path.href} className="group flex h-full flex-col rounded-xl">
-                <div className="relative aspect-[3/2] overflow-hidden rounded-t-xl bg-border">
+                <div className={`relative aspect-[3/2] overflow-hidden rounded-t-xl ${path.fit === "contain" ? "bg-white" : "bg-border"}`}>
                   <RetryImage
                     src={path.image}
                     alt={path.alt}
                     fill
                     sizes="(min-width: 768px) 50vw, 100vw"
-                    className="object-cover transition-transform duration-500 group-hover:scale-[1.03]"
+                    className={`transition-transform duration-500 group-hover:scale-[1.03] ${
+                      path.fit === "contain" ? "object-contain p-6" : "object-cover"
+                    }`}
                   />
                 </div>
                 <div className="flex flex-1 flex-col p-6 md:p-8">

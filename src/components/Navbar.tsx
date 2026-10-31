@@ -16,7 +16,6 @@ const ease = [0.22, 1, 0.36, 1] as const;
 const SPY_SECTIONS: { id: string; nav: NavId }[] = [
   { id: "products", nav: "products" },
   { id: "how-we-work", nav: "how" },
-  { id: "services", nav: "services" },
   { id: "quote-cta", nav: "contact" },
 ];
 
