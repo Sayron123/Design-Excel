@@ -21,9 +21,9 @@ const STEPS = [
       "We talk through how the space is used, how many people it holds and what has to fit. Bring a floor plan or measurements if you have them.",
   },
   {
-    title: "AutoCAD layout",
+    title: "Layout & quotation",
     description:
-      "We draw your space and the furniture in AutoCAD, so sizes, walkways and positions are agreed on paper before anything is made.",
+      "We draw your space and the furniture in AutoCAD, with a rendered view and an itemised quotation, so the layout and the budget are approved before anything is made.",
   },
   {
     title: "Manufacturing",
@@ -67,11 +67,11 @@ export function HowWeWork() {
 
   return (
     <section id="how-we-work" aria-labelledby="how-heading" className="scroll-mt-20">
-      <Reveal className="mx-auto max-w-6xl px-4 pt-12 text-center md:px-6 md:pt-20">
+      <Reveal className="mx-auto max-w-6xl px-4 pt-12 md:px-6 md:pt-20">
         <h2 id="how-heading" className="text-3xl font-bold tracking-tight md:text-4xl">
           How we work
         </h2>
-        <p className="mx-auto mt-4 max-w-[46ch] text-lg leading-relaxed text-ink">
+        <p className="mt-4 max-w-[46ch] text-lg leading-relaxed text-ink">
           Four stages, from the first conversation to furniture standing in your room.
         </p>
       </Reveal>
@@ -85,7 +85,7 @@ export function HowWeWork() {
         ))}
       </ol>
 
-      <div ref={trackRef} className="relative h-[420vh]">
+      <div ref={trackRef} className="relative h-[260vh]">
         <div className="sticky top-16 flex h-[calc(100svh-4rem)] items-center md:top-20 md:h-[calc(100svh-5rem)]">
           <div className="mx-auto w-full max-w-6xl px-4 py-4 md:px-6">
             <div

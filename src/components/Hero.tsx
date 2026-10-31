@@ -45,10 +45,10 @@ export function Hero() {
               Build a cabinet
             </Link>
             <Link
-              href="/products/chairs"
+              href="/products#office-furniture"
               className={buttonClass("secondary", "md")}
             >
-              Browse chairs
+              See office furniture
             </Link>
           </motion.div>
         </motion.div>
