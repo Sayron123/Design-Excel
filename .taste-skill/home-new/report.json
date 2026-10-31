@@ -1,0 +1,2248 @@
+{
+ "url": "http://localhost:3100/",
+ "at": "2026-10-31T03:49:35.946Z",
+ "allow": [],
+ "viewports": [
+  {
+   "width": 1440,
+   "height": 900,
+   "load": "load",
+   "screens": 11,
+   "filled": [
+    0.36,
+    0.65,
+    0.67,
+    0.67,
+    0.59,
+    0.39,
+    0.39,
+    0.38,
+    0.66,
+    0.63,
+    0.61
+   ],
+   "motion": {
+    "elements": 160,
+    "css": 2,
+    "transitions": 11,
+    "scripted": 147,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "page": {
+     "height": 9051,
+     "screens": 10.1,
+     "words": 510,
+     "img": 12,
+     "video": 0,
+     "canvas": 0,
+     "svg": 12,
+     "sections": 5,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 2,
+     "uiAbuse": false,
+     "realPictures": 3,
+     "videoCount": 0,
+     "uiPictures": 2,
+     "pictureSamples": [
+      "image?url=%2Fproducts%2Fpartitions%2F3.jpg&w=640",
+      "image?url=%2Fproducts%2Fkitchen-cabinets%2F1.jpg",
+      "image?url=%2Fproducts%2Fworkstations%2F3.jpg&w=7"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Furniture built to your floor plan",
+     "words": 6,
+     "chars": 34,
+     "lines": 2,
+     "size": 68,
+     "vw": 4.7,
+     "font": "Manrope",
+     "weight": 700,
+     "tracking": -0.02,
+     "leading": 1.05,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "left",
+     "widthRatio": 0.4,
+     "top": 236,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Furniture built to your floor plan",
+     "words": 6,
+     "lines": 2,
+     "size": 68,
+     "font": "Manrope"
+    },
+    "headings": [
+     {
+      "text": "Furniture built to your floor plan",
+      "words": 6,
+      "chars": 34,
+      "lines": 2,
+      "size": 68,
+      "vw": 4.7,
+      "font": "Manrope",
+      "weight": 700,
+      "tracking": -0.02,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.4,
+      "top": 236,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Two ways to start",
+      "words": 4,
+      "chars": 17,
+      "lines": 1,
+      "size": 36,
+      "vw": 2.5,
+      "font": "Manrope",
+      "weight": 700,
+      "tracking": -0.025,
+      "leading": 1.11,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.77,
+      "top": 865,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Cabinets and closets",
+      "words": 3,
+      "chars": 20,
+      "lines": 1,
+      "size": 30,
+      "vw": 2.1,
+      "font": "Manrope",
+      "weight": 700,
+      "tracking": -0.025,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.33,
+      "top": 1345,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Office Furniture",
+      "words": 2,
+      "chars": 16,
+      "lines": 1,
+      "size": 30,
+      "vw": 2.1,
+      "font": "Manrope",
+      "weight": 700,
+      "tracking": -0.025,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.33,
+      "top": 1345,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "How we work",
+      "words": 3,
+      "chars": 11,
+      "lines": 1,
+      "size": 48,
+      "vw": 3.3,
+      "font": "Manrope",
+      "weight": 700,
+      "tracking": -0.025,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.44,
+      "top": 1718,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Delivery & install",
+      "words": 3,
+      "chars": 18,
+      "lines": 1,
+      "size": 48,
+      "vw": 3.3,
+      "font": "Manrope",
+      "weight": 700,
+      "tracking": -0.025,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.7,
+      "top": 1848,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "From bare floor to a working office",
+      "words": 7,
+      "chars": 35,
+      "lines": 2,
+      "size": 48,
+      "vw": 3.3,
+      "font": "Manrope",
+      "weight": 700,
+      "tracking": -0.025,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.44,
+      "top": 4186,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Ready to work",
+      "words": 3,
+      "chars": 13,
+      "lines": 1,
+      "size": 36,
+      "vw": 2.5,
+      "font": "Manrope",
+      "weight": 700,
+      "tracking": -0.025,
+      "leading": 1.11,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.24,
+      "top": 4458,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "10",
+      "words": 1,
+      "chars": 2,
+      "lines": 1,
+      "size": 60,
+      "vw": 4.2,
+      "font": "Manrope",
+      "weight": 700,
+      "tracking": -0.025,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.05,
+      "top": 4612,
+      "tag": "span",
+      "kind": "statement"
+     },
+     {
+      "text": "Send us your floor plan",
+      "words": 5,
+      "chars": 23,
+      "lines": 1,
+      "size": 36,
+      "vw": 2.5,
+      "font": "Manrope",
+      "weight": 700,
+      "tracking": -0.025,
+      "leading": 1.11,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.3,
+      "top": 8139,
+      "tag": "h2",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 10,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 3,
+     "centered": 1,
+     "medianWords": 3,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Inter",
+       "share": 0.89,
+       "mono": false
+      },
+      {
+       "family": "Manrope",
+       "share": 0.11,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      14,
+      16,
+      18,
+      20,
+      24,
+      30,
+      36,
+      48,
+      60,
+      68
+     ],
+     "sizeCount": 10,
+     "notLoaded": [],
+     "body": {
+      "font": "Inter",
+      "size": 18,
+      "leading": 1.63,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 16.5
+     },
+     "measureChars": 58,
+     "max": {
+      "size": 68,
+      "vw": 4.7,
+      "font": "Manrope",
+      "text": "Furniture built to your floor plan"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0.13,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#faf8f5",
+     "bodyBgHsl": {
+      "h": 36,
+      "s": 0.33,
+      "l": 0.97
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#1f3a5f",
+       "top": 1796,
+       "hsl": {
+        "h": 215,
+        "s": 0.51,
+        "l": 0.25
+       }
+      },
+      {
+       "color": "#faf8f5",
+       "top": 8632,
+       "hsl": {
+        "h": 36,
+        "s": 0.33,
+        "l": 0.97
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#1c1f26",
+       "share": 0.66
+      },
+      {
+       "color": "#ffffff",
+       "share": 0.28
+      },
+      {
+       "color": "#6b7280",
+       "share": 0.03
+      },
+      {
+       "color": "#1f3a5f",
+       "share": 0.03
+      }
+     ],
+     "button": {
+      "bg": "#e99700",
+      "hsl": {
+       "h": 39,
+       "s": 1,
+       "l": 0.46
+      },
+      "fg": "#1c1f26"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 6,
+     "inHero": 3,
+     "radius": 12,
+     "height": 48,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Inquire now",
+      "Build a cabinet",
+      "See office furniture"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 3,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 8,
+     "boxRadius": 12,
+     "squareMedia": 8,
+     "roundedMedia": 3,
+     "mediaRadius": 12,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.23
+     }
+    ],
+    "nav": {
+     "links": 6,
+     "fixed": true,
+     "height": 80,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "manrope",
+     "inter",
+     "inter fallback"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "pageH": 9051,
+    "margins": {
+     "left": 168,
+     "right": 168
+    },
+    "sections": [
+     {
+      "sel": "section.mx-auto.max-w-6xl",
+      "tag": "section",
+      "top": 111,
+      "height": 674,
+      "words": 43,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Furniture built to your floor plan",
+       "size": 68,
+       "tag": "h1"
+      },
+      "left": 168,
+      "right": 701,
+      "textLeft": 168,
+      "textRight": 701,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#products.mx-auto.max-w-6xl",
+      "tag": "section",
+      "top": 785,
+      "height": 843,
+      "words": 49,
+      "media": 2,
+      "middle": 24,
+      "heading": {
+       "text": "Two ways to start",
+       "size": 36,
+       "tag": "h2"
+      },
+      "left": 168,
+      "right": 168,
+      "textLeft": 168,
+      "textRight": 228,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.mx-auto.grid",
+      "tag": "div",
+      "top": 1628,
+      "height": 139,
+      "words": 12,
+      "media": 0,
+      "middle": 0,
+      "heading": null,
+      "left": 835,
+      "right": 170,
+      "textLeft": 835,
+      "textRight": 170,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.relative.h-[260vh]",
+      "tag": "div",
+      "top": 1766,
+      "height": 2340,
+      "words": 0,
+      "media": 1,
+      "middle": 0,
+      "heading": null,
+      "left": 336,
+      "right": 336,
+      "textLeft": null,
+      "textRight": null,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": true
+     },
+     {
+      "sel": "div.mx-auto.grid",
+      "tag": "div",
+      "top": 4106,
+      "height": 176,
+      "words": 17,
+      "media": 0,
+      "middle": 0,
+      "heading": null,
+      "left": 835,
+      "right": 200,
+      "textLeft": 835,
+      "textRight": 200,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.relative.h-[400vh]",
+      "tag": "div",
+      "top": 4282,
+      "height": 3600,
+      "words": 15,
+      "media": 1,
+      "middle": 60,
+      "heading": null,
+      "left": 188,
+      "right": 320,
+      "textLeft": 931,
+      "textRight": 320,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": true
+     },
+     {
+      "sel": "section#quote-cta.bg-primary.text-white",
+      "tag": "section",
+      "top": 7882,
+      "height": 750,
+      "words": 70,
+      "media": 8,
+      "middle": 0,
+      "heading": {
+       "text": "Send us your floor plan",
+       "size": 36,
+       "tag": "h2"
+      },
+      "left": 168,
+      "right": 0,
+      "textLeft": 168,
+      "textRight": 173,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer.border-t-4.border-accent",
+      "tag": "footer",
+      "top": 8632,
+      "height": 419,
+      "words": 52,
+      "media": 0,
+      "middle": 275,
+      "heading": {
+       "text": "Visit or call",
+       "size": 24,
+       "tag": "h2"
+      },
+      "left": 168,
+      "right": 168,
+      "textLeft": 168,
+      "textRight": 168,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Furniture built to your floor plan",
+      "size": 68,
+      "top": 236,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 168,
+      "n": 7
+     },
+     {
+      "x": 200,
+      "n": 2
+     },
+     {
+      "x": 764,
+      "n": 2
+     },
+     {
+      "x": 835,
+      "n": 2
+     }
+    ],
+    "leftBlocks": 13,
+    "bodySize": 18,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0.11,
+    "voidBox": {
+     "x": 0,
+     "y": 660,
+     "w": 780,
+     "h": 180
+    }
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 768,
+   "height": 1024,
+   "load": "load",
+   "screens": 11,
+   "filled": [
+    0.54,
+    0.63,
+    0.81,
+    0.74,
+    0.77,
+    0.56,
+    0.56,
+    0.57,
+    0.7,
+    0.79,
+    0.56
+   ],
+   "motion": {
+    "elements": 160,
+    "css": 2,
+    "transitions": 11,
+    "scripted": 147,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "page": {
+     "height": 10543,
+     "screens": 10.3,
+     "words": 502,
+     "img": 12,
+     "video": 0,
+     "canvas": 0,
+     "svg": 12,
+     "sections": 5,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 2,
+     "uiAbuse": false,
+     "realPictures": 3,
+     "videoCount": 0,
+     "uiPictures": 2,
+     "pictureSamples": [
+      "image?url=%2Fproducts%2Fpartitions%2F3.jpg&w=828",
+      "image?url=%2Fproducts%2Fkitchen-cabinets%2F1.jpg",
+      "image?url=%2Fproducts%2Fworkstations%2F3.jpg&w=3"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Furniture built to your floor plan",
+     "words": 6,
+     "chars": 34,
+     "lines": 2,
+     "size": 68,
+     "vw": 8.9,
+     "font": "Manrope",
+     "weight": 700,
+     "tracking": -0.02,
+     "leading": 1.05,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.94,
+     "top": 159,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Furniture built to your floor plan",
+     "words": 6,
+     "lines": 2,
+     "size": 68,
+     "font": "Manrope"
+    },
+    "headings": [
+     {
+      "text": "Furniture built to your floor plan",
+      "words": 6,
+      "chars": 34,
+      "lines": 2,
+      "size": 68,
+      "vw": 8.9,
+      "font": "Manrope",
+      "weight": 700,
+      "tracking": -0.02,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.94,
+      "top": 159,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Two ways to start",
+      "words": 4,
+      "chars": 17,
+      "lines": 1,
+      "size": 36,
+      "vw": 4.7,
+      "font": "Manrope",
+      "weight": 700,
+      "tracking": -0.025,
+      "leading": 1.11,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.94,
+      "top": 1149,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Cabinets and closets",
+      "words": 3,
+      "chars": 20,
+      "lines": 2,
+      "size": 30,
+      "vw": 3.9,
+      "font": "Manrope",
+      "weight": 700,
+      "tracking": -0.025,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.37,
+      "top": 1501,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Office Furniture",
+      "words": 2,
+      "chars": 16,
+      "lines": 1,
+      "size": 30,
+      "vw": 3.9,
+      "font": "Manrope",
+      "weight": 700,
+      "tracking": -0.025,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.37,
+      "top": 1501,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "How we work",
+      "words": 3,
+      "chars": 11,
+      "lines": 1,
+      "size": 36,
+      "vw": 4.7,
+      "font": "Manrope",
+      "weight": 700,
+      "tracking": -0.025,
+      "leading": 1.11,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.94,
+      "top": 1958,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Delivery & install",
+      "words": 3,
+      "chars": 18,
+      "lines": 1,
+      "size": 48,
+      "vw": 6.3,
+      "font": "Manrope",
+      "weight": 700,
+      "tracking": -0.025,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.81,
+      "top": 2217,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "From bare floor to a working office",
+      "words": 7,
+      "chars": 35,
+      "lines": 1,
+      "size": 36,
+      "vw": 4.7,
+      "font": "Manrope",
+      "weight": 700,
+      "tracking": -0.025,
+      "leading": 1.11,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.94,
+      "top": 4815,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Ready to work",
+      "words": 3,
+      "chars": 13,
+      "lines": 1,
+      "size": 36,
+      "vw": 4.7,
+      "font": "Manrope",
+      "weight": 700,
+      "tracking": -0.025,
+      "leading": 1.11,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.94,
+      "top": 5455,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "12",
+      "words": 1,
+      "chars": 2,
+      "lines": 1,
+      "size": 60,
+      "vw": 7.8,
+      "font": "Manrope",
+      "weight": 700,
+      "tracking": -0.025,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.09,
+      "top": 5609,
+      "tag": "span",
+      "kind": "statement"
+     },
+     {
+      "text": "Send us your floor plan",
+      "words": 5,
+      "chars": 23,
+      "lines": 1,
+      "size": 36,
+      "vw": 4.7,
+      "font": "Manrope",
+      "weight": 700,
+      "tracking": -0.025,
+      "leading": 1.11,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.94,
+      "top": 9105,
+      "tag": "h2",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 10,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 3,
+     "centered": 1,
+     "medianWords": 3,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Inter",
+       "share": 0.89,
+       "mono": false
+      },
+      {
+       "family": "Manrope",
+       "share": 0.11,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      14,
+      16,
+      18,
+      20,
+      24,
+      30,
+      36,
+      48,
+      60,
+      68
+     ],
+     "sizeCount": 10,
+     "notLoaded": [],
+     "body": {
+      "font": "Inter",
+      "size": 18,
+      "leading": 1.63,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 16.5
+     },
+     "measureChars": 58,
+     "max": {
+      "size": 68,
+      "vw": 8.9,
+      "font": "Manrope",
+      "text": "Furniture built to your floor plan"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0.13,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#faf8f5",
+     "bodyBgHsl": {
+      "h": 36,
+      "s": 0.33,
+      "l": 0.97
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#e7e2da",
+       "top": 584,
+       "hsl": {
+        "h": 37,
+        "s": 0.21,
+        "l": 0.88
+       }
+      },
+      {
+       "color": "#1f3a5f",
+       "top": 2165,
+       "hsl": {
+        "h": 215,
+        "s": 0.51,
+        "l": 0.25
+       }
+      },
+      {
+       "color": "#ffffff",
+       "top": 4937,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 1
+       }
+      },
+      {
+       "color": "#faf8f5",
+       "top": 9998,
+       "hsl": {
+        "h": 36,
+        "s": 0.33,
+        "l": 0.97
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#1c1f26",
+       "share": 0.65
+      },
+      {
+       "color": "#ffffff",
+       "share": 0.29
+      },
+      {
+       "color": "#6b7280",
+       "share": 0.03
+      },
+      {
+       "color": "#1f3a5f",
+       "share": 0.03
+      }
+     ],
+     "button": {
+      "bg": "#e7e2da",
+      "hsl": {
+       "h": 37,
+       "s": 0.21,
+       "l": 0.88
+      },
+      "fg": "#1c1f26"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 6,
+     "inHero": 3,
+     "radius": 12,
+     "height": 48,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Menu",
+      "Build a cabinet",
+      "See office furniture"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 3,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 8,
+     "boxRadius": 12,
+     "squareMedia": 8,
+     "roundedMedia": 3,
+     "mediaRadius": 12,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.45
+     }
+    ],
+    "nav": {
+     "links": 1,
+     "fixed": true,
+     "height": 80,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "manrope",
+     "manrope fallback",
+     "inter",
+     "inter fallback"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "pageH": 10543,
+    "margins": {
+     "left": 24,
+     "right": 24
+    },
+    "sections": [
+     {
+      "sel": "section.mx-auto.max-w-6xl",
+      "tag": "section",
+      "top": 111,
+      "height": 958,
+      "words": 43,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "Furniture built to your floor plan",
+       "size": 68,
+       "tag": "h1"
+      },
+      "left": 24,
+      "right": 24,
+      "textLeft": 24,
+      "textRight": 173,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#products.mx-auto.max-w-6xl",
+      "tag": "section",
+      "top": 1069,
+      "height": 809,
+      "words": 49,
+      "media": 2,
+      "middle": 24,
+      "heading": {
+       "text": "Two ways to start",
+       "size": 36,
+       "tag": "h2"
+      },
+      "left": 24,
+      "right": 24,
+      "textLeft": 24,
+      "textRight": 85,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.mx-auto.grid",
+      "tag": "div",
+      "top": 1878,
+      "height": 195,
+      "words": 15,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "How we work",
+       "size": 36,
+       "tag": "h2"
+      },
+      "left": 24,
+      "right": 231,
+      "textLeft": 24,
+      "textRight": 231,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.relative.h-[260vh]",
+      "tag": "div",
+      "top": 2073,
+      "height": 2662,
+      "words": 0,
+      "media": 1,
+      "middle": 0,
+      "heading": null,
+      "left": 72,
+      "right": 72,
+      "textLeft": null,
+      "textRight": null,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": true
+     },
+     {
+      "sel": "div.mx-auto.grid",
+      "tag": "div",
+      "top": 4735,
+      "height": 195,
+      "words": 24,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "From bare floor to a working office",
+       "size": 36,
+       "tag": "h2"
+      },
+      "left": 24,
+      "right": 185,
+      "textLeft": 24,
+      "textRight": 185,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.relative.h-[400vh]",
+      "tag": "div",
+      "top": 4929,
+      "height": 4096,
+      "words": 17,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "10",
+       "size": 60,
+       "tag": "span"
+      },
+      "left": 24,
+      "right": 44,
+      "textLeft": 24,
+      "textRight": 246,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": true
+     },
+     {
+      "sel": "section#quote-cta.bg-primary.text-white",
+      "tag": "section",
+      "top": 9025,
+      "height": 973,
+      "words": 70,
+      "media": 8,
+      "middle": 0,
+      "heading": {
+       "text": "Send us your floor plan",
+       "size": 36,
+       "tag": "h2"
+      },
+      "left": 0,
+      "right": 0,
+      "textLeft": 24,
+      "textRight": 29,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer.border-t-4.border-accent",
+      "tag": "footer",
+      "top": 9998,
+      "height": 545,
+      "words": 52,
+      "media": 0,
+      "middle": 51,
+      "heading": {
+       "text": "Visit or call",
+       "size": 24,
+       "tag": "h2"
+      },
+      "left": 24,
+      "right": 24,
+      "textLeft": 24,
+      "textRight": 24,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Furniture built to your floor plan",
+      "size": 68,
+      "top": 159,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 24,
+      "n": 9
+     },
+     {
+      "x": 56,
+      "n": 2
+     },
+     {
+      "x": 428,
+      "n": 2
+     }
+    ],
+    "leftBlocks": 13,
+    "bodySize": 18,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 390,
+   "height": 844,
+   "load": "load",
+   "screens": 12,
+   "filled": [
+    0.74,
+    0.84,
+    0.84,
+    0.86,
+    0.86,
+    0.69,
+    0.51,
+    0.51,
+    0.51,
+    0.76,
+    0.77,
+    0.39
+   ],
+   "motion": {
+    "elements": 157,
+    "css": 5,
+    "transitions": 11,
+    "scripted": 141,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "page": {
+     "height": 9784,
+     "screens": 11.6,
+     "words": 502,
+     "img": 8,
+     "video": 0,
+     "canvas": 0,
+     "svg": 12,
+     "sections": 5,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 2,
+     "uiAbuse": false,
+     "realPictures": 3,
+     "videoCount": 0,
+     "uiPictures": 2,
+     "pictureSamples": [
+      "image?url=%2Fproducts%2Fpartitions%2F3.jpg&w=640",
+      "image?url=%2Fproducts%2Fkitchen-cabinets%2F1.jpg",
+      "image?url=%2Fproducts%2Fworkstations%2F3.jpg&w=6"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Furniture built to your floor plan",
+     "words": 6,
+     "chars": 34,
+     "lines": 2,
+     "size": 38,
+     "vw": 9.7,
+     "font": "Manrope",
+     "weight": 700,
+     "tracking": -0.02,
+     "leading": 1.05,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.83,
+     "top": 136,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Furniture built to your floor plan",
+     "words": 6,
+     "lines": 2,
+     "size": 38,
+     "font": "Manrope"
+    },
+    "headings": [
+     {
+      "text": "Furniture built to your floor plan",
+      "words": 6,
+      "chars": 34,
+      "lines": 2,
+      "size": 38,
+      "vw": 9.7,
+      "font": "Manrope",
+      "weight": 700,
+      "tracking": -0.02,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.83,
+      "top": 136,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Two ways to start",
+      "words": 4,
+      "chars": 17,
+      "lines": 1,
+      "size": 30,
+      "vw": 7.7,
+      "font": "Manrope",
+      "weight": 700,
+      "tracking": -0.025,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 922,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Cabinets and closets",
+      "words": 3,
+      "chars": 20,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Manrope",
+      "weight": 700,
+      "tracking": -0.025,
+      "leading": 1.33,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.79,
+      "top": 1253,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Office Furniture",
+      "words": 2,
+      "chars": 16,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Manrope",
+      "weight": 700,
+      "tracking": -0.025,
+      "leading": 1.33,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.79,
+      "top": 1746,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "How we work",
+      "words": 3,
+      "chars": 11,
+      "lines": 1,
+      "size": 30,
+      "vw": 7.7,
+      "font": "Manrope",
+      "weight": 700,
+      "tracking": -0.025,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 2052,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Delivery & install",
+      "words": 3,
+      "chars": 18,
+      "lines": 1,
+      "size": 30,
+      "vw": 7.7,
+      "font": "Manrope",
+      "weight": 700,
+      "tracking": -0.025,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.82,
+      "top": 2222,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "From bare floor to a working office",
+      "words": 7,
+      "chars": 35,
+      "lines": 2,
+      "size": 30,
+      "vw": 7.7,
+      "font": "Manrope",
+      "weight": 700,
+      "tracking": -0.025,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 4404,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Ready to work",
+      "words": 3,
+      "chars": 13,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Manrope",
+      "weight": 700,
+      "tracking": -0.025,
+      "leading": 1.33,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 4907,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "13",
+      "words": 1,
+      "chars": 2,
+      "lines": 1,
+      "size": 36,
+      "vw": 9.2,
+      "font": "Manrope",
+      "weight": 700,
+      "tracking": -0.025,
+      "leading": 1.11,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.11,
+      "top": 5009,
+      "tag": "span",
+      "kind": "statement"
+     },
+     {
+      "text": "Send us your floor plan",
+      "words": 5,
+      "chars": 23,
+      "lines": 1,
+      "size": 30,
+      "vw": 7.7,
+      "font": "Manrope",
+      "weight": 700,
+      "tracking": -0.025,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 7975,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Visit or call",
+      "words": 3,
+      "chars": 13,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Manrope",
+      "weight": 700,
+      "tracking": -0.025,
+      "leading": 1.33,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 9081,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Quick links",
+      "words": 2,
+      "chars": 11,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Manrope",
+      "weight": 700,
+      "tracking": -0.025,
+      "leading": 1.33,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 9353,
+      "tag": "h2",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 12,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 3,
+     "centered": 1,
+     "medianWords": 3,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Inter",
+       "share": 0.89,
+       "mono": false
+      },
+      {
+       "family": "Manrope",
+       "share": 0.11,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      13,
+      14,
+      16,
+      18,
+      24,
+      30,
+      36,
+      38
+     ],
+     "sizeCount": 8,
+     "notLoaded": [],
+     "body": {
+      "font": "Inter",
+      "size": 18,
+      "leading": 1.63,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 15.6
+     },
+     "measureChars": 40,
+     "max": {
+      "size": 38,
+      "vw": 9.7,
+      "font": "Manrope",
+      "text": "Furniture built to your floor plan"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0.13,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#faf8f5",
+     "bodyBgHsl": {
+      "h": 36,
+      "s": 0.33,
+      "l": 0.97
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#ffffff",
+       "top": 990,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 1
+       }
+      },
+      {
+       "color": "#1f3a5f",
+       "top": 2186,
+       "hsl": {
+        "h": 215,
+        "s": 0.51,
+        "l": 0.25
+       }
+      },
+      {
+       "color": "#1c1f26",
+       "top": 8535,
+       "hsl": {
+        "h": 222,
+        "s": 0.15,
+        "l": 0.13
+       }
+      },
+      {
+       "color": "#faf8f5",
+       "top": 9029,
+       "hsl": {
+        "h": 36,
+        "s": 0.33,
+        "l": 0.97
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#1c1f26",
+       "share": 0.65
+      },
+      {
+       "color": "#ffffff",
+       "share": 0.29
+      },
+      {
+       "color": "#6b7280",
+       "share": 0.03
+      },
+      {
+       "color": "#1f3a5f",
+       "share": 0.03
+      }
+     ],
+     "button": {
+      "bg": "#e7e2da",
+      "hsl": {
+       "h": 37,
+       "s": 0.21,
+       "l": 0.88
+      },
+      "fg": "#1c1f26"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 6,
+     "inHero": 3,
+     "radius": 12,
+     "height": 48,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Menu",
+      "Build a cabinet",
+      "See office furniture"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 3,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 8,
+     "boxRadius": 12,
+     "squareMedia": 4,
+     "roundedMedia": 3,
+     "mediaRadius": 12,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.35
+     }
+    ],
+    "nav": {
+     "links": 1,
+     "fixed": true,
+     "height": 64,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "manrope",
+     "manrope fallback",
+     "inter",
+     "inter fallback"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "pageH": 9784,
+    "margins": {
+     "left": 16,
+     "right": 16
+    },
+    "sections": [
+     {
+      "sel": "section.mx-auto.max-w-6xl",
+      "tag": "section",
+      "top": 112,
+      "height": 763,
+      "words": 43,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "Furniture built to your floor plan",
+       "size": 38,
+       "tag": "h1"
+      },
+      "left": 16,
+      "right": 16,
+      "textLeft": 16,
+      "textRight": 16,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#products.mx-auto.max-w-6xl",
+      "tag": "section",
+      "top": 874,
+      "height": 1129,
+      "words": 49,
+      "media": 2,
+      "middle": 0,
+      "heading": {
+       "text": "Two ways to start",
+       "size": 30,
+       "tag": "h2"
+      },
+      "left": 16,
+      "right": 16,
+      "textLeft": 16,
+      "textRight": 53,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.mx-auto.grid",
+      "tag": "div",
+      "top": 2004,
+      "height": 159,
+      "words": 15,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "How we work",
+       "size": 30,
+       "tag": "h2"
+      },
+      "left": 16,
+      "right": 18,
+      "textLeft": 16,
+      "textRight": 18,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.relative.h-[260vh]",
+      "tag": "div",
+      "top": 2162,
+      "height": 2194,
+      "words": 0,
+      "media": 1,
+      "middle": 0,
+      "heading": null,
+      "left": 36,
+      "right": 36,
+      "textLeft": null,
+      "textRight": null,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": true
+     },
+     {
+      "sel": "div.mx-auto.grid",
+      "tag": "div",
+      "top": 4356,
+      "height": 195,
+      "words": 24,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "From bare floor to a working office",
+       "size": 30,
+       "tag": "h2"
+      },
+      "left": 16,
+      "right": 23,
+      "textLeft": 16,
+      "textRight": 23,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.relative.h-[400vh]",
+      "tag": "div",
+      "top": 4551,
+      "height": 3376,
+      "words": 17,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "10",
+       "size": 36,
+       "tag": "span"
+      },
+      "left": 16,
+      "right": 26,
+      "textLeft": 16,
+      "textRight": 74,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": true
+     },
+     {
+      "sel": "section#quote-cta.bg-primary.text-white",
+      "tag": "section",
+      "top": 7927,
+      "height": 1102,
+      "words": 70,
+      "media": 4,
+      "middle": 0,
+      "heading": {
+       "text": "Send us your floor plan",
+       "size": 30,
+       "tag": "h2"
+      },
+      "left": 0,
+      "right": 0,
+      "textLeft": 16,
+      "textRight": 45,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer.border-t-4.border-accent",
+      "tag": "footer",
+      "top": 9029,
+      "height": 755,
+      "words": 52,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Visit or call",
+       "size": 24,
+       "tag": "h2"
+      },
+      "left": 16,
+      "right": 60,
+      "textLeft": 16,
+      "textRight": 60,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Furniture built to your floor plan",
+      "size": 38,
+      "top": 136,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 16,
+      "n": 9
+     },
+     {
+      "x": 40,
+      "n": 4
+     }
+    ],
+    "leftBlocks": 13,
+    "bodySize": 18,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  }
+ ],
+ "findings": [
+  {
+   "level": "WARN",
+   "id": "palette-cream",
+   "width": 1440,
+   "message": "Yellow-cream background (page background #faf8f5, section #faf8f5).",
+   "fix": "Use the drawn palette. If you want warmth, take a low-chroma stone or bone, not a yellow cream.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "size-count",
+   "width": 1440,
+   "message": "10 different font sizes (14, 16, 18, 20, 24, 30, 36, 48, 60, 68).",
+   "fix": "A page needs about five: display, heading, lead, body, small.",
+   "alsoAt": [
+    768
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "no-footage",
+   "width": 1440,
+   "message": "No video anywhere on the page.",
+   "fix": "Look for one honest clip with scripts/assets.mjs --video (the place, the material, the process) and use it as a muted loop with a poster frame. Defend its absence only if no clip fits the subject."
+  }
+ ],
+ "images": [
+  {
+   "viewport": "desktop",
+   "width": 1440,
+   "fold": "D:\\Sayron Project\\ColdCalling_Projects\\Design-Excel\\.taste-skill\\home-new\\desktop-fold.jpg",
+   "pages": [
+    "D:\\Sayron Project\\ColdCalling_Projects\\Design-Excel\\.taste-skill\\home-new\\desktop-page-01.jpg",
+    "D:\\Sayron Project\\ColdCalling_Projects\\Design-Excel\\.taste-skill\\home-new\\desktop-page-02.jpg",
+    "D:\\Sayron Project\\ColdCalling_Projects\\Design-Excel\\.taste-skill\\home-new\\desktop-page-03.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "tablet",
+   "width": 768,
+   "fold": "D:\\Sayron Project\\ColdCalling_Projects\\Design-Excel\\.taste-skill\\home-new\\tablet-fold.jpg",
+   "pages": [
+    "D:\\Sayron Project\\ColdCalling_Projects\\Design-Excel\\.taste-skill\\home-new\\tablet-page-01.jpg",
+    "D:\\Sayron Project\\ColdCalling_Projects\\Design-Excel\\.taste-skill\\home-new\\tablet-page-02.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "mobile",
+   "width": 390,
+   "fold": "D:\\Sayron Project\\ColdCalling_Projects\\Design-Excel\\.taste-skill\\home-new\\mobile-fold.jpg",
+   "pages": [
+    "D:\\Sayron Project\\ColdCalling_Projects\\Design-Excel\\.taste-skill\\home-new\\mobile-page-01.jpg",
+    "D:\\Sayron Project\\ColdCalling_Projects\\Design-Excel\\.taste-skill\\home-new\\mobile-page-02.jpg"
+   ],
+   "film": []
+  }
+ ]
+}

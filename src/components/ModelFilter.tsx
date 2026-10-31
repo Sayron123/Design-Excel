@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "motion/react";
+import { AddModelButton } from "@/components/AddToInquiry";
 import { RetryImage } from "@/components/ui/retry-image";
 import { useEffect, useRef, useState } from "react";
 import { typeSlug, type ProductModel } from "@/lib/models";
@@ -11,7 +12,18 @@ const ease = [0.22, 1, 0.36, 1] as const;
  * Type filter over a category's models. A "#type-<slug>" address (a shared link, or back/forward)
  * selects that type and brings this section into view.
  */
-export function ModelFilter({ title, types, models }: { title: string; types: string[]; models: ProductModel[] }) {
+export function ModelFilter({
+  title,
+  types,
+  models,
+  href,
+}: {
+  title: string;
+  types: string[];
+  models: ProductModel[];
+  /** The category page, so an added model links back to it. */
+  href: string;
+}) {
   const [type, setType] = useState<string | null>(null);
   const sectionRef = useRef<HTMLElement>(null);
   const chipsRef = useRef<HTMLDivElement>(null);
@@ -62,7 +74,7 @@ export function ModelFilter({ title, types, models }: { title: string; types: st
           {title}
         </h2>
         <p className="mt-4 max-w-[52ch] text-lg leading-relaxed text-ink">
-          Pick a type to see its models. Ask us for sizes, finishes and prices of any model.
+          Pick a type to see its models, and add the ones you want priced to your inquiry.
         </p>
 
         <div ref={chipsRef} role="group" aria-label="Filter by type" className="relative -mx-4 mt-8 flex gap-2 overflow-x-auto px-4 pb-2 md:mx-0 md:flex-wrap md:overflow-visible md:px-0">
@@ -105,6 +117,7 @@ export function ModelFilter({ title, types, models }: { title: string; types: st
                 <figcaption className="mt-2.5">
                   <span className="block text-base font-bold tracking-tight text-ink">{m.code}</span>
                   <span className="block text-[14px] text-muted">{m.type}</span>
+                  <AddModelButton code={m.code} type={m.type} href={href} />
                 </figcaption>
               </figure>
             </motion.li>

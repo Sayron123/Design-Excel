@@ -5,6 +5,7 @@ import { RetryImage } from "@/components/ui/retry-image";
 import Link from "next/link";
 import { useRef } from "react";
 import { buttonClass } from "@/components/ui/button";
+import { BUILDER_HREF } from "@/lib/site";
 
 const rise = {
   hidden: { opacity: 0, y: 20 },
@@ -39,7 +40,7 @@ export function Hero() {
           </motion.p>
           <motion.div variants={rise} className="mt-8 flex flex-wrap gap-3 md:mt-10">
             <Link
-              href="/products/cabinets"
+              href={BUILDER_HREF}
               className={buttonClass("primary", "md")}
             >
               Build a cabinet

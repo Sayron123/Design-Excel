@@ -3,16 +3,17 @@ import Link from "next/link";
 import { HoverCard } from "@/components/HoverCard";
 import { Reveal } from "@/components/Reveal";
 import { ArrowRight, buttonClass } from "@/components/ui/button";
+import { BUILDER_HREF } from "@/lib/site";
 
-const PATHS = [
+const PATHS: { href: string; title: string; body: string; action: string; image: string; alt: string; fit: "contain" | "cover" }[] = [
   {
-    href: "/products/cabinets",
-    title: "Cabinets",
-    body: "Set the size, doors and finish of a cabinet, then add it to your inquiry. Built to the measurements of your room.",
+    href: BUILDER_HREF,
+    title: "Cabinets and closets",
+    body: "Choose a kitchen cabinet, wardrobe or walk-in closet, pick the finish and the width, then add it to your inquiry.",
     action: "Build a cabinet",
-    image: "/products/cabinets/1.jpg",
-    alt: "Mobile filing cabinets on rails, in light grey metal",
-    fit: "contain",
+    image: "/products/kitchen-cabinets/1.jpg",
+    alt: "White modular kitchen with a timber breakfast bar and stools",
+    fit: "cover",
   },
   {
     href: "/products#office-furniture",
@@ -23,7 +24,7 @@ const PATHS = [
     alt: "White bench workstation with blue screens",
     fit: "cover",
   },
-] as const;
+];
 
 export function PathCards() {
   return (

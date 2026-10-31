@@ -7,7 +7,8 @@ import { usePathname } from "next/navigation";
 import { useEffect, useRef, useState } from "react";
 import { ArrowRight, buttonClass } from "@/components/ui/button";
 import { PRODUCT_GROUPS, categoriesInGroup, categoryHref } from "@/lib/products";
-import { INQUIRE_HREF, INQUIRE_LABEL, INQUIRY_COUNT, NAV_LINKS, type NavId } from "@/lib/site";
+import { useInquiryCount } from "@/lib/inquiry-cart";
+import { BUILDER_HREF, INQUIRE_HREF, INQUIRE_LABEL, NAV_LINKS, type NavId } from "@/lib/site";
 
 const ease = [0.22, 1, 0.36, 1] as const;
 
@@ -192,10 +193,15 @@ function ProductsMenu({ active }: { active: boolean }) {
               </div>
               <div className="mt-4 flex items-center justify-between gap-4 rounded-xl bg-bg px-5 py-3.5">
                 <p className="text-[14px] text-ink">Not sure what you need? We plan the room first.</p>
-                <Link href="/products" onClick={() => setOpen(false)} className={buttonClass("soft", "sm")}>
-                  All products
-                  <ArrowRight />
-                </Link>
+                <span className="flex gap-2">
+                  <Link href={BUILDER_HREF} onClick={() => setOpen(false)} className={buttonClass("soft", "sm")}>
+                    Build a cabinet
+                  </Link>
+                  <Link href="/products" onClick={() => setOpen(false)} className={buttonClass("soft", "sm")}>
+                    All products
+                    <ArrowRight />
+                  </Link>
+                </span>
               </div>
             </motion.div>
           </div>
@@ -211,6 +217,8 @@ export function Navbar() {
   const [scrolled, setScrolled] = useState(false);
   const [open, setOpen] = useState(false);
   const [productsOpen, setProductsOpen] = useState(false);
+  const count = useInquiryCount();
+  const inquiryLabel = count > 0 ? `Inquiry (${count})` : INQUIRE_LABEL;
   const { scrollY } = useScroll();
 
   // Bar gains a shadow and blur once the page has moved past 20px.
@@ -262,17 +270,30 @@ export function Navbar() {
         <div className="flex items-center gap-2">
           <span className="hidden lg:block">
             <Link href={INQUIRE_HREF} className={buttonClass("accent", "sm", "text-base")}>
-              {INQUIRY_COUNT > 0 ? `Inquiry (${INQUIRY_COUNT})` : INQUIRE_LABEL}
+              {inquiryLabel}
             </Link>
           </span>
           <button
             type="button"
-            className={buttonClass("secondary", "sm", "text-base lg:hidden")}
+            className={buttonClass("secondary", "sm", "relative text-base lg:hidden")}
             aria-expanded={open}
             aria-controls="mobile-menu"
             onClick={() => (open ? closeMobile() : setOpen(true))}
           >
             {open ? "Close" : "Menu"}
+            {/* The inquiry count rides on the menu button on phones; the full link is inside the menu. */}
+            {count > 0 && !open && (
+              <motion.span
+                key={count}
+                initial={{ scale: 0.6 }}
+                animate={{ scale: 1 }}
+                transition={{ type: "spring", stiffness: 500, damping: 22 }}
+                className="absolute -right-2 -top-2 grid h-6 min-w-6 place-items-center rounded-full bg-accent px-1.5 text-[13px] font-bold text-ink"
+              >
+                {count}
+                <span className="sr-only"> in your inquiry</span>
+              </motion.span>
+            )}
           </button>
         </div>
       </nav>
@@ -345,10 +366,15 @@ export function Navbar() {
                                 </ul>
                               </div>
                             ))}
-                            <Link href="/products" onClick={closeMobile} className={buttonClass("soft", "md", "w-full")}>
-                              All products
-                              <ArrowRight />
-                            </Link>
+                            <div className="grid grid-cols-2 gap-2">
+                              <Link href={BUILDER_HREF} onClick={closeMobile} className={buttonClass("soft", "md", "w-full px-3")}>
+                                Build a cabinet
+                              </Link>
+                              <Link href="/products" onClick={closeMobile} className={buttonClass("soft", "md", "w-full px-3")}>
+                                All products
+                                <ArrowRight />
+                              </Link>
+                            </div>
                           </div>
                         </motion.div>
                       )}
@@ -364,7 +390,7 @@ export function Navbar() {
               })}
               <li className="mt-3">
                 <Link href={INQUIRE_HREF} onClick={closeMobile} className={buttonClass("accent", "lg", "w-full")}>
-                  {INQUIRE_LABEL}
+                  {inquiryLabel}
                 </Link>
               </li>
             </ul>
