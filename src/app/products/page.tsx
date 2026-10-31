@@ -5,6 +5,7 @@ import { HoverCard } from "@/components/HoverCard";
 import { Reveal } from "@/components/Reveal";
 import { PRODUCT_GROUPS, categoriesInGroup, categoryHref } from "@/lib/products";
 import { ArrowRight, buttonClass } from "@/components/ui/button";
+import { INQUIRE_HREF, INQUIRE_LABEL } from "@/lib/site";
 
 export const metadata: Metadata = { title: "Products | Design Excellence" };
 
@@ -45,9 +46,10 @@ export default function ProductsPage() {
                         <span className="flex flex-1 flex-col p-5 md:p-6">
                           <span className="text-xl font-bold tracking-tight text-ink">{cat.name}</span>
                           <span className="mt-1.5 text-base leading-relaxed text-ink">{cat.summary}</span>
-                          <span className={buttonClass("soft", "sm", "mt-4 self-start group-hover:bg-accent group-hover:text-ink")}>
+                          {/* The whole card is the link, so this is a quiet cue rather than a second button. */}
+                          <span className="mt-auto inline-flex items-center gap-1.5 pt-4 text-base font-semibold text-primary">
                             See the range
-                            <ArrowRight />
+                            <ArrowRight className="transition-transform duration-200 group-hover:translate-x-1" />
                           </span>
                         </span>
                       </Link>
@@ -56,6 +58,22 @@ export default function ProductsPage() {
                 </li>
               );
             })}
+            {/* A group that doesn't fill its last row of three gets the inquiry card in the gap. */}
+            {categoriesInGroup(group.id).length % 3 !== 0 && (
+              <li>
+                <Reveal delay={categoriesInGroup(group.id).length * 0.06} className="h-full">
+                  <div className="flex h-full flex-col justify-center rounded-xl border-2 border-dashed border-border p-6 md:p-8">
+                    <span className="text-xl font-bold tracking-tight text-ink">Need something else?</span>
+                    <span className="mt-1.5 max-w-[32ch] text-base leading-relaxed text-ink">
+                      Send us your floor plan or measurements and we will suggest the right pieces.
+                    </span>
+                    <Link href={INQUIRE_HREF} className={buttonClass("accent", "md", "mt-6 self-start")}>
+                      {INQUIRE_LABEL}
+                    </Link>
+                  </div>
+                </Reveal>
+              </li>
+            )}
           </ul>
         </div>
       ))}
